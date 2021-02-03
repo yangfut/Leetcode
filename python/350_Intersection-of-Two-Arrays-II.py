@@ -1,18 +1,27 @@
 class Solution:
     def intersect(self, nums1, nums2):
-        dict = {}
+        hash1 = {}
+        hash2 = {}
         res = []
         
         for i in nums1:
-            if i in dict:
-                dict[i]+=1
+            if i in hash1:
+                hash1[i]+=1
             else:
-                dict[i]=1
+                hash1[i]=1
         
         for j in nums2:
-            if j in dict and dict[j] !=0 :
-                dict[j]-=1
-                res.append(j)
+            if j in hash2:
+                hash2[j]+=1
+            else:
+                hash2[j]=1
+
+        for key, val in hash1.items():
+            if key in hash2:
+                count = min(hash1[key],hash2[key])
+                for c in range(count):
+                    res.append(key)
+                
         return res
     
 def main():
@@ -30,3 +39,6 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+
+
