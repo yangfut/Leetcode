@@ -40,7 +40,8 @@ if __name__ == '__main__':
     main()
 
 '''
-Reference to https://leetcode.com/problems/prison-cells-after-n-days/discuss/861468/Python-pigeonhole-principle-with-comment
+Another method found in Leetcode referred to https://leetcode.com/problems/prison-cells-after-n-days/discuss/861468/Python-pigeonhole-principle-with-comment
+
 class Solution:
     def prisonAfterNDays(self, cells: List[int], N: int) -> List[int]:
 		# seen record already seen config from day 1, mod is the cycle days, start_loop_idx is from which seen[] index it starts to repeat itself
