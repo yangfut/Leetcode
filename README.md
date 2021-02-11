@@ -11,3 +11,4 @@
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Hash Table, Sort| Easy | [python](/python/242_Valid-Anagram.py ) | O\(N) | O\(1\) |
 | 1450 | [Number of Students Doing Homework at a Given Time](https://leetcode.com/problems/number-of-students-doing-homework-at-a-given-time/) | Array | Easy | [python](/python/1450_Number-of-Students-Doing-Homework-at-a-Given-Time.py) | O\(N) | O\(1\) |
 | 1600 | [Throne Inheritance](https://leetcode.com/problems/throne-inheritance/) | Tree, Design| Medium | [python](/python/1600_Throne-Inheritance.py) | O\(N) | O\(N^2\) |
+| 1742 | [Maximum Number of Balls in a Box](https://leetcode.com/problems/maximum-number-of-balls-in-a-box/) | Array| Easy | [python](/python/1742_Maximum-Number-of-Balls-in-a-Box.py) | O\(N) | O\(1\) |
