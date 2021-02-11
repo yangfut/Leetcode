@@ -10,4 +10,4 @@
 | 1502 | [Can Make Arithmetic Progression From Sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/) | Arrya, Sort| Easy | [python](/python/1502_Can-Make-Arithmetic-Progression-From-Sequence.py) | O\(NlogN) | O\(1\) |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Hash Table, Sort| Easy | [python](/python/242_Valid-Anagram.py ) | O\(N) | O\(1\) |
 | 1450 | [Number of Students Doing Homework at a Given Time](https://leetcode.com/problems/number-of-students-doing-homework-at-a-given-time/) | Array | Easy | [python](/python/1450_Number-of-Students-Doing-Homework-at-a-Given-Time.py) | O\(N) | O\(1\) |
-| 1600 | [Throne Inheritance](https://leetcode.com/problems/throne-inheritance/) | Tree, Design| Medium | [python](/python/1450_Number-of-Students-Doing-Homework-at-a-Given-Time.py) | O\(N) | O\(N^2\) |
+| 1600 | [Throne Inheritance](https://leetcode.com/problems/throne-inheritance/) | Tree, Design| Medium | [python](/python/1600_Throne-Inheritance.py) | O\(N) | O\(N^2\) |
