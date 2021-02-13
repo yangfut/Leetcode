@@ -13,4 +13,4 @@
 | 1600 | [Throne Inheritance](https://leetcode.com/problems/throne-inheritance/) | Tree, Design | Medium | [python](/python/1600_Throne-Inheritance.py) | O\(N) | O\(N^2\) |
 | 1742 | [Maximum Number of Balls in a Box](https://leetcode.com/problems/maximum-number-of-balls-in-a-box/) | Array| Easy | [python](/python/1742_Maximum-Number-of-Balls-in-a-Box.py) | O\(N) | O\(1\) |
 | 1054 | [Distant Barcodes](https://leetcode.com/problems/distant-barcodes/) | Heap, Sort | Medium | [python](/python/1054_Distant-Barcodes.py ) | O\(N) | O\(N\) |
-| 1464 | [Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/) | Array | Easy | [python](/python/1054_Distant-Barcodes.py) | O\(N) | O\(1\) |
+| 1464 | [Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/) | Array | Easy | [python](/python/1464_Maximum-Product-of-Two-Elements-in-an-Array.py) | O\(N) | O\(1\) |
