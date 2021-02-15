@@ -15,3 +15,4 @@
 | 1054 | [Distant Barcodes](https://leetcode.com/problems/distant-barcodes/) | Heap, Sort | Medium | [python](/python/1054_Distant-Barcodes.py ) | O\(N) | O\(N\) |
 | 1464 | [Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/) | Array | Easy | [python](/python/1464_Maximum-Product-of-Two-Elements-in-an-Array.py) | O\(N) | O\(1\) |
 | 1725 | [Number Of Rectangles That Can Form The Largest Square](https://leetcode.com/problems/number-of-rectangles-that-can-form-the-largest-square/) | Greedy | Easy | [python](/python/1725_Number-Of-Rectangles-That-Can-Form-The-Largest-Square.py) | O\(N) | O\(N\) |
+| 452 | [Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) | Greedy, Sort | Medium | [python](/python/452_Minium-Number-of-Arrows-to-Burst-Balloons.py ) | O\(NlogN) | O\(1\) |
