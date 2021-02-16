@@ -19,3 +19,4 @@
 | 1403 | [Minimum Subsequence in Non-Increasing Order](https://leetcode.com/problems/minimum-subsequence-in-non-increasing-order/) | Greedy, Sort | Easy | [python](/python/1403_Minimum-Subsequence%20in-Non-Increasing-Order.py) | O\(N) | O\(1\) |
 | 1665 | [Minimum Initial Energy to Finish Tasks](https://leetcode.com/problems/minimum-initial-energy-to-finish-tasks/) | Greedy | Hard | [python](/python/1665_Minimum-Initial-Energy-to-Finish-Tasks.py) | O\(NlogN) | O\(1\) |
 | 455 | [Assign Cookies](https://leetcode.com/problems/assign-cookies/) | Greedy | Easy | [python](/python/455_Assign-Cookies.py ) | O\(NlogN) | O\(N\) |
+| 1138 | [Alphabet Board Path](https://leetcode.com/problems/alphabet-board-path/) | Hash Table, String | Medium | [python](/python/455_Assign-Cookies.py ) | O\(NlogN) | O\(N\) |
