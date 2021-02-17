@@ -22,4 +22,4 @@
 | 1138 | [Alphabet Board Path](https://leetcode.com/problems/alphabet-board-path/) | Hash Table, String | Medium | [python](/python/1138_Alphabet-Board-Path.py ) | O\(N) | O\(1\) |
 | 852 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | Binary Search | Easy | [python](/python/852_Peak-Index-in-a-Mountain-Array.py) | O\(logN) | O\(1\) |
 | 1207 | [Unique Number of Occurrences](/python/1207_Unique-Number-of-Occurrences.py) | Hash Table | Easy | [python](/python/852_Peak-Index-in-a-Mountain-Array.py) | O\(N) | O\(N\) |
-| 1122 | [Relative Sort Array](https://leetcode.com/problems/relative-sort-array/) | Array, Sort | Easy | [python](/python/852_Peak-Index-in-a-Mountain-Array.py) | O\(NlogN) | O\(1\) |
+| 1122 | [Relative Sort Array](https://leetcode.com/problems/relative-sort-array/) | Array, Sort | Easy | [python](/python/852_Peak-Index-in-a-Mountain-Array.py) | O\(NlogN) | O\(N\) |
