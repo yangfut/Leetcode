@@ -21,4 +21,4 @@
 | 455 | [Assign Cookies](https://leetcode.com/problems/assign-cookies/) | Greedy | Easy | [python](/python/455_Assign-Cookies.py ) | O\(NlogN) | O\(N\) |
 | 1138 | [Alphabet Board Path](https://leetcode.com/problems/alphabet-board-path/) | Hash Table, String | Medium | [python](/python/1138_Alphabet-Board-Path.py ) | O\(N) | O\(1\) |
 | 852 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | Binary Search | Easy | [python](/python/852_Peak-Index-in-a-Mountain-Array.py) | O\(logN) | O\(1\) |
-| 1207 | [Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/) | Hash Table | Easy | [python](/python/852_Peak-Index-in-a-Mountain-Array.py) | O\(N) | O\(N\) |
+| 1207 | [Unique Number of Occurrences](/python/1207_Unique-Number-of-Occurrences.py) | Hash Table | Easy | [python](/python/852_Peak-Index-in-a-Mountain-Array.py) | O\(N) | O\(N\) |
