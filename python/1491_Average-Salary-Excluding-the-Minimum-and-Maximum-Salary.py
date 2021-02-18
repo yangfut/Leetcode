@@ -1,22 +1,21 @@
 class Solution:
     def average(self, salary):
-        maxNum = salary[0] // 1000
-        minNum = salary[1] // 1000
+        maxNum = salary[0]
+        minNum = salary[1]
         
         if maxNum < minNum:
             maxNum, minNum = minNum, maxNum  
-            
+         
         sumNums = maxNum + minNum
         
         for person in salary[2:]:
-            num = person // 1000
-            sumNums += num
-            if num > maxNum:
-                maxNum = num
-            elif num < minNum:
-                minNum = num
+            sumNums += person
+            if person > maxNum:
+                maxNum = person
+            elif person < minNum:
+                minNum = person
     
-        return ((sumNums-minNum-maxNum) / (len(salary)-2)) * 1000
+        return ((sumNums-minNum-maxNum) / (len(salary)-2))
 
 def main():
     sol = Solution()
