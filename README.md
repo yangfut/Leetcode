@@ -26,3 +26,4 @@
 | 1160 | [Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/) | Array, Hash Table | Easy | [python](/python/1160_Find-Words-That-Can-Be-Formed-by-Characters.py ) | O\(N) | O\(1\) |
 | 1031 | [Maximum Sum of Two Non-Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-two-non-overlapping-subarrays/) | Array | Medium | [python](/python/1031_Maximum-Sum-of-Two-Non-Overlapping-Subarrays.py) | O\(N) | O\(1\) |
 | 1491 | [Average Salary Excluding the Minimum and Maximum Salary](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/) | Array, Sort | Easy | [python](/python/1491_Average-Salary-Excluding-the-Minimum-and-Maximum-Salary.py) | O\(N) | O\(1\) |
+| 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | Array, Two Pointers | Easy | [python](/python/1491_Average-Salary-Excluding-the-Minimum-and-Maximum-Salary.py) | O\(N) | O\(1\) |
