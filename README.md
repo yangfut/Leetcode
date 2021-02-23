@@ -28,4 +28,4 @@
 | 1491 | [Average Salary Excluding the Minimum and Maximum Salary](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/) | Array, Sort | Easy | [python](/python/1491_Average-Salary-Excluding-the-Minimum-and-Maximum-Salary.py) | O\(N) | O\(1\) |
 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | Array, Two Pointers | Easy | [python](/python/283_Move-Zeros.py) | O\(N) | O\(1\) |
 | 445 | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/) | Linked List | Medium | [python](/python/445_Add-Two-Numbers-II.py) | O\(N) | O\(N\) |
-| 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | Linked List | Medium | [python](/python/445_Add-Two-Numbers-II.py) | O\(N) | O\(1\) |
+| 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | Linked List | Medium | [python](/python/2_Add_Two_Numbers.py) | O\(N) | O\(1\) |
