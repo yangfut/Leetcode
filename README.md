@@ -30,3 +30,4 @@
 | 445 | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/) | Linked List | Medium | [python](/python/445_Add-Two-Numbers-II.py) | O\(N) | O\(N\) |
 | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | Linked List | Medium | [python](/python/2_Add_Two_Numbers.py) | O\(N) | O\(1\) |
 | 1254 | [Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/) | Depth-first Search | Medium | [python](/python/1254_Number-of-Closed-Islands.py) | O\(NM) | O\(1\) |
+| 1507 | [Reformat Date](https://leetcode.com/problems/reformat-date/) | String | Easy | [python](/python/1507_Reformat-Date.py) | O\(1) | O\(1\) |
