@@ -36,3 +36,62 @@ class Solution:
                         tmp.append(id2em[i])
                 ans.append([id2acc[idx]]+sorted(tmp))
         return ans
+'''
+class Solution:
+    def accountsMerge(self, accounts):
+        dict = {}
+        for acc in accounts:
+            if acc[0] in dict:
+                dict[acc[0]].append(set(acc[1:]))
+            else:            
+                dict[acc[0]] = [set(acc[1:])]
+        ans =[]
+        for key, listSet in dict.items():
+            while listSet:
+                emailSet = listSet.pop()
+                condition = True
+                while condition:
+                    condition = False
+                    for idx in range(len(listSet)):
+                        if emailSet & listSet[idx]:
+                            emailSet.update(listSet.pop(idx))
+                            condition = True
+                            break
+                ans.append([key] + sorted(emailSet))
+        return sorted(ans, key = lambda x:x[0])
+'''
+def main():
+    s = Solution()
+
+    accounts = [["John", "johnsmith@mail.com", "john00@mail.com"], 
+                ["John", "johnnybravo@mail.com"], 
+                ["John", "johnsmith@mail.com", "john_newyork@mail.com"],
+                ["Mary", "mary@mail.com"]]
+    
+    #Output: [["John", 'john00@mail.com', 'john_newyork@mail.com', 'johnsmith@mail.com'],  
+                #["John", "johnnybravo@mail.com"], 
+                #["Mary", "mary@mail.com"]]
+    print(s.accountsMerge(accounts))      
+    accounts = [["Alex","Alex5@m.co","Alex4@m.co","Alex0@m.co"],
+                ["Ethan","Ethan3@m.co","Ethan3@m.co","Ethan0@m.co"],
+                ["Kevin","Kevin4@m.co","Kevin2@m.co","Kevin2@m.co"],
+                ["Gabe","Gabe0@m.co","Gabe3@m.co","Gabe2@m.co"],
+                ["Gabe","Gabe3@m.co","Gabe4@m.co","Gabe2@m.co"]]
+    
+    #Output: [["Alex","Alex0@m.co","Alex4@m.co","Alex5@m.co"],
+                #["Ethan","Ethan0@m.co","Ethan3@m.co"],
+                #["Gabe","Gabe0@m.co","Gabe2@m.co","Gabe3@m.co","Gabe4@m.co"],
+                #["Kevin","Kevin2@m.co","Kevin4@m.co"]]
+    print(s.accountsMerge(accounts))
+    accounts = [["David","David0@m.co","David1@m.co"],
+                ["David","David3@m.co","David4@m.co"],
+                ["David","David4@m.co","David5@m.co"],
+                ["David","David2@m.co","David3@m.co"],
+                ["David","David1@m.co","David2@m.co"]]
+    #Output: [["David","David0@m.co","David1@m.co","David2@m.co","David3@m.co","David4@m.co","David5@m.co"]]
+    print(s.accountsMerge(accounts))
+    
+if __name__ == '__main__':
+    main()
+
+
