@@ -32,4 +32,4 @@
 | 1254 | [Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/) | Depth-first Search | Medium | [python](/python/1254_Number-of-Closed-Islands.py) | O\(NM) | O\(1\) |
 | 1507 | [Reformat Date](https://leetcode.com/problems/reformat-date/) | String | Easy | [python](/python/1507_Reformat-Date.py) | O\(1) | O\(1\) |
 | 721 | [Accounts Merge](https://leetcode.com/problems/accounts-merge/) | Depth-first Search, Union Find | Medium | [python](/python/721_Accounts_Merge.py) | O\(NM) | O\(NM\) |
-| 1103 | [Distribute Candies to People](https://leetcode.com/problems/distribute-candies-to-people/) | Math | Easy | [python](/python/721_Accounts_Merge.py) | O\(N) | O\(N\) |
+| 1103 | [Distribute Candies to People](https://leetcode.com/problems/distribute-candies-to-people/) | Math | Easy | [python](/python/1103_Distribute-Candies-to-People.py) | O\(N) | O\(N\) |
