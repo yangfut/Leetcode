@@ -36,4 +36,4 @@
 | 202 | [Happy Number](https://leetcode.com/problems/happy-number/) | Hash Table, Math | Easy | [python](/python/202_Happy-Number.py), [c](c/202_Happy-Number.c) | O\(1) | O\(1\) |
 | 1710 | [Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/) | Greedy, Hash, Sort | Easy | [python](/python/1710_Maximum-Units-on-a-Truck.py) | O\(N) | O\(1\) |
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Array, Hash | Easy | [c](/c/1_Two_Sum) | O\(N^2) | O\(1\) |
-| 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | Math | Easy | [python](/python/9_Palindrome Number.py) | O\(N) | O\(N\) |
+| 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | Math | Easy | [python](/python/9_Palindrome-Number.py) | O\(N) | O\(N\) |
