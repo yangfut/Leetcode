@@ -6,16 +6,14 @@ class Solution:
             if target > nums[-1]:
                 return len(nums)
             st, ed = 0, len(nums)-1
-            mid = (ed+st) // 2
             while(ed-st > 1):
+                mid = (ed+st)//2
                 if target == nums[mid]:
                     return mid
                 if target > nums[mid]:
                     st = mid
-                    mid = ((ed+st) // 2)
-                if target < nums[mid]:
+                else:
                     ed = mid
-                    mid = (ed+st)//2
             return ed
         return binarySearch(nums, target)
 
