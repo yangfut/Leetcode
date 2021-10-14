@@ -38,3 +38,4 @@
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Array, Hash | Easy | [c](/c/1_Two_Sum) | O\(N^2) | O\(1\) |
 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | Math | Easy | [python](/python/9_Palindrome-Number.py) | O\(N) | O\(N\) |
 | 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | Array, Binary Search | Easy | [python](/python/35_Search-Insert-Position.py) | O\(logN) | O\(1\) |
+| 66 | [Plus One](https://leetcode.com/problems/plus-one/) | Array, Math | Easy | [python](/python/66_Plus-One.py) | O\(N) | O\(N\) |
