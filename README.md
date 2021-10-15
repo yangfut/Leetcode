@@ -39,3 +39,4 @@
 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | Math | Easy | [python](/python/9_Palindrome-Number.py) | O\(N) | O\(N\) |
 | 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | Array, Binary Search | Easy | [python](/python/35_Search-Insert-Position.py) | O\(logN) | O\(1\) |
 | 66 | [Plus One](https://leetcode.com/problems/plus-one/) | Array, Math | Easy | [python](/python/66_Plus-One.py) | O\(N) | O\(N\) |
+| 83 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | Linked List | Easy | [python](/python/83_Remove-Duplicates-from-Sorted-List.py) | O\(N) | O\(1\) |
