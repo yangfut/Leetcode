@@ -40,3 +40,4 @@
 | 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | Array, Binary Search | Easy | [python](/python/35_Search-Insert-Position.py) | O\(logN) | O\(1\) |
 | 66 | [Plus One](https://leetcode.com/problems/plus-one/) | Array, Math | Easy | [python](/python/66_Plus-One.py) | O\(N) | O\(N\) |
 | 83 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | Linked List | Easy | [python](/python/83_Remove-Duplicates-from-Sorted-List.py) | O\(N) | O\(1\) |
+| 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | Stack, Tree, DFS, Binary Tree | Easy | [python](/python/94_Binary-Tree-Inorder-Traversal.py) | O\(N) | O\(N\) |
