@@ -42,3 +42,4 @@
 | 83 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | Linked List | Easy | [python](/python/83_Remove-Duplicates-from-Sorted-List.py) | O\(N) | O\(1\) |
 | 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | Stack, Tree, DFS, Binary Tree | Easy | [python](/python/94_Binary-Tree-Inorder-Traversal.py) | O\(N) | O\(N\) |
 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | Hash Table, Math, String | Easy | [C++](/c++/13_Roman-to-Integer.cpp) | O\(N) | O\(1\) |
+| 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Array, Two Pointers | Easy | [python](/python/26_Remove_Duplicates_from_Sorted_Array.py) | O\(N) | O\(1\) |
