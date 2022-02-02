@@ -43,4 +43,4 @@
 | 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | Stack, Tree, DFS, Binary Tree | Easy | [python](/python/94_Binary-Tree-Inorder-Traversal.py) | O\(N) | O\(N\) |
 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | Hash Table, Math, String | Easy | [C++](/c++/13_Roman-to-Integer.cpp) | O\(N) | O\(1\) |
 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Array, Two Pointers | Easy | [python](/python/26_Remove_Duplicates_from_Sorted_Array.py) | O\(N) | O\(1\) |
-| 122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | Array, Two Pointers | Easy | [python](python\122_Best_Time_to_Buy_and_Sell_Stock_II.py) | O\(N) | O\(N\) |
+| 122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | Array, Dynamic Programming, Gredy | Medium | [python](python\122_Best_Time_to_Buy_and_Sell_Stock_II.py) | O\(N) | O\(N\) |
