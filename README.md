@@ -46,3 +46,4 @@
 | 122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | Array, Dynamic Programming, Gredy | Medium | [python](/python/122_Best_Time_to_Buy_and_Sell_Stock_II.py) | O\(N) | O\(N\) |
 | 136 | [Single Number](https://leetcode.com/problems/single-number/submissions/) | Array, Bit Manipulation | Easy | [c](/c/136_Single_Number.c) | O\(N) | O\(1\) |
 | 15 | [3Sum](https://leetcode.com/problems/3sum/) | Array, Two Pointer, Sorting | Medium | [python](/python/15_3Sum.py) | O\(N^2) | O\(N\) |
+| 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | Array, Hash Table, Divide and Conquer | Easy | [python](/python/169_Majority_Element.py) | O\(N) | O\(N\) |
