@@ -48,3 +48,4 @@
 | 15 | [3Sum](https://leetcode.com/problems/3sum/) | Array, Two Pointer, Sorting | Medium | [python](/python/15_3Sum.py) | O\(N^2) | O\(N\) |
 | 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | Array, Hash Table, Divide and Conquer | Easy | [python](/python/169_Majority_Element.py) | O\(N) | O\(N\) |
 | 1470 | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/description/) | Array | Easy | [python](/python/1480_Running-Sum-of-1d-Array.py) | O\(N) | O\(1\) |
+| 724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/description/?envType=study-plan&id=level-1) | Array | Easy | [python](/python/724_Find- Pivot-Index.py) | O\(N) | O\(1\) |
