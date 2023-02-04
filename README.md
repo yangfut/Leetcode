@@ -51,3 +51,4 @@
 | 724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/description/?envType=study-plan&id=level-1) | Array | Easy | [python](/python/724_Find- Pivot-Index.py) | O\(N) | O\(1\) |
 | 205 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/description/?envType=study-plan&id=level-1) | Array | Easy | [python](/python/205_Isomorphic-Strings.py) | O\(N) | O\(1\) |
 | 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/description/) | Two Pointers, String, Dynamic Programming | Easy | [python](/python/392_Is-Subsequence.py) | O\(N) | O\(1\) |
+| 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/) | String, Trie | Easy | [python](python/14_Longest-Common-Prefix.py) | O\(N) | O\(N\) |
