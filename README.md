@@ -55,3 +55,5 @@
 | 704 | [Binary Search](https://leetcode.com/problems/binary-search/) | Array, Binary Search | Easy | [python](/python/704_BInary-Search.py), [c](/c/704_Binary-Search.c) | O\(log(N)) | O\(1\) |
 | 278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/) | Binary Search, Interfactive | Easy | [python](/python/278_First-Bad-Version.py)[c](/c/278_First-Bad-Version.c) | O\(log(N)) | O\(1\) |
 | 35 | [Search Instert Position](https://leetcode.com/problems/search-insert-position/) | Array, Binary Search| Easy | [python](/python/35_Search-Instert-Position.py) | O\(log(N)) | O\(1\) |
+| 977 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/description/) | Array, Two Pointers, Sorting| Easy | [python](/python/977_Squares-of-a-Sorted-Array.py) | O\(N\) | O\(1\) |
+| 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/description/) | Array, Math, Two Pointers| Medium | [python](/python/189_Rotate-Array.py) | O\(N\) | O\(N\) |
