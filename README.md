@@ -52,6 +52,6 @@
 | 205 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/description/?envType=study-plan&id=level-1) | Array | Easy | [python](/python/205_Isomorphic-Strings.py) | O\(N) | O\(1\) |
 | 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/description/) | Two Pointers, String, Dynamic Programming | Easy | [python](/python/392_Is-Subsequence.py) | O\(N) | O\(1\) |
 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/) | String, Trie | Easy | [python](python/14_Longest-Common-Prefix.py) | O\(N) | O\(N\) |
-| 704 | [Binary Search](https://leetcode.com/problems/binary-search/) | Array, Binary Search | Easy | [python](/python/704_BInary-Search.py) | O\(log(N)) | O\(1\) |
-| 278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/) | Binary Search, Interfactive | Easy | [python](/python/278_First-Bad-Version.py) | O\(log(N)) | O\(1\) |
+| 704 | [Binary Search](https://leetcode.com/problems/binary-search/) | Array, Binary Search | Easy | [python](/python/704_BInary-Search.py), [c](/c/704_Binary-Search.c) | O\(log(N)) | O\(1\) |
+| 278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/) | Binary Search, Interfactive | Easy | [python](/python/278_First-Bad-Version.py)[c](/c/278_First-Bad-Version.c) | O\(log(N)) | O\(1\) |
 | 35 | [Search Instert Position](https://leetcode.com/problems/search-insert-position/) | Array, Binary Search| Easy | [python](/python/35_Search-Instert-Position.py) | O\(log(N)) | O\(1\) |
