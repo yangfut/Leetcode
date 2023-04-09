@@ -1,43 +1,20 @@
 class Solution:
-    def moveZeroes(self, nums):
-        ii, jj, n = 0, 0, len(nums)
-        while ii+1 < n and jj+1 < n:
-            while nums[ii] == 0 and ii+1 < n:
-                ii+=1
-            while nums[jj] !=0 and jj+1 < n:
-                jj+=1
-            #nums[ii] is non-zero integer
-            #nums[jj] is zero
+    def moveZeroes(self, nums: List[int]) -> None:
+        """
+        Do not return anything, modify nums in-place instead.
+        """
+        #Time:O(n), Space:O(1)
+        if (len(nums)==1):
+            return
 
-            if ii > jj:
-                nums[ii], nums[jj] = nums[jj], nums[ii]
+        ptr1, ptr2 = 0, 0
+        while (ptr1<len(nums)):
+            if nums[ptr1]==0:
+                pass
             else:
-                ii+=1
-                
-        return None
-
-
-def main():
-    sol = Solution()
-    
-    nums = [0,1,0,3,12]
-    #Output: [1,3,12,0,0]
-    sol.moveZeroes(nums)
-    print(nums)
-    
-    
-    nums = [1,0]
-    #Output: [1,0]
-    sol.moveZeroes(nums)
-    print(nums)
-    
-    nums = [1,0, 1]
-    #Output: [1,1,0]
-    sol.moveZeroes(nums)
-    print(nums)
-
-    
-if __name__ == '__main__':
-    main()
-
-
+                nums[ptr2] = nums[ptr1]
+                ptr2+=1
+            ptr1+=1
+        
+        for idx in range(ptr2, len(nums)):
+            nums[idx]=0

@@ -57,3 +57,4 @@
 | 35 | [Search Instert Position](https://leetcode.com/problems/search-insert-position/) | Array, Binary Search| Easy | [python](/python/35_Search-Instert-Position.py) | O\(log(N)) | O\(1\) |
 | 977 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/description/) | Array, Two Pointers, Sorting| Easy | [python](/python/977_Squares-of-a-Sorted-Array.py) | O\(N\) | O\(1\) |
 | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/description/) | Array, Math, Two Pointers| Medium | [python](/python/189_Rotate-Array.py) | O\(N\) | O\(N\) |
+| 167 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/) | Array, Two Pointers, Binary Search| Medium | [python](/python/167_Two-Sum-II-Input-Array-Is-Sorted.py) | O\(N\) | O\(1\) |
