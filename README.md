@@ -64,3 +64,4 @@
 | 19 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/) | Linked List, Two Pointers| Medium | [c](/c/19_Remove-Nth-Node-From-End-of-List.c) | O\(N\) | O\(1\) |
 | 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) | Hash Table, String, Sliding Window| Medium | [c](/c/3_Longest-Substring-Without-Repeating-Characters.c) | O\(N\) | O\(1\) |
 | 206 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/description/) | Array, Binary Search, Sliding Window| Medium | [c](/c/209_Minimum-Size-Subarray-Sum.c) | O\(N\) | O\(1\) |
+| 219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/description/) | Array, Hash Table, Sliding Window| Easy | [c++](/c%2B%2B/219_Contain-Duplicate-II.cpp) | O\(N\) | O\(M\) |
