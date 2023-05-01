@@ -68,3 +68,4 @@
 | 220 | [Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/description/) | Array, Sliding Window, Sorting, Bucket Sort, Ordered Set| Hard | [c++](/c%2B%2B/220_Contain-Duplicate-III.cpp) | O\(N\) | O\(N\) |
 | 221 | [Maximal Square](https://leetcode.com/problems/maximal-square/description/) | Array, Dynamic Programming, Matrix| Medium | [c++](/c%2B%2B/221_Maximal-Sequare.cpp) | O\(N\) | O\(N\) |
 | 213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/description/) | Array, Dynamic Programming| Medium | [c++](/c%2B%2B/213_House-Robber-II.cpp) | O\(N\) | O\(N\) |
+| 474 | [Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/description/) | Array, String, Dynamic Programming| Medium | [c++](/c%2B%2B/474_Ones-and-Zeros.cpp) | O\(N\*M\*L\) | O\(N*M\) |
