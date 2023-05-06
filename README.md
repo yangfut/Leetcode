@@ -72,3 +72,4 @@
 | 494 | [Ones and Zeroes](https://leetcode.com/problems/target-sum/description/) | Array, Dynamic Programming, Backtracking| Medium | [c++](/c%2B%2B/494_Target-Sum.cpp) | O\(N\*M\) | O\(N*M\) |
 | 322 | [Coin Change](https://leetcode.com/problems/coin-change/description/) | Array, Dynamic Programming, DFS| Medium | [c++](/c%2B%2B/322_Coin-Change.cpp) | O\(N\*M\) | O\(M\) |
 | 518 | [Coin Change II](https://leetcode.com/problems/coin-change-ii/description/) | Array, Dynamic Programming| Medium | [c++](/c%2B%2B/518_Coin-Change-II.cpp) | O\(N\*M\) | O\(M\) |
+| 62 | [Unique Path](https://leetcode.com/problems/unique-paths/description/) | Array, Dynamic Programming, Combinatorics| Medium | [c++](/c%2B%2B/62_Unique-Path.cpp) | O\(N\*M\) | O\(N*M\) |
