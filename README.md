@@ -75,3 +75,4 @@
 | 62 | [Unique Path](https://leetcode.com/problems/unique-paths/description/) | Array, Dynamic Programming, Combinatorics| Medium | [c++](/c%2B%2B/62_Unique-Path.cpp) | O\(N\*M\) | O\(N*M\) |
 | 63 | [Unique Path II](https://leetcode.com/problems/unique-paths-ii/description/) | Array, Dynamic Programming| Medium | [c++](/c%2B%2B/63_Unique-Path-II.cpp) | O\(N\*M\) | O\(N*M\) |
 | 46 | [Permutations](https://leetcode.com/problems/permutations/description/) | Array, Backtracking| Medium | [c++](/c%2B%2B/46_Permutations.cpp) | O\(N\*N!\) | O\(N\) |
+| 47 | [Permutations II](https://leetcode.com/problems/permutations-ii/description/) | Array, Backtracking| Medium | [c++](/c%2B%2B/47_Permutations-II.cpp) | O\(N\*N!\) | O\(N\) |
