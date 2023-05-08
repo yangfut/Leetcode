@@ -77,3 +77,4 @@
 | 46 | [Permutations](https://leetcode.com/problems/permutations/description/) | Array, Backtracking| Medium | [c++](/c%2B%2B/46_Permutations.cpp) | O\(N\*N!\) | O\(N\) |
 | 47 | [Permutations II](https://leetcode.com/problems/permutations-ii/description/) | Array, Backtracking| Medium | [c++](/c%2B%2B/47_Permutations-II.cpp) | O\(N\*N!\) | O\(N\) |
 | 78 | [Subsets](https://leetcode.com/problems/subsets/description/) | Array, Backtracking, Bit Manipulation| Medium | [c++](/c%2B%2B/78_Subsets.cpp) | O\(N*2^N^\) | O\(N\) |
+| 90 | [Subsets II](https://leetcode.com/problems/subsets-ii/description/) | Array, Backtracking, Bit Manipulation| Medium | [c++](/c%2B%2B/90_Subsets-II.cpp) | O\(N*2^N^\) | O\(N\) |
