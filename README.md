@@ -82,3 +82,4 @@
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/) | Math, Dynamic Programming, Memorization| Easy | [c++](/c%2B%2B/90_Climbing-Stairs) | O\(N\) | O\(N\) |
 | 27 | [Remove Elements](https://leetcode.com/problems/remove-element/description/) | Array, Two Pointers| Easy | [c++](/c%2B%2B/27_Remove-Element.cpp) | O\(N\) | O\(1\) |
 | 1796 | [Second Largest Digit in a String](https://leetcode.com/problems/second-largest-digit-in-a-string/description/) | Hash Table, String| Easy | [c++](/c%2B%2B/1796_Second-Largest-Digit-in-a-String.cpp) | O\(N\) | O\(1\) |
+| 1540 | [Can Convert String in K Moves](https://leetcode.com/problems/can-convert-string-in-k-moves/description/) | Hash Table, String| Easy | [c++](/c%2B%2B/1540_Can-Convert-String-in-K-Moves.cpp) | O\(N\) | O\(1\) |
