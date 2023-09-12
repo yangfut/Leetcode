@@ -84,3 +84,4 @@
 | 1796 | [Second Largest Digit in a String](https://leetcode.com/problems/second-largest-digit-in-a-string/description/) | Hash Table, String| Easy | [c++](/c%2B%2B/1796_Second-Largest-Digit-in-a-String.cpp) | O\(N\) | O\(1\) |
 | 1540 | [Can Convert String in K Moves](https://leetcode.com/problems/can-convert-string-in-k-moves/description/) | Hash Table, String| Easy | [c++](/c%2B%2B/1540_Can-Convert-String-in-K-Moves.cpp) | O\(N\) | O\(1\) |
 | 2465 | [Numbers of Distinct Averages](https://leetcode.com/problems/number-of-distinct-averages/description/) | Array, Hash Table, Two Pointers, Sorting| Easy | [c++](/c%2B%2B/2465_Numbers-of-Distinct-Average.cpp) | O\(N\) | O\(1\) |
+| 2006 | [Count Number of Pairs With Absolute Difference K](https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/) | Array, Hash Table| Easy | [c++](/c%2B%2B/2006_Count-Number-Of-Paris-With-Absolute-Difference-K.cpp) | O\(N\) | O\(N\) |
