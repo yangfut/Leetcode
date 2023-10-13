@@ -85,3 +85,4 @@
 | 1540 | [Can Convert String in K Moves](https://leetcode.com/problems/can-convert-string-in-k-moves/description/) | Hash Table, String| Easy | [c++](/c%2B%2B/1540_Can-Convert-String-in-K-Moves.cpp) | O\(N\) | O\(1\) |
 | 2465 | [Numbers of Distinct Averages](https://leetcode.com/problems/number-of-distinct-averages/description/) | Array, Hash Table, Two Pointers, Sorting| Easy | [c++](/c%2B%2B/2465_Numbers-of-Distinct-Average.cpp) | O\(N\) | O\(1\) |
 | 2006 | [Count Number of Pairs With Absolute Difference K](https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/) | Array, Hash Table| Easy | [c++](/c%2B%2B/2006_Count-Number-Of-Paris-With-Absolute-Difference-K.cpp) | O\(N\) | O\(N\) |
+| 100 | [Same Tree](https://leetcode.com/problems/same-tree/description/) | Tree, Depth-First Search, Breadth-First Search, Binary Tree| Easy | [c++](/c++/100_Same-Tree.cpp) | O\(1\) | O\(1\) |
