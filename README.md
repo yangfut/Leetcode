@@ -87,3 +87,4 @@
 | 2006 | [Count Number of Pairs With Absolute Difference K](https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/) | Array, Hash Table| Easy | [c++](/c%2B%2B/2006_Count-Number-Of-Paris-With-Absolute-Difference-K.cpp) | O\(N\) | O\(N\) |
 | 100 | [Same Tree](https://leetcode.com/problems/same-tree/description/) | Tree, Depth-First Search, Breadth-First Search, Binary Tree| Easy | [c++](/c++/100_Same-Tree.cpp) | O\(1\) | O\(1\) |
 | 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/description/?source=submission-ac) | Tree, Depth-First Search, Breadth-First Search, Binary Tree| Easy | [c++](/c++/101_Symmetric-Tree.cpp) | O\(log(N)\) | O\(1\) |
+| 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/) | Tree, Depth-First Search, Breadth-First Search, Binary Tree| Easy | [c++](/c++/104_Maximum-Depth-of-Binary-Tree.cpp) | O\(N\) | O\(N\) |
