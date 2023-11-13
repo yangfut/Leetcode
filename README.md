@@ -90,3 +90,4 @@
 | 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/) | Tree, Depth-First Search, Breadth-First Search, Binary Tree| Easy | [c++](/c++/104_Maximum-Depth-of-Binary-Tree.cpp) | O\(N\) | O\(N\) |
 | 108 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/) | Array, Divide-And-Conquer, Tree ,Breadth-First Search, Binary Tree| Easy | [c++](/c++/108_Convert-Sorted-Array-To-Binary-Search-Tree.cpp) | O\(N\) | O\(N\) |
 | 110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | Array, Divide-And-Conquer, Tree ,Breadth-First Search, Binary Tree| Easy | [c++](/c++/110_Balanced-Binary-Tree.cpp) | O\(N\) | O\(1\) |
+| 112 | [Path Sum](https://leetcode.com/problems/path-sum/) | Tree, Depth-First Search, Breadth-First Search, Binary Tree| Easy | [c++](/c++/112_Path-Sum.cpp) | O\(N\) | O\(1\) |
