@@ -98,3 +98,4 @@
 | 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Two Pointers, String| Easy | [c++](/c++/125_Valid-Palindrome.cpp) | O\(N\) | O\(1\) |
 | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/) | Hash Table, Linked List, Two Pointers| Easy | [c++](/c++/141_Linked-List-Cycle.cpp) | O\(N\) | O\(1\) |
 | 144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/description/) | Stack, Tree, Detph-First Search, Binary Tree| Easy | [c++](/c++/144_Binary-Tree-Preorder-Traversal.cpp) | O\(N\) | O\(N\) |
+| 171 | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/description/) | Math, String| Easy | [c++](/c++/171_Excel-Sheet-Column-Number.cpp) | O\(N\) | O\(1\) |
