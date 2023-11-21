@@ -100,3 +100,4 @@
 | 144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/description/) | Stack, Tree, Detph-First Search, Binary Tree| Easy | [c++](/c++/144_Binary-Tree-Preorder-Traversal.cpp) | O\(N\) | O\(N\) |
 | 171 | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/description/) | Math, String| Easy | [c++](/c++/171_Excel-Sheet-Column-Number.cpp) | O\(N\) | O\(1\) |
 | 168 | [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/description/) | Math, String| Easy | [c++](/c++/168_Excel-Sheet-Column-Title.cpp) | O\(N\) | O\(N\) |
+| 191 | [Reverse Bits](https://leetcode.com/problems/reverse-bits/description/) | Divide and Conquer, Bit Manipulation| Easy | [c++](/c++/191_Reverse-Bits.cipp) | O\(1\) | O\(1\) |
