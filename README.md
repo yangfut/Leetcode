@@ -101,3 +101,4 @@
 | 171 | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/description/) | Math, String| Easy | [c++](/c++/171_Excel-Sheet-Column-Number.cpp) | O\(N\) | O\(1\) |
 | 168 | [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/description/) | Math, String| Easy | [c++](/c++/168_Excel-Sheet-Column-Title.cpp) | O\(N\) | O\(N\) |
 | 190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits/description/) | Divide and Conquer, Bit Manipulation| Easy | [c++](/c++/191_Reverse-Bits.cipp) | O\(1\) | O\(1\) |
+| 191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/description/) | Divide and Conquer, Bit Manipulation| Easy | [c++](/c++/191_Number-of-1-Bits.cpp) | O\(1\) | O\(1\) |
