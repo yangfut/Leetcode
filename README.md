@@ -106,3 +106,4 @@
 | 912 | [Sort an Array](https://leetcode.com/problems/sort-an-array/description/) | Array, Divide and Conquer, Sorting, Heap (Priority Queue), Merge Sort, Bucket Sort, Radix Sort, Counting Sort| Easy | [c++](/c++/912_Sort-An-Array.cpp) | O\(NLogN\) | O\(N\) |
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/) | Array, Hash Table, Sorting| Easy | [c++](/c++/217_Contain-Duplicate.cpp) | O\(N\) | O\(N\) |
 | 222 | [Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/description/) | Binary Search, Bit Manipulation, Tree, Binary Tree| Easy | [c++](/c++/222_Count-Complete-Tree-Node.cpp) | O\(N\) | O\(1\) |
+| 2215 | [Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/) | Array, Hash Tables| Easy | [c++](/c++/2215_Find-the-Difference-of-Two-Arrays.cpp) | O\(N\) | O\(N\) |
