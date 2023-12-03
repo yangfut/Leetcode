@@ -107,3 +107,4 @@
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/) | Array, Hash Table, Sorting| Easy | [c++](/c++/217_Contain-Duplicate.cpp) | O\(N\) | O\(N\) |
 | 222 | [Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/description/) | Binary Search, Bit Manipulation, Tree, Binary Tree| Easy | [c++](/c++/222_Count-Complete-Tree-Node.cpp) | O\(N\) | O\(1\) |
 | 2215 | [Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/) | Array, Hash Tables| Easy | [c++](/c++/2215_Find-the-Difference-of-Two-Arrays.cpp) | O\(N\) | O\(N\) |
+| 1217 | [Minimum Cost to Move Chips to The Same Position](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/description/) | Array, Math, Greedy| Easy | [c++](/c++/1217_Minimum-Cost-to-Move-Chips-to-The-Same-Position.cpp) | O\(N\) | O\(1\) |
