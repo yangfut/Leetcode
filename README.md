@@ -109,3 +109,5 @@
 | 2215 | [Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/) | Array, Hash Tables| Easy | [c++](/c++/2215_Find-the-Difference-of-Two-Arrays.cpp) | O\(N\) | O\(N\) |
 | 1217 | [Minimum Cost to Move Chips to The Same Position](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/description/) | Array, Math, Greedy| Easy | [c++](/c++/1217_Minimum-Cost-to-Move-Chips-to-The-Same-Position.cpp) | O\(N\) | O\(1\) |
 | 2578 | [Split With Minimum Sum](https://leetcode.com/problems/split-with-minimum-sum/description/) | Math, Greedy, Sorting| Easy | [c++](/c++/2578_Split-With-Minimum-Sum.cpp) | O\(1\) | O\(1\) |
+| 46 | [Permutations](https://leetcode.com/problems/permutations/description/) | Array, Backtracking| Medium | [c++](/c++/46_2_Permutations.cpp) | O\(N\*N!\) | O\(N\) |
+| 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | Array, Dynamic Programming| Easy | [c++](/c++/118_2_Pascal's-Triangle.cpp) | O\(N^2\) | O\(N^2\) |
