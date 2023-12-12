@@ -13,7 +13,7 @@ public:
         }
         return sum;
     }
-    
+    //Brute-Force
     void gameOfLife(vector<vector<int>>& board) {
         vector<vector<int>> result(board.size(), vector<int>(board[0].size(), 0));
 
