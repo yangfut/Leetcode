@@ -119,3 +119,4 @@
 | 215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/) | Array, Divide and Conquer,  Sorting, Heap(Priority Queue), Quickselect| Easy | [c++](/c++/215_Kth-Largest-Element-in-an-Array.cpp) | O\(N\) | O\(1\) |
 | 122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | Array, Dynamic Programming, Greedy | Medium | [c++](/c++/122_2_Best-Time-To-Buy-and-Sell-Stock-II.cpp) | O\(N) | O\(1\) |
 | 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/description/) | Array, Prefix Sum | Medium | [c++](/c++/238_Product-of-Array-Except-Self.cpp) | O\(N) | O\(N\) |
+| 268 | [Missing Number](https://leetcode.com/problems/missing-number/description/) | Array, Hash Table, Math, Binary Search, Bit Manipulation, Sorting | Easy | [c++](/c++/268_Missing-Number.cpp) | O\(N) | O\(1\) |
