@@ -121,3 +121,5 @@
 | 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/description/) | Array, Prefix Sum | Medium | [c++](/c++/238_Product-of-Array-Except-Self.cpp) | O\(N) | O\(N\) |
 | 268 | [Missing Number](https://leetcode.com/problems/missing-number/description/) | Array, Hash Table, Math, Binary Search, Bit Manipulation, Sorting | Easy | [c++](/c++/268_Missing-Number.cpp) | O\(N) | O\(1\) |
 | 169 | [Majority Element](https://leetcode.com/problems/majority-element/description/) | Array, Hash Table, Divide and Conquer, Sorting, Counting | Easy | [c++](/c++/169_Majority-Element.cpp) | O\(N) | O\(1\) |
+| 105 | [Construct Binary Tree from Preorder and Inorder Traversal](hhttps://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/) | Array, Hash Table, Divide and Conquer
+Tree, Binary Tree | Medium | [c++](/c++/105_Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal.cpp) | O\(N) | O\(N\) |
