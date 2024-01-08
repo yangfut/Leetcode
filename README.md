@@ -126,3 +126,4 @@
 | 378 | [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/description/) | Array, Binary Search, Sorting, Heap (Priority Queue), Matrix | Medium | [c++](/c++/378_Kth-Smallest-Element-in-a-Sorted-Matrix.cpp) | O\(N*N*logN) | O\(1\) |
 | 75 | [Sort Colors](https://leetcode.com/problems/sort-colors/description/) | Array, Two Pointers, Sorting | Medium | [c++](/c++/75_Sort-Colors.cpp) | O\(N+M) | O\(M\) |
 | 287 | [Find the Duplicated Number](https://leetcode.com/problems/find-the-duplicate-number/description/) | Array, Two Pointers, Binary Search, Bit Manipulation | Medium | [c++](/c++/287_Find-the-Duplicated-Number.cpp) | O\(N) | O\(1\) |
+| 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/description/) | Array, Depth-First Search, Breadth-First Search, Union Find, Matrix | Medium | [c++](/c++/200_Numbers-of_Islands.cpp) | O\(N^2) | O\(1\) |
