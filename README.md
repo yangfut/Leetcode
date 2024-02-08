@@ -133,3 +133,4 @@
 | 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/4sum/description/) | Array, Binary Search, Dynamic Programming | Medium | [c++](/c++/300_Longest-Increasing-Subsequence.cpp) | O\(N^2) | O\(N\) |
 | 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/) | Array, Two Pointers, Greedy | Medium | [c++](/c++/11_Container-With-Most-Water.cpp) | O\(N) | O\(1\) |
 | 73 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/description/) | Array, Hash Table, Matrix | Medium | [c++](/c++/73_Set-Matrix-Zeroes.cpp) | O\(NM+V) | O\(V\) |
+| 380 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/description/) | Array, Hash Table, Math, Design, Randomized | Medium | [c++](/c++/380_Insert-Delete-GetRandom-O(1).cpp) | O\(1) | O\(N\) |
