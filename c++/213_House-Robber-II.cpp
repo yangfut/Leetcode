@@ -1,27 +1,25 @@
 class Solution {
 public:
     int rob(vector<int>& nums) {
-        if(nums.size() == 1) return nums[0];
-        //1-dimensional DP
-        vector<int>dp1(nums.size()+2, 0);
-        vector<int>dp2(nums.size()+2, 0);
-        int ans1, ans2;
-        int temp;
-        //Senario I - Ignore first element
-        temp = nums[0];
-        nums[0] = 0;
-        for(int idx = 2; idx < nums.size() + 2; ++idx){
-            dp1[idx] = max((dp1[idx-2] + nums[idx-2]), dp1[idx-1]);
+        if(nums.size()==1) return nums[0];
+        
+        //Pick the first element and ignore the last one
+        int prev=0, cur=nums[0];
+        for(int i=1;i<nums.size()-1;i++){
+            int new_max=max(prev+nums[i], cur);
+            prev=cur;
+            cur=new_max;
         }
-        ans1 = dp1.back();
-        nums[0] = temp;
+        int max1=(cur>prev)?cur:prev;
 
-        //Senario II - Ignore last element
-        nums[nums.size()-1] = 0;
-        for(int idx = 2; idx < nums.size() + 2; ++idx){
-            dp2[idx] = max((dp2[idx-2] + nums[idx-2]), dp2[idx-1]);
+        //Ignore the first element
+        prev=0, cur=nums[1];
+        for(int i=2;i<nums.size();i++){
+            int new_max=max(prev+nums[i], cur);
+            prev=cur;
+            cur=new_max;
         }
-        ans2 = dp2.back();
-        return max(ans1, ans2);
+        int max2=(cur>prev)?cur:prev;
+        return(max1>max2)?max1:max2;
     }
 };
