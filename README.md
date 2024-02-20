@@ -136,3 +136,4 @@
 | 380 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/description/) | Array, Hash Table, Math, Design, Randomized | Medium | [c++](/c++/380_Insert-Delete-GetRandom-O(1).cpp) | O\(1) | O\(N\) |
 | 329 | [Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/description/) | Array, Dynamic Programming, Depth-First Search, Breadth-First Search, Graph, Topological Sort, Memoization, Matrix | Hard | [c++](/c++/329_Longest-Increasing-Path-in-a-Matrix.cpp) | O\(NM) | O\(NM\) |
 | 240 | [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/description/) | Array, Binary Search, Divide and Conquer, Matrix | Medium | [c++](/c++/240_Search-2D-Matrix-II.cpp) | O\(NLogM) | O\(1\) |
+| 198 | [House Robber](https://leetcode.com/problems/house-robber/description/) | Array, Dynamic Programming | Medium | [c++](/c++/198_House-Robber.cpp) | O\(N) | O\(1\) |
