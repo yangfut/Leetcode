@@ -140,3 +140,4 @@
 | 150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/) | Array, Math, Stack | Medium | [c++](/c++/150_Evaluate-Reverse-Polish-Notation.cpp) | O\(N) | O\(N\) |
 | 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/) | Array, Two Pointers, Sorting | Easy | [c++](/c++/88_Merge-Sorted-Array.cpp) | O\(N) | O\(1\) |
 | 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | Array, Matrix, Simulation | Medium | [c++](/c++/54_Spiral-Matrix.cpp) | O\(NM) | O\(NM\) |
+| 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/description/) | Array, Hash Table, Union Find | Medium | [c++](/c++/128_Longest-Consecutive-Sequence.cpp) | O\(N) | O\(N\) |
