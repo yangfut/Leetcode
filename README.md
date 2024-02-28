@@ -149,3 +149,4 @@ Queue, Sliding Window, Heap (Priority Queue), Monotonic Queue | Medium | [c++](/
 | 162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/description/) | Array, Binary Search | Medium | [c++](/c++/162_Find-Peak-Element.cpp) | O\(logN) | O\(1\) |
 | 134 | [Gas Station](https://leetcode.com/problems/gas-station/description/) | Array, Greedy | Medium | [c++](/c++/134_Gas-Station.cpp) | O\(N) | O\(1\) |
 | 34 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/) | Array, Binary Search | Medium | [c++](/c++/34_Find-First-and-Last-Position-of-Element-in-Sorted-Array.cpp) | O\(logN) | O\(1\) |
+| 79 | [Word Search](https://leetcode.com/problems/word-search/description/) | Array, String, Backtracking, Matrix | Medium | [c++](/c++/79_Word-Search.cpp) | O\(NMK) | O\(1\) |
