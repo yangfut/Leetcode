@@ -144,8 +144,7 @@
 | 140 | [Word Break II](https://leetcode.com/problems/word-break-ii/description/) | Array, Hash Table, String, Dynamic Programming, Memoization | Hard | [c++](/c++/140_Word-Break-II.cpp) | O\(NM) | O\(N\) |
 | 56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/description/) | Array, Sorting | Medium | [c++](/c++/56_Merge-Intervals.cpp) | O\(NLogN) | O\(N\) |
 | 139 | [Word Break](https://leetcode.com/problems/word-break/description/) | Array, Hash Table, String, Dynamic Programming, Trie, Memoization | Medium | [c++](/c++/139_Word-Break.cpp) | O\(NM) | O\(N\) |
-| 239 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/description/) | Array
-Queue, Sliding Window, Heap (Priority Queue), Monotonic Queue | Medium | [c++](/c++/239_Sliding-Windows-Maximum.cpp) | O\(N) | O\(N\) |
+| 239 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/description/) | Array, Queue, Sliding Window, Heap (Priority Queue), Monotonic Queue | Medium | [c++](/c++/239_Sliding-Windows-Maximum.cpp) | O\(N) | O\(N\) |
 | 162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/description/) | Array, Binary Search | Medium | [c++](/c++/162_Find-Peak-Element.cpp) | O\(logN) | O\(1\) |
 | 134 | [Gas Station](https://leetcode.com/problems/gas-station/description/) | Array, Greedy | Medium | [c++](/c++/134_Gas-Station.cpp) | O\(N) | O\(1\) |
 | 34 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/) | Array, Binary Search | Medium | [c++](/c++/34_Find-First-and-Last-Position-of-Element-in-Sorted-Array.cpp) | O\(logN) | O\(1\) |
