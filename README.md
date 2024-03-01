@@ -45,7 +45,7 @@
 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Array, Two Pointers | Easy | [python](/python/26_Remove_Duplicates_from_Sorted_Array.py) | O\(N) | O\(1\) |
 | 122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | Array, Dynamic Programming, Gredy | Medium | [python](/python/122_Best_Time_to_Buy_and_Sell_Stock_II.py) | O\(N) | O\(N\) |
 | 136 | [Single Number](https://leetcode.com/problems/single-number/submissions/) | Array, Bit Manipulation | Easy | [c](/c/136_Single_Number.c) | O\(N) | O\(1\) |
-| 15 | [3Sum](https://leetcode.com/problems/3sum/) | Array, Two Pointer, Sorting | Medium | [python](/python/15_3Sum.py) | O\(N^2) | O\(N\) |
+| 15 | [3Sum](https://leetcode.com/problems/3sum/) | Array, Two Pointer, Sorting | Medium | [python](/python/15_3Sum.py), [c++](/c++/15_3Sum.cpp) | O\(N^2) | O\(N\) |
 | 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | Array, Hash Table, Divide and Conquer | Easy | [python](/python/169_Majority_Element.py) | O\(N) | O\(N\) |
 | 1470 | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/description/) | Array | Easy | [python](/python/1480_Running-Sum-of-1d-Array.py) | O\(N) | O\(1\) |
 | 724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/description/?envType=study-plan&id=level-1) | Array | Easy | [python](/python/724_Find-Pivot-Index.py) | O\(N) | O\(1\) |
