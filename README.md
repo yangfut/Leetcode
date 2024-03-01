@@ -153,3 +153,4 @@
 | 130 | [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) | Array, Depth-First Search, Breadth-First Search, Union Find, Matrix | Medium | [c++](/c++/130_Surrounded-Regions.cpp) | O\(NM) | O\(1\) |
 | 55 | [Jump Game](https://leetcode.com/problems/jump-game/description/) | Array, Dynamic Programming, Greedy | Medium | [c++](/c++/55_Jump-Game.cpp) | O\(N) | O\(N\) |
 | 179 | [Largest Number](https://leetcode.com/problems/largest-number/description/) | Array, String, Greedy, Sorting | Medium | [c++](/c++/179_Largest-Number.cpp) | O\(NlogN) | O\(N\) |
+| 152 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/description/) | Array, Dynamic Programming | Medium | [c++](/c++/152_Maximum-Product-Subarray.cpp) | O\(N) | O\(N\) |
