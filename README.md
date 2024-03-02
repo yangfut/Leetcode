@@ -157,3 +157,4 @@
 | 324 | [Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/description/) | Array, Divide and Conquer, Sorting, Quickselect | Medium | [c++](/c++/324_Wiggle-Sort-II.cpp) | O\(NlogN) | O\(N\) |
 | 204 | [Count Primes](https://leetcode.com/problems/count-primes/description/) | Array, Math, Enumeration, Number Theory | Medium | [c++](/c++/204_Count-Primes.cpp) | O\(NlogN) | O\(N\) |
 | 149 | [Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/) | Array, Hash Table, Math, Geometry | Hard | [c++](/c++/149_Max-Points-on-a-Line.cpp) | O\(N^2) | O\(N\) |
+| 208 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/description/) | Hash Table, String, Design, Trie | Medium | [c++](/c++/208_Implement-Trie-(Prefix-Tree).cpp) | O\(N) | O\(N\) |
