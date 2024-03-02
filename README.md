@@ -156,3 +156,4 @@
 | 152 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/description/) | Array, Dynamic Programming | Medium | [c++](/c++/152_Maximum-Product-Subarray.cpp) | O\(N) | O\(N\) |
 | 324 | [Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/description/) | Array, Divide and Conquer, Sorting, Quickselect | Medium | [c++](/c++/324_Wiggle-Sort-II.cpp) | O\(NlogN) | O\(N\) |
 | 204 | [Count Primes](https://leetcode.com/problems/count-primes/description/) | Array, Math, Enumeration, Number Theory | Medium | [c++](/c++/204_Count-Primes.cpp) | O\(NlogN) | O\(N\) |
+| 149 | [Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/) | Array, Hash Table, Math, Geometry | Hard | [c++](/c++/149_Max-Points-on-a-Line.cpp) | O\(N^2) | O\(N\) |
