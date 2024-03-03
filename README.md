@@ -160,3 +160,4 @@
 | 208 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/description/) | Hash Table, String, Design, Trie | Medium | [c++](/c++/208_Implement-Trie-(Prefix-Tree).cpp) | O\(N) | O\(N\) |
 | 212 | [Word Search II](https://leetcode.com/problems/word-search-ii/description/) | Array, String, Backtracking, Trie, Matrix | Hard | [c++](/c++/212_Word-Search-II.cpp) | O\(NMK) | O\(AK\) |
 | 41 | [Find Missing Postive](https://leetcode.com/problems/first-missing-positive/description/) | Array, Hash Table | Hard | [c++](/c++/41_Find-Missing-Positive.cpp) | O\(N) | O\(1\) |
+| 146 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | Hash Table, Linked List, Design, Doubly-Linked List | Medium | [c++](/c++/146_LRU-Cache.cpp) | O\(1) | O\(N\) |
