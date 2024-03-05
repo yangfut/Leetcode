@@ -162,3 +162,4 @@
 | 41 | [Find Missing Postive](https://leetcode.com/problems/first-missing-positive/description/) | Array, Hash Table | Hard | [c++](/c++/41_Find-Missing-Positive.cpp) | O\(N) | O\(1\) |
 | 146 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | Hash Table, Linked List, Design, Doubly-Linked List | Medium | [c++](/c++/146_LRU-Cache.cpp) | O\(1) | O\(N\) |
 | 91 | [Decode Ways](https://leetcode.com/problems/decode-ways/description/) | String, Dynamic Programming | Medium | [c++](/c++/91_Decode-Ways.cpp) | O\(N) | O\(N\) |
+| 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/) | String, Dynamic Programming | Medium | [c++](/c++/5_Longest-Palindromic-Substring.cpp) | O\(N) | O\(N\) |
