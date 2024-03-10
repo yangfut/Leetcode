@@ -164,3 +164,4 @@
 | 91 | [Decode Ways](https://leetcode.com/problems/decode-ways/description/) | String, Dynamic Programming | Medium | [c++](/c++/91_Decode-Ways.cpp) | O\(N) | O\(N\) |
 | 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/) | String, Dynamic Programming | Medium | [c++](/c++/5_Longest-Palindromic-Substring.cpp) | O\(N) | O\(N\) |
 | 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/description/) | String, Dynamic Programming, Backtracking | Medium | [c++](/c++/22_Generate-Parentheses.cpp) | O\(2^N) | O\(N\) |
+| 2824 | [Count Pairs Whose Sum is Less than Target](https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/description/) | Array, Two Pointers, Binary Search, Sorting | Easy | [c++](/c++/2824_Count-Pairs-Whose-Sum-is-Less-than-Target.cpp) | O\(NlogN) | O\(1\) |
