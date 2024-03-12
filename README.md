@@ -170,3 +170,4 @@
 | 1347 | [Minimum Number of Steps to Make Two Strings Anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/) | Hash Table, String, Counting | Medium | [c++](/c++/1347_Minimum-Number-of-Steps-to-Make-Two-Strings-Anagram.cpp) | O\(N) | O\(1\) |
 | 894 | [All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees/description/) | Dynamic Programming, Tree, Recursion, Memoization, Binary Tree | Medium | [c++](/c++/894_All-Possible-Full-Binary-Trees.cpp) | O\(N) | O\(N\) |
 | 1641 | [Count Sorted Vowel Strings](https://leetcode.com/problems/count-sorted-vowel-strings/description/) | Math, Dynamic Programming, Combinatorics | Medium | [c++](/c++/1641_Count-Sorted-Vowel-Strings.cpp) | O\(N) | O\(1\) |
+| 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/description/) | Hash Table, String, Sorting | Easy | [c++](/c++/242_Valid-Anagram.cpp) | O\(N) | O\(N\) |
