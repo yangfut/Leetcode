@@ -1,53 +1,15 @@
 class Solution {
 public:
-    
-    //Option#1: Sort and Map
     vector<vector<string>> groupAnagrams(vector<string>& strs) {
-        unordered_map<string, vector<string>>mp;
+        vector<string> newStrs(strs);
+        unordered_map<string, vector<string>>dict;
+        vector<vector<string>> res;
+        for(int i=0;i<newStrs.size();i++) sort(newStrs[i].begin(), newStrs[i].end());
 
-        for(string str:strs){
-            string s=str;
-            sort(s.begin(), s.end());
-            mp[s].push_back(str);
-        }
+        for(int i=0;i<newStrs.size();i++) dict[newStrs[i]].push_back(strs[i]);
 
-        vector<vector<string>> ans;
-        for(auto &p:mp){
-            ans.push_back(p.second);
-        }
-        return ans;
+        for(auto pair:dict) res.push_back(pair.second);
+        
+        return res;
     }
-    //Option#2: Hash Table
-    /*
-    vector<int> getHashTable(string strs){
-        vector<int> hashTable(26, 0);
-        for(int idx=0; idx<strs.length(); idx++){
-            hashTable[strs[idx]-97]++;
-        }
-        return hashTable;
-    }
-    vector<vector<string>> groupAnagrams(vector<string>& strs) {
-        map<vector<int>, vector<int>>mp;
-        vector<vector<string>>ans;
-        vector<int> key;
-        for(int idx=0; idx<strs.size(); idx++){
-            key = getHashTable(strs[idx]);
-            if(mp.find(key) == mp.end()){
-                mp.insert(pair<vector<int>, vector<int>>(key, vector<int>(1, idx)));
-            }else{
-                mp[key].push_back(idx);
-            }
-        }
-
-        vector<string> temp;
-        for(const pair<vector<int>, vector<int>> &p : mp){
-            temp.clear();
-            for(int idx=0; idx < p.second.size(); idx++){
-                temp.push_back(strs[p.second[idx]]);
-            }
-            ans.push_back(temp);
-        }
-        return ans;
-    }
-    */
 };
