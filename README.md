@@ -172,3 +172,4 @@
 | 1641 | [Count Sorted Vowel Strings](https://leetcode.com/problems/count-sorted-vowel-strings/description/) | Math, Dynamic Programming, Combinatorics | Medium | [c++](/c++/1641_Count-Sorted-Vowel-Strings.cpp) | O\(N) | O\(1\) |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/description/) | Hash Table, String, Sorting | Easy | [c++](/c++/242_Valid-Anagram.cpp) | O\(N) | O\(N\) |
 | 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | Array, Hash Table, Matrix | Medium | [c++](/c++/36_Valid-Sudoku.cpp) | O\(1) | O\(1\) |
+| 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/) | String, Stack | Easy | [c++](/c++/20_Valid-Parentheses.cpp) | O\(N) | O\(N\) |
