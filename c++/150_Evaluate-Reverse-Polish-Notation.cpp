@@ -1,25 +1,32 @@
 #include <stack>
+#include <unordered_set>
 #include <string>
-#include <vector>
-
 class Solution {
 public:
     int evalRPN(vector<string>& tokens) {
-        stack<int>st;
-        int num1, num2;
-        for(string token:tokens){
-            if(token=="+"||token=="-"||token=="*"||token=="/") {
-                num2=st.top(); st.pop();
-                num1=st.top(); st.pop();
-                
-                if(token=="+") st.push(num1+num2);
-                else if(token=="-") st.push(num1-num2);
-                else if(token=="*") st.push(num1*num2);
-                else if(token=="/") st.push(num1/num2);
+        stack<int>stack;
+        unordered_set<string>operators = {"+", "-", "*", "/"};
+        for(string s:tokens){
+            if(operators.count(s)){
+                int b = stack.top(); stack.pop();
+                int a = stack.top(); stack.pop();
+                if(s=="+")
+                    stack.push(a+b);
+                else if(s=="-")
+                    stack.push(a-b);
+                else if(s=="*")
+                    stack.push(a*b);
+                else if(s=="/"){
+                    if(b==0){
+                        // Handle division by zero error
+                        throw runtime_error("Division by zero");
+                    }
+                    stack.push(a/b);
+                }
             }else{
-                st.push(stoi(token));
+                stack.push(stoi(s));
             }
         }
-        return st.top();
+        return stack.top();
     }
 };
