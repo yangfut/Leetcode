@@ -178,3 +178,4 @@
 | 853 | [Car Fleet](https://leetcode.com/problems/car-fleet/description/) | Array, Stack, Sorting, Monotonic Stack | Medium | [c++](/c++/853_Car-Fleet.cpp) | O\(NlogN) | O\(N\) |
 | 496 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) | Array, Hash Table, Stack, Monotonic Stack | Medium | [c++](/c++/496_Next-Greater-Element-I.cpp) | O\(N+M) | O\(M\) |
 | 907 | [Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/description/?orderBy=most_votes) | Array, Dynamic Programming, Stack, Monotonic Stack | Medium | [c++](/c++/907_Sum-of-Subarray-Minimums.cpp) | O\(N) | O\(N\) |
+| 84 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/description/) | Array, Stack, Monotonic Stack | Hard | [c++](/c++/84_Largest-Rectangle-in-Histogram.cpp) | O\(N) | O\(N\) |
