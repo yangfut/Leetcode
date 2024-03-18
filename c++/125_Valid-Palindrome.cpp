@@ -2,28 +2,18 @@
 class Solution {
 public:
     bool isPalindrome(string s) {
-        int idxA = 0;
-        int idxB = s.size()-1;
-        bool ans = true;
-
-        while(idxB >= idxA){
-            if(!isalnum(s[idxA])){
-                idxA++;
-                continue;
-            }
-            if(!isalnum(s[idxB])){
-                idxB--;
-                continue;
-            }
-
-            if(tolower(s[idxA]) == tolower(s[idxB])){
-                idxB--;
-                idxA++;
-            }else{
-                ans = false;
-                break;
-            }
+        string new_s="";
+        for(char c:s){
+            if(isalnum(c)) new_s.push_back(tolower(c));
         }
-        return ans;
+        
+        int low=0, high=new_s.size()-1;
+        while(low<=high){
+            if(new_s[low]!=new_s[high]) return false;
+
+            ++low;
+            --high;
+        }
+        return true;
     }
 };
