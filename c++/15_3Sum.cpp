@@ -25,3 +25,44 @@ public:
         return ans;
     }
 };
+
+class Solution {
+public:
+    vector<vector<int>> threeSum(vector<int>& nums) {
+        // 1. Count k from n-1 to 2
+        // 2. nums[k]+nums[k-1]+nums[k-2]<0 stops!
+        // 3. Use two pointers(i, j) starting from 0 and k-1 to find result
+        
+        sort(nums.begin(), nums.end());
+        int n=nums.size();
+        int k=n-1;
+        vector<vector<int>>ans_vec;
+        while(k>1){
+            if(nums[k]+nums[k-1]+nums[k-2]<0) break;
+            int i=0, j=k-1;
+            while(i<j){
+                if(nums[i]+nums[j]==-nums[k]){
+                    ans_vec.push_back({nums[i], nums[j], nums[k]});
+                    //looking for different combinations
+                    do{
+                        ++i;
+                    }while(i<j&&nums[i]==nums[i-1]);
+
+                    do{
+                        --j;
+                    }while(i<j&&nums[j]==nums[j+1]);
+                    continue;
+                }
+                
+                if(nums[i]+nums[j]>-nums[k]) --j;
+                else ++i;
+            }
+
+            do{
+                --k;
+            }while(k>1&&nums[k]==nums[k+1]);
+        }
+
+        return ans_vec;
+    }
+};
