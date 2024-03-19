@@ -180,3 +180,4 @@
 | 907 | [Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/description/?orderBy=most_votes) | Array, Dynamic Programming, Stack, Monotonic Stack | Medium | [c++](/c++/907_Sum-of-Subarray-Minimums.cpp) | O\(N) | O\(N\) |
 | 84 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/description/) | Array, Stack, Monotonic Stack | Hard | [c++](/c++/84_Largest-Rectangle-in-Histogram.cpp) | O\(N) | O\(N\) |
 | 167 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/) | Array, Two Pointers, Binary Search | Medium | [c++](/c++/167_Two-Sum-II-Input-Array-Is-Sorted.cpp) | O\(N) | O\(1\) |
+| 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/description/) | Array, Two Pointers, Dynamic Programming, Stack, Monotonic Stack | Hard | [c++](/c++/42_Trapping-Rain-Water.cpp) | O\(N) | O\(N\) |
