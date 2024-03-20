@@ -182,3 +182,4 @@
 | 167 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/) | Array, Two Pointers, Binary Search | Medium | [c++](/c++/167_Two-Sum-II-Input-Array-Is-Sorted.cpp) | O\(N) | O\(1\) |
 | 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/description/) | Array, Two Pointers, Dynamic Programming, Stack, Monotonic Stack | Hard | [c++](/c++/42_Trapping-Rain-Water.cpp) | O\(N) | O\(N\) |
 | 74 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | Array, Binary Search, Matrix | Medium | [c++](/c++/74_Search-a-2D-Matrix.cpp) | O\(log(N*M)) | O\(1\) |
+| 874 | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/description/) | Array, Binary Search | Medium | [c++](/c++/875-Koko-Eating-Bananas.cpp) | O\(Nlog(V)) | O\(1\) |
