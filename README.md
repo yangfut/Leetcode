@@ -184,3 +184,4 @@
 | 74 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | Array, Binary Search, Matrix | Medium | [c++](/c++/74_Search-a-2D-Matrix.cpp) | O\(log(N*M)) | O\(1\) |
 | 874 | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/description/) | Array, Binary Search | Medium | [c++](/c++/875-Koko-Eating-Bananas.cpp) | O\(Nlog(V)) | O\(1\) |
 | 981 | [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/description/) | Hash Table, String, Binary Search, Design | Medium | [c++](/c++/981_Time-Based-Key-Value-Store.cpp) | O\(log(N)) | O\(N\) |
+| 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/) | Array, Binary Search, Divide and Conquer | Hard | [c++](/c++/4_Median-of-Two-Sorted-Arrays.cpp) | O\(log(NM)) | O\(1\) |
