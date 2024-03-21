@@ -183,3 +183,4 @@
 | 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/description/) | Array, Two Pointers, Dynamic Programming, Stack, Monotonic Stack | Hard | [c++](/c++/42_Trapping-Rain-Water.cpp) | O\(N) | O\(N\) |
 | 74 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | Array, Binary Search, Matrix | Medium | [c++](/c++/74_Search-a-2D-Matrix.cpp) | O\(log(N*M)) | O\(1\) |
 | 874 | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/description/) | Array, Binary Search | Medium | [c++](/c++/875-Koko-Eating-Bananas.cpp) | O\(Nlog(V)) | O\(1\) |
+| 981 | [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/description/) | Hash Table, String, Binary Search, Design | Medium | [c++](/c++/981_Time-Based-Key-Value-Store.cpp) | O\(log(N)) | O\(N\) |
