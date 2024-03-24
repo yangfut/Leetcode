@@ -185,3 +185,4 @@
 | 874 | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/description/) | Array, Binary Search | Medium | [c++](/c++/875-Koko-Eating-Bananas.cpp) | O\(Nlog(V)) | O\(1\) |
 | 981 | [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/description/) | Hash Table, String, Binary Search, Design | Medium | [c++](/c++/981_Time-Based-Key-Value-Store.cpp) | O\(log(N)) | O\(N\) |
 | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/) | Array, Binary Search, Divide and Conquer | Hard | [c++](/c++/4_Median-of-Two-Sorted-Arrays.cpp) | O\(log(NM)) | O\(1\) |
+| 1588 | [Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/description/) | Array, Math, Prefix Sum | Easy | [c++](/c++/1588_Sum-of-All-Odd-Length-Subarrays.cpp) | O\(log(N)) | O\(1\) |
