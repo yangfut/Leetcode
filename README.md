@@ -187,3 +187,4 @@
 | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/) | Array, Binary Search, Divide and Conquer | Hard | [c++](/c++/4_Median-of-Two-Sorted-Arrays.cpp) | O\(log(NM)) | O\(1\) |
 | 1588 | [Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/description/) | Array, Math, Prefix Sum | Easy | [c++](/c++/1588_Sum-of-All-Odd-Length-Subarrays.cpp) | O\(N) | O\(1\) |
 | 2384 | [Largest Palindromic Number](https://leetcode.com/problems/largest-palindromic-number/description/) | Hash Table, String, Greedy | Medium | [c++](/c++/2384_Largest-Palindromic-Number.cpp) | O\(N) | O\(N\) |
+| 464 | [Can I Win](https://leetcode.com/problems/can-i-win/description/) | Math, Dynamic Programming, Bit Manipulation, Memoization, Game Theory, Bitmask | Medium | [c++](/c++/464_Can-I-Win.cpp) | O\(2^N) | O\(10^N\) |
