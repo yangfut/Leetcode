@@ -190,3 +190,4 @@
 | 464 | [Can I Win](https://leetcode.com/problems/can-i-win/description/) | Math, Dynamic Programming, Bit Manipulation, Memoization, Game Theory, Bitmask | Medium | [c++](/c++/464_Can-I-Win.cpp) | O\(2^N) | O\(10^N\) |
 | 424 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/description/) | Hash Table, String, Sliding Window | Medium | [c++](/c++/424_Longest-Repeating-Character-Replacement.cpp) | O\(N) | O\(1\) |
 | 567 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | Hash Table, Two Pointers, String, Sliding Window | Medium | [c++](/c++/567_Permutation-in-String.cpp) | O\(N) | O\(1\) |
+| 76 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/description/) | Hash Table, String, Sliding Window | Hard | [c++](/c++/76_Minimum-Window-Substring.cpp) | O\(N) | O\(1\) |
