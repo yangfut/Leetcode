@@ -4,7 +4,7 @@
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1528 | [Shuffle String](https://leetcode.com/problems/shuffle-string/) | Sort | Easy | [python](/python/1528_Shuffle-String.py), [c++](/c++/1528_Shuffle-String.cpp) | O\(N\) | O\(N\) |
 | 350 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | Hash Table, Two Pointer, Binary Search | Easy | [python](/python/350_Intersection-of-Two-Arrays-II.py) | O\(N\) | O\(N\) |
-| 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Linked List | Easy | [python](/python/206_Reverse-Linked-List.py) | O\(N\) | O\(N\) |
+| 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Linked List, Recursion | Easy | [python](/python/206_Reverse-Linked-List.py), [c++](/c++/206_Reverse-Linked-List.cpp) | O\(N\) | O\(1\) |
 | 1640 | [Check Array Formation Through Concatenation](https://leetcode.com/problems/check-array-formation-through-concatenation/) | Array, Hash Table, Sort | Easy | [python](/python/1640_Check-Any-Formation-Through-Concatenation.py) | O\(N\) | O\(N\) |
 | 957 | [Prison Cells After N Days](https://leetcode.com/problems/prison-cells-after-n-days/) | Hash Table | Medium | [python](/python/957_Prison-Cells-After-N-Days.py) | O\(1\) | O\(1\) |
 | 1502 | [Can Make Arithmetic Progression From Sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/) | Arrya, Sort| Easy | [python](/python/1502_Can-Make-Arithmetic-Progression-From-Sequence.py) | O\(NlogN) | O\(1\) |
@@ -63,7 +63,7 @@
 | 876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/description/) | Linked List, Two Pointers| Easy | [c](/c/876_Middle-of-the-Linked-List.c) | O\(N\) | O\(1\) |
 | 19 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/) | Linked List, Two Pointers| Medium | [c](/c/19_Remove-Nth-Node-From-End-of-List.c) | O\(N\) | O\(1\) |
 | 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) | Hash Table, String, Sliding Window| Medium | [c](/c/3_Longest-Substring-Without-Repeating-Characters.c), [c++](/c++/3_Longest-Substring-Without-Repeating-Characters.cpp) | O\(N\) | O\(1\) |
-| 206 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/description/) | Array, Binary Search, Sliding Window| Medium | [c](/c/209_Minimum-Size-Subarray-Sum.c) | O\(N\) | O\(1\) |
+| 209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/description/) | Array, Binary Search, Sliding Window| Medium | [c](/c/209_Minimum-Size-Subarray-Sum.c) | O\(N\) | O\(1\) |
 | 219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/description/) | Array, Hash Table, Sliding Window| Easy | [c++](/c%2B%2B/219_Contain-Duplicate-II.cpp) | O\(N\) | O\(M\) |
 | 220 | [Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/description/) | Array, Sliding Window, Sorting, Bucket Sort, Ordered Set| Hard | [c++](/c%2B%2B/220_Contain-Duplicate-III.cpp) | O\(N\) | O\(N\) |
 | 221 | [Maximal Square](https://leetcode.com/problems/maximal-square/description/) | Array, Dynamic Programming, Matrix| Medium | [c++](/c%2B%2B/221_Maximal-Sequare.cpp) | O\(N\) | O\(N\) |
