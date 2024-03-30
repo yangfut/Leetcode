@@ -191,6 +191,7 @@
 | 424 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/description/) | Hash Table, String, Sliding Window | Medium | [c++](/c++/424_Longest-Repeating-Character-Replacement.cpp) | O\(N) | O\(1\) |
 | 567 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | Hash Table, Two Pointers, String, Sliding Window | Medium | [c++](/c++/567_Permutation-in-String.cpp) | O\(N) | O\(1\) |
 | 76 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/description/) | Hash Table, String, Sliding Window | Hard | [c++](/c++/76_Minimum-Window-Substring.cpp) | O\(N) | O\(1\) |
-| 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/)  Linked List, Recursion | Easy | [c++](/c++/21_Merge-Two-Sorted-Lists.cpp) | O\(N) | O\(1\) |
-| 143 | [Reorder List](https://leetcode.com/problems/reorder-list/)  Linked List, Two Pointers, Stack, Recursion | Medium | [c++](/c++/143_Reorder-List.cpp) | O\(N) | O\(N\) |
-| 138 | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/description/)  Hash Table, Linked List | Medium | [c++](/c++/138_Copy-List-with-Random-Pointer.cpp) | O\(N) | O\(N\) |
+| 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/) | Linked List, Recursion | Easy | [c++](/c++/21_Merge-Two-Sorted-Lists.cpp) | O\(N) | O\(1\) |
+| 143 | [Reorder List](https://leetcode.com/problems/reorder-list/) | Linked List, Two Pointers, Stack, Recursion | Medium | [c++](/c++/143_Reorder-List.cpp) | O\(N) | O\(N\) |
+| 138 | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/description/) | Hash Table, Linked List | Medium | [c++](/c++/138_Copy-List-with-Random-Pointer.cpp) | O\(N) | O\(N\) |
+| 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/description/) | Hash Table, Linked List, Two Pointers | Medium | [c++](/c++/142_Linked-List-Cycle-II.cpp) | O\(N) | O\(1\) |
