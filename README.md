@@ -195,5 +195,5 @@
 | 143 | [Reorder List](https://leetcode.com/problems/reorder-list/) | Linked List, Two Pointers, Stack, Recursion | Medium | [c++](/c++/143_Reorder-List.cpp) | O\(N) | O\(N\) |
 | 138 | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/description/) | Hash Table, Linked List | Medium | [c++](/c++/138_Copy-List-with-Random-Pointer.cpp) | O\(N) | O\(N\) |
 | 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/description/) | Hash Table, Linked List, Two Pointers | Medium | [c++](/c++/142_Linked-List-Cycle-II.cpp) | O\(N) | O\(1\) |
-| 23 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/) | Linked List, Divide and Conquer, Heap (Priority Queue), Merge Sort | Medium | [c++](/c++/23_Merge-k-Sorted-Lists.cpp) | O\(NlogK) | O\(K\) |
+| 23 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/) | Linked List, Divide and Conquer, Heap (Priority Queue), Merge Sort | Hard | [c++](/c++/23_Merge-k-Sorted-Lists.cpp) | O\(NlogK) | O\(K\) |
 | 25 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/description/) | Linked List, Recursion | Hard | [c++](/c++/25_Reverse-Nodes-in-k-Group.cpp) | O\(N\) | O\(1\) |
