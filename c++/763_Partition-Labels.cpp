@@ -38,3 +38,25 @@ public:
         return ans;
     }
 };
+
+class Solution {
+public:
+    vector<int> partitionLabels(string s) {
+        vector<int>last_occurance(26, -1);
+        vector<int>ans;
+        int n=s.size();
+
+        for(int i=0;i<n;++i) last_occurance[s[i]-'a']=i;
+        int start=0, end=0;
+        for(int i=0;i<n;++i){
+            end = max(end, last_occurance[s[i]-'a']);
+
+            // If currnet node reaches the end point, count the length of this partition
+            if(i==end){
+                ans.push_back(end-start+1);
+                start=i+1;
+            }
+        }
+        return ans;
+    }
+};
