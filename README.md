@@ -198,3 +198,4 @@
 | 23 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/) | Linked List, Divide and Conquer, Heap (Priority Queue), Merge Sort | Hard | [c++](/c++/23_Merge-k-Sorted-Lists.cpp) | O\(NlogK) | O\(K\) |
 | 25 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/description/) | Linked List, Recursion | Hard | [c++](/c++/25_Reverse-Nodes-in-k-Group.cpp) | O\(N\) | O\(1\) |
 | 763 | [Partition Labels](https://leetcode.com/problems/partition-labels/description/) | Hash Table, Two Pointers, String, Greedy | Medium | [c++](/c++/763_Partition-Labels.cpp) | O\(N\) | O\(N\) |
+| 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/description/) | Tree, Depth-First Search, Breadth-First Search, Binary Tree | Easy | [c++](/c++/226_Invert-Binary-Tree.cpp) | O\(N\) | O\(1\) |
