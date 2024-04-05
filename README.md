@@ -158,7 +158,7 @@
 | 204 | [Count Primes](https://leetcode.com/problems/count-primes/description/) | Array, Math, Enumeration, Number Theory | Medium | [c++](/c++/204_Count-Primes.cpp) | O\(NlogN) | O\(N\) |
 | 149 | [Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/) | Array, Hash Table, Math, Geometry | Hard | [c++](/c++/149_Max-Points-on-a-Line.cpp) | O\(N^2) | O\(N\) |
 | 208 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/description/) | Hash Table, String, Design, Trie | Medium | [c++](/c++/208_Implement-Trie-(Prefix-Tree).cpp) | O\(N) | O\(N\) |
-| 212 | [Word Search II](https://leetcode.com/problems/word-search-ii/description/) | Array, String, Backtracking, Trie, Matrix | Hard | [c++](/c++/212_Word-Search-II.cpp) | O\(NMK) | O\(AK\) |
+| 212 | [Word Search II](https://leetcode.com/problems/word-search-ii/description/) | Array, String, Backtracking, Trie, Matrix | Hard | [c++](/c++/212_Word-Search-II.cpp) | O\(NMK) | O\(K\) |
 | 41 | [Find Missing Postive](https://leetcode.com/problems/first-missing-positive/description/) | Array, Hash Table | Hard | [c++](/c++/41_Find-Missing-Positive.cpp) | O\(N) | O\(1\) |
 | 146 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | Hash Table, Linked List, Design, Doubly-Linked List | Medium | [c++](/c++/146_LRU-Cache.cpp) | O\(1) | O\(N\) |
 | 91 | [Decode Ways](https://leetcode.com/problems/decode-ways/description/) | String, Dynamic Programming | Medium | [c++](/c++/91_Decode-Ways.cpp) | O\(N) | O\(N\) |
