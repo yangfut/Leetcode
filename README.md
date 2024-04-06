@@ -215,3 +215,4 @@
 | 1046 | [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) | Array, Heap (Priority Queue) | Easy | [c++](/c++/1046_Last-Stone-Weight.cpp) | O\(NlogN\) | O\(N\) |
 | 973 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/description/) | Array, Math, Divide and Conquer, Geometry, Sorting, Heap (Priority Queue), Quickselect | Medium | [c++](/c++/973_K-Closest-Points-to-Origin.cpp) | O\(NlogK\) | O\(K\) |
 | 621 | [Task Scheduler](https://leetcode.com/problems/task-scheduler/description/) | Array, Hash Table, Greedy, Sorting, Heap (Priority Queue), Counting | Medium | [c++](/c++/621_Task-Scheduler.cpp) | O\(N\) | O\(N\) |
+| 355 | [Design Twitter](https://leetcode.com/problems/design-twitter/description/) | Hash Table, Linked List, Design, Heap (Priority Queue) | Medium | [c++](/c++/355_Design-Twitter.cpp) | O\(K*NlogN\) | O\(N\) |
