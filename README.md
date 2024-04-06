@@ -214,3 +214,4 @@
 | 703 | [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/description/) | Tree, Design, Binary Search Tree, Heap (Priority Queue), Binary Tree, Data Stream | Easy | [c++](/c++/703_Kth-Largest-Element-in-a-Stream.cpp) | O\(N\) | O\(K\) |
 | 1046 | [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) | Array, Heap (Priority Queue) | Easy | [c++](/c++/1046_Last-Stone-Weight.cpp) | O\(NlogN\) | O\(N\) |
 | 973 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/description/) | Array, Math, Divide and Conquer, Geometry, Sorting, Heap (Priority Queue), Quickselect | Medium | [c++](/c++/973_K-Closest-Points-to-Origin.cpp) | O\(NlogK\) | O\(K\) |
+| 621 | [Task Scheduler](https://leetcode.com/problems/task-scheduler/description/) | Array, Hash Table, Greedy, Sorting, Heap (Priority Queue), Counting | Medium | [c++](/c++/621_Task-Scheduler.cpp) | O\(N\) | O\(N\) |
