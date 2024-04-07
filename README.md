@@ -217,3 +217,4 @@
 | 621 | [Task Scheduler](https://leetcode.com/problems/task-scheduler/description/) | Array, Hash Table, Greedy, Sorting, Heap (Priority Queue), Counting | Medium | [c++](/c++/621_Task-Scheduler.cpp) | O\(N\) | O\(N\) |
 | 355 | [Design Twitter](https://leetcode.com/problems/design-twitter/description/) | Hash Table, Linked List, Design, Heap (Priority Queue) | Medium | [c++](/c++/355_Design-Twitter.cpp) | O\(K*NlogN\) | O\(N\) |
 | 904 | [Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/description/) | Array, Hash Table, Sliding Window | Medium | [c++](/c++/904_Fruit-Into-Baskets.cpp) | O\(N\) | O\(1\) |
+| 295 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/description/) | Two Pointers, Design, Sorting, Heap (Priority Queue), Data Stream | Hard | [c++](/c++/295_Find-Median-from-Data-Stream.cpp) | O\(logN\) | O\(N\) |
