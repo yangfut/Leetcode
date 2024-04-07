@@ -218,3 +218,4 @@
 | 355 | [Design Twitter](https://leetcode.com/problems/design-twitter/description/) | Hash Table, Linked List, Design, Heap (Priority Queue) | Medium | [c++](/c++/355_Design-Twitter.cpp) | O\(K*NlogN\) | O\(N\) |
 | 904 | [Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/description/) | Array, Hash Table, Sliding Window | Medium | [c++](/c++/904_Fruit-Into-Baskets.cpp) | O\(N\) | O\(1\) |
 | 295 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/description/) | Two Pointers, Design, Sorting, Heap (Priority Queue), Data Stream | Hard | [c++](/c++/295_Find-Median-from-Data-Stream.cpp) | O\(logN\) | O\(N\) |
+| 39 | [Combination Sum](https://leetcode.com/problems/combination-sum/description/) | Array, Backtracking | Medium | [c++](/c++/39_Combination-Sum.cpp) | O\(NlogN+K/min\) | O\(K/min\) |
