@@ -220,4 +220,5 @@
 | 295 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/description/) | Two Pointers, Design, Sorting, Heap (Priority Queue), Data Stream | Hard | [c++](/c++/295_Find-Median-from-Data-Stream.cpp) | O\(logN\) | O\(N\) |
 | 39 | [Combination Sum](https://leetcode.com/problems/combination-sum/description/) | Array, Backtracking | Medium | [c++](/c++/39_Combination-Sum.cpp) | O\(NlogN+K/min\) | O\(K/min\) |
 | 40 | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/description/) | Array, Backtracking | Medium | [c++](/c++/40_Combination-Sum-II.cpp) | O\(NlogN+M*2^N\) | O\(N\) |
-| 131 | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/description/)  String, Dynamic Programming, Backtracking | Medium | [c++](/c++/131_Palindrome-Partitioning.cpp) | O\(N^2\) | O\(N^2\) |
+| 131 | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/description/) | String, Dynamic Programming, Backtracking | Medium | [c++](/c++/131_Palindrome-Partitioning.cpp) | O\(N^2\) | O\(N^2\) |
+| 17 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/) | Hash Table, String, Backtracking | Medium | [c++](/c++/17_Letter-Combinations-of-a-Phone-Number.cpp) | O\(N\) | O\(N\) |
