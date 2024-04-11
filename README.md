@@ -223,3 +223,4 @@
 | 131 | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/description/) | String, Dynamic Programming, Backtracking | Medium | [c++](/c++/131_Palindrome-Partitioning.cpp) | O\(N^2\) | O\(N^2\) |
 | 17 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/) | Hash Table, String, Backtracking | Medium | [c++](/c++/17_Letter-Combinations-of-a-Phone-Number.cpp) | O\(N\) | O\(N\) |
 | 746 | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/description/) | Array, Dynamic Programming | Easy | [c++](/c++/746_Min-Cost-Climbing-Stairs.cpp) | O\(N\) | O\(N\) |
+| 51 | [N-Queens](https://leetcode.com/problems/n-queens/description/) | Array, Backtracking | Hard | [c++](/c++/51_N-Queens.cpp) | O\(N!\) | O\(N\) |
