@@ -38,3 +38,20 @@ public:
     }
     */
 };
+
+class Solution {
+public:
+    int majorityElement(vector<int>& nums) {
+        int majority=nums[0];
+        int count=0;
+
+        for(int& ele:nums){
+            // if match, ++count
+            // if unmatch, --count
+            // if unmatch and count is zero, swtich majority
+            if(!count) majority = ele;
+            count += (ele == majority) ? 1 : -1;
+        }
+        return majority;
+    }
+};
