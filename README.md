@@ -225,3 +225,4 @@
 | 746 | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/description/) | Array, Dynamic Programming | Easy | [c++](/c++/746_Min-Cost-Climbing-Stairs.cpp) | O\(N\) | O\(N\) |
 | 51 | [N-Queens](https://leetcode.com/problems/n-queens/description/) | Array, Backtracking | Hard | [c++](/c++/51_N-Queens.cpp) | O\(N!\) | O\(N\) |
 | 3112 | [Minimum Time to Visit Disappearing Nodes](https://leetcode.com/problems/minimum-time-to-visit-disappearing-nodes/description/) | Graph | Medium | [c++](/c++/3112_Minimum-Time-to-Visit-Disappearing-Nodes.cpp) | O\(N^V\) | O\(N\) |
+| 3110 | [Score of a String](https://leetcode.com/problems/score-of-a-string/description/) | String | Easy | [c++](/c++/3110_Score-of-a-String.cpp) | O\(N\) | O\(1\) |
