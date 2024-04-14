@@ -82,3 +82,36 @@ public:
         return Manacher_solution(s);
     }
 };
+
+class Solution {
+public:
+    string longestPalindrome(string s) {
+        // 1. Expand palindrome substring in odd length
+        // 2. Expand palindrome substring in even length
+
+        string res="";
+        int n=s.length();
+        for(int center=0;center<n;++center){
+            int l=center, r=center;
+            // for odd condition
+            while(r<n && l>=0 && s[r]==s[l]){
+                if(r-l+1>res.length()){
+                    res=s.substr(l, r-l+1);
+                }
+                ++r;
+                --l;
+            }
+
+            // for even condition
+            l=center, r=center+1;
+            while(r<n && l>=0 && s[r]==s[l]){
+                if(r-l+1>res.length()){
+                    res=s.substr(l, r-l+1);
+                }
+                ++r;
+                --l;
+            }
+        }
+        return res;
+    }
+};
