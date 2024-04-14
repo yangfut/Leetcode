@@ -23,3 +23,59 @@ public:
         return dp.back();
     }
 };
+
+class Solution {
+public:
+    int numDecodings(string s) {
+
+        // Tabulation
+        set<string> validCode;
+        int n=s.length();
+        vector<int> dp(n, 0);
+        for(int code=1; code<=26;++code) validCode.insert(to_string(code));
+
+        for(int idx=0; idx<n; ++idx){
+            string c(1,s[idx]);
+
+            if(idx==0){
+                dp[idx] = validCode.count(c);
+            }else if(idx==1){
+                dp[idx] = validCode.count(c) ? dp[idx-1] : 0;
+                dp[idx] += validCode.count(s.substr(idx-1,2)) ? 1 : 0;
+            }else{
+                dp[idx] = validCode.count(c) ? dp[idx-1] : 0;
+                dp[idx] += validCode.count(s.substr(idx-1,2)) ? dp[idx-2] : 0;
+            }
+
+        }
+        return dp.back();
+    }
+};
+
+class Solution {
+public:
+    int numDecodings(string s) {
+
+        // Tabulation
+        int n=s.length();
+        vector<int> dp(n, 0);
+        int lower = '1'*10 + '0';
+        int upper = '2'*10 + '6';
+        for(int idx=0; idx<n; ++idx){
+            
+            // Check single digit
+            if(s[idx]!='0'){
+                dp[idx] = (idx>0) ? dp[idx-1] : 1;
+            }
+
+            // Check double digits
+            if(idx>0){
+                int twoDigits = s[idx-1]*10+s[idx];
+                if(twoDigits >= lower && twoDigits <= upper){
+                    dp[idx] += (idx>1) ? dp[idx-2] : 1;
+                }
+            }
+        }
+        return dp.back();
+    }
+};
