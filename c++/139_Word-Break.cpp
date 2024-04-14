@@ -61,3 +61,67 @@ public:
 
     }
 };
+
+class Solution {
+public:
+    class TrieNode{
+    public:
+        TrieNode* children[26];
+        bool isEndOfWord;
+        TrieNode(){
+            isEndOfWord = false;
+            for(int i=0; i<26; ++i) children[i]=nullptr;
+        }
+    };
+
+    bool wordBreak(string s, vector<string>& wordDict) {
+        int n = s.length(), idx = 0;
+        TrieNode* root = new TrieNode();
+
+        for(const string& word : wordDict){
+            TrieNode* curr = root;
+            for(const char& c:word){
+                if(!curr->children[c-'a']) curr->children[c-'a'] = new TrieNode();
+                curr = curr->children[c-'a'];
+            }
+            curr->isEndOfWord = true;
+        }
+        vector<bool> memo(n, true);
+        queue<int> que;
+        que.push(0);
+        while(!que.empty()){
+            int st = que.front(); que.pop();
+            if(!memo[st]) continue; // The visited starting point
+            if(st == n) return true;
+            TrieNode* curr = root;
+            // search in root
+            for(int i = st; i < s.length(); ++i){
+                if(!curr->children[s[i]-'a']) break;
+
+                curr = curr->children[s[i]-'a'];
+                if(curr->isEndOfWord) que.push(i+1);
+            }
+            memo[st] = false; //Impossible to reach the end from this starting point
+        }
+        return false;
+    }
+};
+
+class Solution {
+public:
+    bool wordBreak(string s, vector<string>& wordDict) {
+        set<string> wordBank(wordDict.begin(), wordDict.end());
+        set<int> wordSizes;
+        vector<bool>dp(s.length(), false);
+        for(const string word : wordDict) wordSizes.insert(word.size());
+
+        for(int st=0; st<s.length(); ++st){
+            for(const auto& len : wordSizes){
+                if(wordBank.count(s.substr(st, len)) && (st==0||dp[st-1])){
+                    dp[st+len-1] = true;
+                }
+            }
+        }
+        return dp.back();
+    }
+};
