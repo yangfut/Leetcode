@@ -228,3 +228,4 @@
 | 3110 | [Score of a String](https://leetcode.com/problems/score-of-a-string/description/) | String | Easy | [c++](/c++/3110_Score-of-a-String.cpp) | O\(N\) | O\(1\) |
 | 3111 | [Minimum Rectangles to Cover Points](https://leetcode.com/problems/minimum-rectangles-to-cover-points/description/) | Array | Medium | [c++](/c++/3111_Minimum-Rectangles-to-Cover-Points.cpp) | O\(NlogN\) | O\(N\) |
 | 647 | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/description/) | Two Pointers, String, Dynamic Programming | Medium | [c++](/c++/647_Palindromic-Substrings.cpp) | O\(N^2\) | O\(1\) |
+| 416 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | Array, Dynamic Programming | Medium | [c++](/c++/416_Partition-Equal-Subset-Sum.cpp) | O\(N^2\) | O\(N\) |
