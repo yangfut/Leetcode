@@ -56,34 +56,34 @@ public:
         return false;
 
     }
+    // Solution from ChatGPT
+    // bool dp_sol(vector<int>& nums){
+    //     int n = nums.size();
+    //     int target = accumulate(nums.begin(), nums.end(), 0);
 
-    bool dp_sol(vector<int>& nums){
-        int n = nums.size();
-        int target = accumulate(nums.begin(), nums.end(), 0);
+    //     if(target%2) return false;
+    //     target /= 2;
 
-        if(target%2) return false;
-        target /= 2;
-
-        // Indicate the result of a specific sum
-        vector<bool> combSum(target+1, false);
-        combSum[0] = true;
-        for(int& num : nums){
-            for(int value = target; value >= num; --value){
-                // Update new target by value - num
-                combSum[value] = combSum[value] || combSum[value - num];
-                if(combSum[target]) return true;
-            }
-        }
-        return false;
-    }
+    //     // Indicate the result of a specific sum
+    //     vector<bool> combSum(target+1, false);
+    //     combSum[0] = true;
+    //     for(int& num : nums){
+    //         for(int value = target; value >= num; --value){
+    //             // Update new target by value - num
+    //             combSum[value] = combSum[value] || combSum[value - num];
+    //             if(combSum[target]) return true;
+    //         }
+    //     }
+    //     return false;
+    // }
     bool canPartition(vector<int>& nums) {
         // 1. Backtracking with cache
-        // return backtracking_sol(nums);
+        return backtracking_sol(nums);
 
         // 2. Solution with Set
         // return set_sol(nums);
 
         // 3. DP
-        return dp_sol(nums);
+        // return dp_sol(nums);
     }
 };
