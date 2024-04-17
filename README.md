@@ -229,3 +229,4 @@
 | 3111 | [Minimum Rectangles to Cover Points](https://leetcode.com/problems/minimum-rectangles-to-cover-points/description/) | Array | Medium | [c++](/c++/3111_Minimum-Rectangles-to-Cover-Points.cpp) | O\(NlogN\) | O\(N\) |
 | 647 | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/description/) | Two Pointers, String, Dynamic Programming | Medium | [c++](/c++/647_Palindromic-Substrings.cpp) | O\(N^2\) | O\(1\) |
 | 416 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | Array, Dynamic Programming | Medium | [c++](/c++/416_Partition-Equal-Subset-Sum.cpp) | O\(N^2\) | O\(N\) |
+| 695 | [Max Area of Island](https://leetcode.com/problems/max-area-of-island/description/) | Array, Depth-First Search, Breadth-First Search, Union Find, Matrix | Medium | [c++](/c++/695_Max-Area-of-Island.cpp) | O\(NMK\) | O\(1\) |
