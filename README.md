@@ -234,3 +234,4 @@
 | 994 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/description/) | Array, Breadth-First Search, Matrix | Medium | [c++](/c++/994_Rotting-Oranges.cpp) | O\(NM\) | O\(NM\) |
 | 417 | [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/description/) | Array, Depth-First Search, Breadth-First Search, Matrix | Medium | [c++](/c++/417_Pacific-Atlantic-Water-Flow.cpp) | O\(NM\) | O\(NM\) |
 | 207 | [Course Schedule](https://leetcode.com/problems/course-schedule/description/) | Depth-First Search, Breadth-First Search, Graph, Topological Sort | Medium | [c++](/c++/207_Course-Schedule.cpp) | O\(N+E\) | O\(N\) |
+| 1391 | [Check if There is a Valid Path in a Grid](https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid/description/) | Array, Depth-First Search, Breadth-First Search, Union Find, Matrix | Medium | [c++](/c++/1391_Check-if-There-is-a-Valid-Path-in-a-Grid.cpp) | O\(N*M\) | O\(1\) |
