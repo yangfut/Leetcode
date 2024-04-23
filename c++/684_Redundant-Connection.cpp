@@ -40,3 +40,55 @@ public:
         return {};
     }
 };
+
+// Union Find
+// Beats 82% in runtime and 63% in memory
+
+class Solution {
+public:
+    int findParent(vector<int>& parent, int node){
+        // the parent node parent[node] == node
+        int par = parent[node];
+        while(par != parent[par]){
+            par = parent[par];
+        }
+        return par;
+    }
+
+    // return false if union can't complete
+    bool unionFunc(vector<int>& parent, vector<int>& rank, int node1, int node2){
+        int par1 = findParent(parent, node1);
+        int par2 = findParent(parent, node2);
+
+        if(par1 == par2) return false;
+
+        if(rank[par1] >= rank[par2]){
+            rank[par1] += rank[par2];
+            parent[par2] = par1;
+        }else{
+            rank[par2] += rank[par1];
+            parent[par1] = par2; 
+        }
+        return true;
+    }
+
+    // Union Find
+    vector<int> findRedundantConnection(vector<vector<int>>& edges) {
+        int n = edges.size();
+        vector<int> parent(n+1);
+        vector<int> rank(n+1, 1);
+        // At the beginning, every node are disconnected so the parent of each node is itself
+        for(int i=0; i<n+1; ++i){
+            parent[i] = i;
+        }
+
+        for(int idx=0; idx<n; ++idx){
+            if(!unionFunc(parent, rank, edges[idx][0], edges[idx][1])){
+                return edges[idx];
+            }
+        }
+
+        // should never be here
+        return {};
+    }
+};
