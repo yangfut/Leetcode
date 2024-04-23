@@ -238,4 +238,5 @@
 | 2830 | [Maximize the Profit as the Salesman](https://leetcode.com/problems/maximize-the-profit-as-the-salesman/description/) | Array, Hash Table, Binary Search, Dynamic Programming, Sorting | Medium | [c++](/c++/2830_Maximize-the-Profit-as-the-Salesman.cpp) | O\(MlogM\) | O\(M\) |
 | 210 | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/description/) | Depth-First, Search, Breadth-First Search, Graph, Topological Sort | Medium | [c++](/c++/210_Course-Schedule-II.cpp) | O\(N+E\) | O\(N*E\) |
 | 684 | [Redundant Connection](https://leetcode.com/problems/redundant-connection/description/) |Depth-First Search, Breadth-First Search, Union Find, Graph | Medium | [c++](/c++/684_Redundant-Connection.cpp) | O\(N\) | O\(N\) |
-| 127 | [Word Ladder](https://leetcode.com/problems/word-ladder/) |Hash Table, String, Breadth-First Search | Hard | [c++](/c++/127_Word-Ladder.cpp) | O\(WNlogN\) | O\(N\) |
+| 127 | [Word Ladder](https://leetcode.com/problems/word-ladder/) | Hash Table, String, Breadth-First Search | Hard | [c++](/c++/127_Word-Ladder.cpp) | O\(WNlogN\) | O\(N\) |
+| 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/description/) | String, Dynamic Programming | Medium | [c++](/c++/1143_Longest-Common-Subsequence.cpp) | O\(NM\) | O\(NM\) |
