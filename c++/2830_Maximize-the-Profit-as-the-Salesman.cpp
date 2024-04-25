@@ -72,3 +72,38 @@ public:
         return maxv;
     }
 };
+
+class Solution {
+public:
+    static bool cmp(const vector<int>& a, const vector<int>& b){
+        return (a[1] == b[1]) ? a[0] < b[0] : a[1] < b[1];
+    }
+    int maximizeTheProfit(int n, vector<vector<int>>& offers) {
+        // 1D-DP solution
+
+        // Edge case
+        if(offers.empty()) return 0;
+
+        vector<int> dp(n, 0);
+        // sort by the end
+        sort(offers.begin(), offers.end(), cmp);
+
+        int idx=0;
+        for(auto& offer : offers){
+            int ed = offer[1], st = offer[0], p = offer[2];
+            while(idx < ed){
+                ++idx;
+                dp[idx] = dp[idx-1];
+            }
+
+            if(st>0){
+                dp[ed] = max(dp[ed], p + dp[st-1]);
+            }else{
+                dp[ed] = max(dp[ed], p);
+            }
+            
+        }
+
+        return dp[idx];
+    }
+};
