@@ -26,3 +26,31 @@ public:
         return dp[nums.size()-1][0];
     }
 };
+
+class Solution {
+public:
+    int memoHelper(vector<int>& nums, int target, int result, int idx, vector<vector<int>>& dp, int sum){
+        
+        //bottom-left to top-right
+        if(idx == nums.size()){
+            if(target == result) return 1;
+            else return 0;
+        }
+        if(dp[result+sum][idx]!=-1) return dp[result+sum][idx];
+
+        dp[result+sum][idx] = memoHelper(nums, target, result-nums[idx], idx+1, dp, sum) 
+                            + memoHelper(nums, target, result+nums[idx], idx+1, dp, sum);
+
+        return dp[result+sum][idx];
+    }
+
+    int findTargetSumWays(vector<int>& nums, int target) {
+        int n = nums.size(), sum = 0;
+        for(int& num : nums) sum+=num;
+
+        if(target > sum || target < -sum) return 0;
+
+        vector<vector<int>> dp(2*sum+1, vector<int>(n, -1));
+        return memoHelper(nums, target, 0, 0, dp, sum);
+    }
+};
