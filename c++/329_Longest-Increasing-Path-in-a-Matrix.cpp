@@ -38,3 +38,39 @@ public:
         return maxP;
     }
 };
+
+class Solution {
+public:
+    int dfsHelper(vector<vector<int>>& matrix, vector<vector<int>>& dp, int row, int col){
+        // caching
+        if(dp[row][col] != -1) return dp[row][col];
+
+        int r_offset[] = {-1, 0, 1, 0};
+        int c_offset[] = {0, -1, 0, 1};
+        int tempPath = 1, m = matrix.size(), n = matrix[0].size();
+        for(int k = 0; k < 4; ++k){
+            int r = r_offset[k], c = c_offset[k];
+            // Exclude invalid indices
+            if(row+r < 0 || row+r == m || col+c < 0 || col+c == n || matrix[row][col] >= matrix[row+r][col+c]) continue;
+
+            tempPath = max(tempPath, 1 + dfsHelper(matrix, dp, row+r, col+c));
+        }
+        return dp[row][col] = tempPath;
+    }
+    int longestIncreasingPath(vector<vector<int>>& matrix) {
+        // 1. iterate all elements in m x n matrix
+        // 2. Update maxPath if dp[row][col] > maxPath
+        // 3. dp[row][col] = 1 + max(dp[row+r][col+c] within "four directions")
+        int m = matrix.size(), n = matrix[0].size(), maxPath = 0;
+        vector<vector<int>> dp(m, vector<int>(n, -1));
+
+        for(int row = 0; row < m; ++row){
+            for(int col = 0; col < n; ++col){
+                if(dp[row][col] == -1) dp[row][col] = dfsHelper(matrix, dp, row, col);
+                maxPath = max(maxPath, dp[row][col]);
+            }
+        }
+
+        return maxPath;
+    }
+};
