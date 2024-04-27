@@ -244,3 +244,4 @@
 | 57 | [Insert Interval](https://leetcode.com/problems/insert-interval/description/) | Array | Medium | [c++](/c++/57_Insert-Interval.cpp) | O\(N\) | O\(N\) |
 | 309 | [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/description/) | Array, Dynamic Programming | Medium | [c++](/c++/309_Best-Time-to-Buy-and-Sell-Stock-with-Cooldown.cpp) | O\(N\) | O\(N\) |
 | 97 | [Interleaving String](https://leetcode.com/problems/interleaving-string/description/) | String, Dynamic Programming | Medium | [c++](/c++/97_Interleaving-String.cpp) | O\(N*M\) | O\(N*M\) |
+| 115 | [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/) | String, Dynamic Programming | Hard | [c++](/c++/115_Distinct-Subsequences.cpp) | O\(N*M\) | O\(N*M\) |
