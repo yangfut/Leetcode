@@ -248,3 +248,4 @@
 | 72 | [Edit Distance](https://leetcode.com/problems/edit-distance/description/) | String, Dynamic Programming | Hard | [c++](/c++/72_Edit-Distance.cpp) | O\(N*M\) | O\(N*M\) |
 | 1705 | [Maximum Number of Eaten Apples](https://leetcode.com/problems/maximum-number-of-eaten-apples/description/) | Array, Greedy, Heap (Priority Queue) | Medium | [c++](/c++/1705_Maximum-Number-of-Eaten-Apples.cpp) | O\(NlogN\) | O\(N\) |
 | 1367 | [Linked List in Binary Tree](https://leetcode.com/problems/linked-list-in-binary-tree/description/) | Linked List, Tree, Depth-First Search, Breadth-First Search, Binary Tree | Medium | [c++](/c++/1367_Linked-List-in-Binary-Tree.cpp) | O\(N+M\) | O\(1\) |
+| 312 | [Burst Balloons](https://leetcode.com/problems/burst-balloons/description/) | Array, Dynamic Programming | Hard | [c++](/c++/312_Burst-Balloons.cpp) | O\(N^2\) | O\(N^2\) |
