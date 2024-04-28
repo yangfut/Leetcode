@@ -246,3 +246,4 @@
 | 97 | [Interleaving String](https://leetcode.com/problems/interleaving-string/description/) | String, Dynamic Programming | Medium | [c++](/c++/97_Interleaving-String.cpp) | O\(N*M\) | O\(N*M\) |
 | 115 | [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/) | String, Dynamic Programming | Hard | [c++](/c++/115_Distinct-Subsequences.cpp) | O\(N*M\) | O\(N*M\) |
 | 72 | [Edit Distance](https://leetcode.com/problems/edit-distance/description/) | String, Dynamic Programming | Hard | [c++](/c++/72_Edit-Distance.cpp) | O\(N*M\) | O\(N*M\) |
+| 1705 | [Maximum Number of Eaten Apples](https://leetcode.com/problems/maximum-number-of-eaten-apples/description/) | Array, Greedy, Heap (Priority Queue) | Medium | [c++](/c++/1705_Maximum-Number-of-Eaten-Apples.cpp) | O\(NlogN\) | O\(N\) |
