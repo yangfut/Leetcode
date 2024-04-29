@@ -1,8 +1,8 @@
 class Solution {
 public:
     //https://www.geeksforgeeks.org/implementing-upper_bound-and-lower_bound-in-c/
-    //lower bound -> not less than val
-    //upper bound -> not greater than val
+    //lower bound -> return a index pointing to the first value which is not less than target
+    //upper bound -> return a index pointing to the first value which is not greater than target
     int lower_bound(vector<int>& nums, int target){
         int l=0, r=nums.size(), mid;
         while(l<r){
