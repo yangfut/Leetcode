@@ -250,3 +250,5 @@
 | 1367 | [Linked List in Binary Tree](https://leetcode.com/problems/linked-list-in-binary-tree/description/) | Linked List, Tree, Depth-First Search, Breadth-First Search, Binary Tree | Medium | [c++](/c++/1367_Linked-List-in-Binary-Tree.cpp) | O\(N+M\) | O\(1\) |
 | 312 | [Burst Balloons](https://leetcode.com/problems/burst-balloons/description/) | Array, Dynamic Programming | Hard | [c++](/c++/312_Burst-Balloons.cpp) | O\(N^2\) | O\(N^2\) |
 | 1851 | [Minimum Interval to Include Each Query](https://leetcode.com/problems/minimum-interval-to-include-each-query/description/) | Array, Binary Search, Line Sweep, Sorting, Heap (Priority Queue) | Hard | [c++](/c++/1851_Minimum-Interval-to-Include-Each-Query.cpp) | O\((N+M)logN\) | O\(N+M\) |
+| 338 | [Counting Bits](https://leetcode.com/problems/counting-bits/description/) | Dynamic Programming
+Bit Manipulation | Easy | [c++](/c++/338_Counting-Bits.cpp) | O\(N\) | O\(N\) |
