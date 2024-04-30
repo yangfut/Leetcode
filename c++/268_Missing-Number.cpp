@@ -1,3 +1,5 @@
+#include <bitset>
+
 class Solution {
 public:
     //Option#1: Math
@@ -52,4 +54,24 @@ public:
         return idx;
     }
     */
+};
+
+class Solution {
+public:
+    int missingNumber(vector<int>& nums) {
+        bitset<10001> bits;
+
+        int n = nums.size();
+
+        // nums = {3, 0, 1}
+        // bits = 1011
+        for(int& num : nums) bits.set(num);
+
+        for(int i=0; i<=n; ++i){
+            if(!bits.test(i)) return i;
+        }
+        
+        // should never be here
+        return -1;
+    }
 };
