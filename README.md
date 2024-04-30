@@ -252,3 +252,4 @@
 | 1851 | [Minimum Interval to Include Each Query](https://leetcode.com/problems/minimum-interval-to-include-each-query/description/) | Array, Binary Search, Line Sweep, Sorting, Heap (Priority Queue) | Hard | [c++](/c++/1851_Minimum-Interval-to-Include-Each-Query.cpp) | O\((N+M)logN\) | O\(N+M\) |
 | 338 | [Counting Bits](https://leetcode.com/problems/counting-bits/description/) | Dynamic Programming
 Bit Manipulation | Easy | [c++](/c++/338_Counting-Bits.cpp) | O\(N\) | O\(N\) |
+| 371 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) | Math, Bit Manipulation | Medium | [c++](/c++/371_Sum-of-Two-Integers.cpp) | O\(1\) | O\(1\) |
