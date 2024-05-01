@@ -256,3 +256,4 @@ Bit Manipulation | Easy | [c++](/c++/338_Counting-Bits.cpp) | O\(N\) | O\(N\) |
 | 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/description/) | Math | Medium | [c++](/c++/7_Reverse-Integer.cpp) | O\(N\) | O\(1\) |
 | 252 | [Meeting Rooms](https://leetcode.com/problems/meeting-rooms/description/) | Intervals | Easy | [c++](/c++/252_Meeting-Rooms.cpp) | O\(N\) | O\(1\) |
 | 253 | [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/description/) | Intervals | Easy | [c++](/c++/253_Meeting-Rooms-II.cpp) | O\(N^2\) | O\(N\) |
+| 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/) | Array, Divide and Conquer, Dynamic Programming | Medium | [c++](/c++/53_Maximum-Subarray.cpp) | O\(N\) | O\(1\) |
