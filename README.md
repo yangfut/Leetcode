@@ -253,3 +253,4 @@
 | 338 | [Counting Bits](https://leetcode.com/problems/counting-bits/description/) | Dynamic Programming
 Bit Manipulation | Easy | [c++](/c++/338_Counting-Bits.cpp) | O\(N\) | O\(N\) |
 | 371 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) | Math, Bit Manipulation | Medium | [c++](/c++/371_Sum-of-Two-Integers.cpp) | O\(1\) | O\(1\) |
+| 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/description/) | Math | Medium | [c++](/c++/7_Reverse-Integer.cpp) | O\(N\) | O\(1\) |
