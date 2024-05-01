@@ -52,3 +52,43 @@ public:
         return i==nums.size();
     }
 };
+
+class Solution {
+public:
+    bool dfsHelper(vector<int>& nums, int idx){
+        // base case
+        if(idx+nums[idx] >= nums.size()-1) return true;
+        
+        int maxi = idx, dist = 0;
+        for(int i=1; i <= nums[idx]; ++i){
+            int newIdx = idx+i;
+            if(newIdx + nums[newIdx] > dist){
+                maxi = newIdx;
+                dist = newIdx + nums[newIdx];
+            }
+        }
+        return maxi == idx ? false : dfsHelper(nums, maxi);
+    }
+
+    bool dfs_sol(vector<int>& nums) {
+        int n = nums.size();
+        return dfsHelper(nums, 0);
+    }
+    bool greedy_sol(vector<int>& nums){
+        int maxDist = 0;
+        for(int idx = 0; idx < nums.size(); ++idx){
+            // unreachable this idx
+            if(maxDist < idx) return false;
+            maxDist = max(maxDist, idx + nums[idx]);
+        }
+
+        return true;
+    }
+    bool canJump(vector<int>& nums) {
+        // #1 DFS with cache
+        // return dfs_sol(nums);
+
+        // #2 Greedy
+        return greedy_sol(nums);
+    }
+};
