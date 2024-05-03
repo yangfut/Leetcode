@@ -60,3 +60,60 @@ public:
         return ans;
     }
 };
+
+class Solution {
+public:
+    vector<int> partitionLabels(string s) {
+        if(s.length() == 1) return {1};
+
+        unordered_map<char, int> collection;
+        for(char& c : s) ++collection[c];
+
+        int lastEndIdx = -1, n = s.length();
+        unordered_map<char, int> subseq;
+        vector<int> answer;
+        for(int idx = 0; idx < n; ++idx){
+            char c = s[idx];
+
+            // place new element into hash table
+            ++subseq[c];
+
+            // check subsequence include all the specifc letters in s
+            if(subseq[c] == collection[c]){
+                subseq.erase(c);
+            }
+
+            if(subseq.empty()){
+                answer.push_back(idx - lastEndIdx);
+                lastEndIdx = idx;
+            }
+        }
+        return answer;
+    }
+};
+
+class Solution {
+public:
+    vector<int> partitionLabels(string s) {
+        vector<int> last_occurence(26, -1);
+        int n = s.length();
+        
+        // record the last occurence for each letter
+        for(int idx = 0; idx < n; ++idx) last_occurence[s[idx] - 'a'] = idx;
+
+        int endIdx = 0, startIdx = -1;
+        vector<int> answer;
+        for(int idx = 0; idx < n; ++idx){
+
+            // guarantee letter before endIdx appears once (this letter no longer appears after endIdx)
+            endIdx = max(endIdx, last_occurence[s[idx] - 'a']);
+
+            if(idx == endIdx){
+                answer.push_back(endIdx - startIdx);
+                startIdx = endIdx;
+            }
+        }
+
+        return answer;
+    }
+};
