@@ -258,3 +258,4 @@ Bit Manipulation | Easy | [c++](/c++/338_Counting-Bits.cpp) | O\(N\) | O\(N\) |
 | 253 | [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/description/) | Intervals | Easy | [c++](/c++/253_Meeting-Rooms-II.cpp) | O\(N^2\) | O\(N\) |
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/) | Array, Divide and Conquer, Dynamic Programming | Medium | [c++](/c++/53_Maximum-Subarray.cpp) | O\(N\) | O\(1\) |
 | 45 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/description/) | Array, Dynamic Programming, Greedy | Medium | [c++](/c++/45_Jump-Game-II.cpp) | O\(N\) | O\(1\) |
+| 846 | [Hand of Straights](https://leetcode.com/problems/hand-of-straights/) | Array, Hash Table, Greedy, Sorting | Medium | [c++](/c++/846_Hand-of-Straights.cpp) | O\(NlogN\) | O\(N\) |
