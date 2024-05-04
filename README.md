@@ -260,3 +260,4 @@ Bit Manipulation | Easy | [c++](/c++/338_Counting-Bits.cpp) | O\(N\) | O\(N\) |
 | 45 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/description/) | Array, Dynamic Programming, Greedy | Medium | [c++](/c++/45_Jump-Game-II.cpp) | O\(N\) | O\(1\) |
 | 846 | [Hand of Straights](https://leetcode.com/problems/hand-of-straights/) | Array, Hash Table, Greedy, Sorting | Medium | [c++](/c++/846_Hand-of-Straights.cpp) | O\(NlogN\) | O\(N\) |
 | 1899 | [Merge Triplets to Form Target Triplet](https://leetcode.com/problems/merge-triplets-to-form-target-triplet/description/) | Array, Greedy | Medium | [c++](/c++/1899_Merge-Triplets-to-Form-Target-Triplet.cpp) | O\(N\) | O\(N\) |
+| 678 | [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/description/) | String, Dynamic Programming, Stack, Greedy | Medium | [c++](/c++/678_Valid-Parenthesis-String.cpp) | O\(N\) | O\(1\) |
