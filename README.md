@@ -278,3 +278,4 @@ Bit Manipulation | Easy | [c++](/c++/338_Counting-Bits.cpp) | O\(N\) | O\(N\) |
 | 359 | [Logger Rate Limiter](https://leetcode.com/problems/logger-rate-limiter/description/) | Hash Table, Design, Data Stream | Easy | [c++](/c++/359_Logger-Rate-Limiter.cpp) | O\(1\) | O\(N\) |
 | 2402 | [Meeting Rooms III](https://leetcode.com/problems/meeting-rooms-iii/description/) | Array, Hash Table, Sorting, Heap (Priority Queue), Simulation | Hard | [c++](/c++/2402_Meeting-Rooms-III.cpp) | O\(NlogN\) | O\(N\) |
 | 1110 | [Delete Nodes And Return Forest](https://leetcode.com/problems/delete-nodes-and-return-forest/description/) | Array, Hash Table, Tree, Depth-First Search, Binary Tree | Medium | [c++](/c++/1110_Delete-Nodes-And-Return-Forest.cpp) | O\(V\) | O\(V\) |
+| 715 | [Range Module](https://leetcode.com/problems/range-module/description/) | Design, Segment Tree, Ordered Set | Hard | [c++](/c++/715_Range-Module.cpp) | O\(NlogN\) | O\(NlogN\) |
