@@ -28,12 +28,14 @@ public:
         for(int i = n-1; i >=0; --i){
 
             auto it = mapToIdx.lower_bound(arr[i]);
-            // next_move[1] is the next largest smaller element
+            // next_move[1] is the next smallest greater or equal lement. e.g. arr[i] <= arr[j]
             next_move[i][ODD_JUMP] = it->second == n ? i : it->second;
 
             if(it->first > arr[i]) --it;
-            // next_move[0] is the next smallest greater element
+            // next_move[0] is the next largest smaller or equal element. e.g. arr[i] >= arr[j]
             next_move[i][EVEN_JUMP] = it->second == n ? i : it->second;
+
+            // Question ask to take the smallest index if there's multiple valid next_move
             mapToIdx[arr[i]] = i;
         }
 
