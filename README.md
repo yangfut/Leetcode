@@ -288,3 +288,4 @@ Bit Manipulation | Easy | [c++](/c++/338_Counting-Bits.cpp) | O\(N\) | O\(N\) |
 | 85 | [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/description/) | Array, Dynamic Programming, Stack, Matrix, Monotonic Stack | Hard | [c++](/c++/85_Maximal-Rectangle.cpp) | O\(N*M\) | O\(N\) |
 | 554 | [Brick Wall](https://leetcode.com/problems/brick-wall/description/) | Array, Hash Table | Medium | [c++](/c++/554_Brick-Wall.cpp) | O\(N*M\) | O\(N\) |
 | 2184 | [Number of Ways to Build Sturdy Brick Wall](https://leetcode.com/problems/number-of-ways-to-build-sturdy-brick-wall/description/) | Array, Dynamic Programming, Bit Manipulation, Bitmask | Medium | [c++](/c++/2184_Number-of-Ways-to-Build-Sturdy-Brick-Wall.cpp) | O\(2<sup>W</sup>*H\) | O\(H*2<sup>W</sup>\) |
+| 963 | [Minimum Area Rectangle II](https://leetcode.com/problems/minimum-area-rectangle-ii/) | Array, Math, Geometry | Medium | [c++](/c++/963_Minimum-Area-Rectangle-II.cpp) | O\(N^2\) | O\(N^2\) |
