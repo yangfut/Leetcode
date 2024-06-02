@@ -58,7 +58,7 @@
 | 977 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/description/) | Array, Two Pointers, Sorting| Easy | [python](/python/977_Squares-of-a-Sorted-Array.py) | O\(N\) | O\(1\) |
 | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/description/) | Array, Math, Two Pointers| Medium | [python](/python/189_Rotate-Array.py) | O\(N\) | O\(N\) |
 | 167 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/) | Array, Two Pointers, Binary Search| Medium | [python](/python/167_Two-Sum-II-Input-Array-Is-Sorted.py) | O\(N\) | O\(1\) |
-| 344 | [Reverse String](https://leetcode.com/problems/reverse-string) | Two Pointers, String| Easy | [python](/python/344_Reverse-String.py) | O\(N\) | O\(1\) |
+| 344 | [Reverse String](https://leetcode.com/problems/reverse-string) | Two Pointers, String| Easy | [python](/python/344_Reverse-String.py), [c++](/c++/344_Reverse-String.cpp) | O\(N\) | O\(1\) |
 | 557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/description/) | Two Pointers, String| Easy | [python](/python/557_Reverse-Words-In-String-III.py) | O\(N^2\) | O\(N\) |
 | 876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/description/) | Linked List, Two Pointers| Easy | [c](/c/876_Middle-of-the-Linked-List.c) | O\(N\) | O\(1\) |
 | 19 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/) | Linked List, Two Pointers| Medium | [c](/c/19_Remove-Nth-Node-From-End-of-List.c), [c++](/c++/19_Remove-Nth-Node-From-End-of-List.cpp) | O\(N\) | O\(1\) |
