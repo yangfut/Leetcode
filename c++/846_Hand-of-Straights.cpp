@@ -76,3 +76,46 @@ public:
         return true;        
     }
 };
+
+class Solution {
+public:
+    bool isNStraightHand(vector<int>& hand, int groupSize) {
+        if(hand.size() % groupSize != 0) return false;
+
+        multiset<int> collection(hand.begin(), hand.end());
+        while(!collection.empty()){
+            for(int i = 0, val = *collection.begin(); i < groupSize; ++i){
+                if(!collection.count(val)) return false;
+                collection.erase(collection.find(val));
+                ++val;
+            }
+        }
+        return true;
+    }
+};
+
+class Solution {
+public:
+    bool isNStraightHand(vector<int>& hand, int groupSize) {
+        
+        if(hand.size() % groupSize != 0) return false;
+
+        priority_queue<int,vector<int>, greater<int>> pq(hand.begin(), hand.end());
+        while(!pq.empty()){
+
+            vector<int> temp;
+            for(int count = 1; count < groupSize; ++count){
+                int curr = pq.top();
+                pq.pop();
+                while(!pq.empty() && pq.top() == curr){
+                    temp.push_back(pq.top());
+                    pq.pop();
+                }
+                if(pq.empty() || pq.top() != curr+1) return false;
+            }
+            pq.pop();
+            for(int& ele : temp) pq.push(ele);
+        }
+        return true;
+    }
+};
