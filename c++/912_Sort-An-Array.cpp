@@ -76,3 +76,33 @@ public:
         return j-1;
     }
 };
+
+class Solution {
+    void merge_sort_merge(vector<int>& nums, int low, int mid, int high){
+        int llen = mid-low+1;
+        int rlen = high-mid;
+        int left[llen];
+        int right[rlen];
+        for(int i = 0; i < llen; ++i) left[i] = nums[low+i];
+        for(int i = 0; i < rlen; ++i) right[i] = nums[mid+1+i];
+
+        for(int i = low, j = 0, k = 0; i <= high; ++i){
+            if(j < llen && (k >= rlen || left[j] <= right[k])) nums[i] = left[j++];
+            else nums[i] = right[k++];
+        }
+    }
+    void merge_sort_recursion(vector<int>& nums, int low, int high){
+        if(low < high){
+            int mid = low + ((high-low)/2);
+            merge_sort_recursion(nums, low, mid);
+            merge_sort_recursion(nums, mid+1, high);
+            merge_sort_merge(nums, low, mid, high);
+        }
+    }
+public:
+    vector<int> sortArray(vector<int>& nums) {
+        // merge sort
+        merge_sort_recursion(nums, 0, nums.size()-1);
+        return nums;
+    }
+};
