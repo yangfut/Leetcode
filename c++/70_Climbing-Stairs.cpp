@@ -8,3 +8,15 @@ public:
         return dp[n];
     }
 };
+
+class Solution {
+public:
+    vector<int> memo = vector<int>(46, -1);
+    int climbStairs(int n) {
+        if (n <= 2) return n;
+        if(memo[n] == -1){
+            return memo[n] = climbStairs(n-2) + climbStairs(n-1);
+        }
+        return memo[n];
+    }
+};
