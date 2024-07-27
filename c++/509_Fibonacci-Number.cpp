@@ -42,3 +42,13 @@ public:
         return cache[n];
     }
 };
+
+class Solution {
+public:
+    vector<int> memo = vector<int>(31, -1);
+    int fib(int n) {
+        if(n <= 1) return n;
+        if(memo[n] == -1) return memo[n] = fib(n-1) + fib(n-2);
+        return memo[n];
+    }
+};
