@@ -311,3 +311,4 @@ Bit Manipulation | Easy | [c++](/c++/338_Counting-Bits.cpp) | O\(N\) | O\(N\) |
 | 2191 | [Sort the Jumbled Numbers](https://leetcode.com/problems/sort-the-jumbled-numbers/description/) | Array, Sorting | [c++](/c++/2191_Sort-the-Jumbled-Numbers.cpp) | O\(N*(logN + W)\) | O\(N\) |
 | 1636 | [Sort Array by Increasing Frequency](https://leetcode.com/problems/sort-array-by-increasing-frequency/description/) | Array, Hash Table, Sorting | [c++](/c++/1636_Sort-Array-by-Increasing-Frequency.cpp) | O\(N\) | O\(N\) |
 | 1137 | [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/description/) | Math, Dynamic Programming, Memoization| [c++](/c++/1137_N-th-Tribonacci-Number.cpp) | O\(N\) | O\(N\) |
+| 740 | [Delete and Earn](https://leetcode.com/problems/delete-and-earn/description/) | Array, Hash Table, Dynamic Programming| [c++](/c++/740_Delete-and-Earn.cpp) | O\(NlogN\) | O\(N\) |
