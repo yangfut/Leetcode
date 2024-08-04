@@ -32,3 +32,42 @@ public:
         return memoization(nums);
     }
 };
+
+class Solution {
+public:
+    int _recursion(vector<int>& nums, vector<int>& memo, int idx){
+        // termination
+        if(idx < 0) return 0;
+
+        // memoization
+        if(memo[idx] != -1) return memo[idx];
+
+        // pick
+        int take = _recursion(nums, memo, idx-2) + nums[idx];
+
+        // not pick
+        int nottake = _recursion(nums, memo, idx-1);
+        return memo[idx] = max(take, nottake);
+    }
+    int rob(vector<int>& nums) {
+        // #1 Memoization - TopDown
+        // int n = nums.size();
+        // vector<int> memo(n, -1);
+        // return _recursion(nums, memo, n-1);
+
+        // #2 Tabulation - BottomUp
+        int maxv = 0, n = nums.size();
+        vector<int> acc(n, -1);
+        for(int idx = 0; idx < n; ++idx){
+            int prev = (idx-2 >= 0) ? acc[idx-2] : 0;
+            if(prev+nums[idx] > maxv){
+                acc[idx] = prev+nums[idx];
+                maxv = acc[idx];
+            }else{
+                acc[idx] = maxv;
+            }
+        }
+        return maxv;
+        
+    }
+};
