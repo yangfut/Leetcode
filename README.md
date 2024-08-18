@@ -50,7 +50,7 @@
 | 1470 | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/description/) | Array | Easy | [python](/python/1480_Running-Sum-of-1d-Array.py) | O\(N) | O\(1\) |
 | 724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/description/?envType=study-plan&id=level-1) | Array | Easy | [python](/python/724_Find-Pivot-Index.py) | O\(N) | O\(1\) |
 | 205 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/description/?envType=study-plan&id=level-1) | Array | Easy | [python](/python/205_Isomorphic-Strings.py) | O\(N) | O\(1\) |
-| 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/description/) | Two Pointers, String, Dynamic Programming | Easy | [python](/python/392_Is-Subsequence.py) | O\(N) | O\(1\) |
+| 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/description/) | Two Pointers, String, Dynamic Programming | Easy | [python](/python/392_Is-Subsequence.py), [c++](/c++/392_Is-Subsequence.cpp) | O\(N) | O\(1\) |
 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/) | String, Trie | Easy | [python](python/14_Longest-Common-Prefix.py) | O\(N) | O\(N\) |
 | 704 | [Binary Search](https://leetcode.com/problems/binary-search/) | Array, Binary Search | Easy | [python](/python/704_BInary-Search.py), [c](/c/704_Binary-Search.c), [c++](/c++/704_Binary-Search.cpp) | O\(log(N)) | O\(1\) |
 | 278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/) | Binary Search, Interfactive | Easy | [python](/python/278_First-Bad-Version.py)[c](/c/278_First-Bad-Version.c) | O\(log(N)) | O\(1\) |
