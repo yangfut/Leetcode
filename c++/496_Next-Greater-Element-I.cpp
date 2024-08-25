@@ -22,3 +22,31 @@ public:
         return res;
     }
 };
+
+class Solution {
+public:
+    vector<int> nextGreaterElement(vector<int>& nums1, vector<int>& nums2) {
+        
+        vector<int>nge(nums2.size(), -1);
+        unordered_map<int,int> toNum2Idx;
+        
+        stack<int> st;
+        for(int i = nums2.size()-1; i >= 0; --i){
+            
+            toNum2Idx[nums2[i]] = i;
+
+            while(!st.empty() && nums2[i] > nums2[st.top()]){
+                st.pop();
+            }
+
+            nge[i] = st.empty() ? -1 : nums2[st.top()];
+            st.push(i);
+        }
+        vector<int> ans;
+        for(int i = 0; i < nums1.size(); ++i){
+            int j = toNum2Idx[nums1[i]];
+            ans.push_back(nge[j]);
+        }
+        return ans;
+    }
+};
