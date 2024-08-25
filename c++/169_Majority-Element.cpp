@@ -55,3 +55,18 @@ public:
         return majority;
     }
 };
+
+class Solution {
+public:
+    int majorityElement(vector<int>& nums) {
+        int count = 0;
+        int maj = INT_MIN;
+
+        for(int ele : nums){
+
+            if(!count) maj = ele;
+            count = (maj == ele) ? count + 1 : count - 1;
+        }
+        return maj;
+    }
+};
