@@ -48,7 +48,7 @@
 | 15 | [3Sum](https://leetcode.com/problems/3sum/) | Array, Two Pointer, Sorting | Medium | [python](/python/15_3Sum.py), [c++](/c++/15_3Sum.cpp) | O\(N^2) | O\(N\) |
 | 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | Array, Hash Table, Divide and Conquer | Easy | [python](/python/169_Majority_Element.py), [c++](/c++/169_Majority-Element.cpp) | O\(N) | O\(1\) |
 | 1470 | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/description/) | Array | Easy | [python](/python/1480_Running-Sum-of-1d-Array.py) | O\(N) | O\(1\) |
-| 724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/description/?envType=study-plan&id=level-1) | Array | Easy | [python](/python/724_Find-Pivot-Index.py) | O\(N) | O\(1\) |
+| 724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/description/?envType=study-plan&id=level-1) | Array | Easy | [python](/python/724_Find-Pivot-Index.py), [c++](/c++/724_Find-Pivot-Index.cpp) | O\(N) | O\(1\) |
 | 205 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/description/?envType=study-plan&id=level-1) | Array | Easy | [python](/python/205_Isomorphic-Strings.py), [c++](/c++/205_Isomorphic-Strings.cpp) | O\(N) | O\(1\) |
 | 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/description/) | Two Pointers, String, Dynamic Programming | Easy | [python](/python/392_Is-Subsequence.py), [c++](/c++/392_Is-Subsequence.cpp) | O\(N) | O\(1\) |
 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/) | String, Trie | Easy | [python](python/14_Longest-Common-Prefix.py), [c++](/c++/14_Longest-Common-Prefix.cpp) | O\(M*N) | O\(1\) |
