@@ -318,3 +318,4 @@ Bit Manipulation | Easy | [c++](/c++/338_Counting-Bits.cpp) | O\(N\) | O\(N\) |
 | 929 | [Unique Email Address](https://leetcode.com/problems/unique-email-addresses/description/) | Array, Hash Table, String | Easy | [c++](/c++/929_Unique-Email-Addresses.cpp) | O\(N\) | O\(N\) |
 | 609 | [Can Place Flowers](https://leetcode.com/problems/can-place-flowers/description/) | Array, Greedy | Easy | [c++](/c++/609_Can-Place_Flowers.cpp) | O\(N\) | O\(1\) |
 | 303 | [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/) | Array, Design, Prefix Sum | Easy | [c++](/c++/303_Range-Sum-Query-Immutable.cpp) | O\(N\) | O\(1\) |
+| 1189 | [Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/description/) | Hash Table, String, Counting | Easy | [c++](/c++/1189_Maximum-Number-of-Balloons.cpp) | O\(N\) | O\(1\) |
