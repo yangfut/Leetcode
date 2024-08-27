@@ -322,3 +322,4 @@ Bit Manipulation | Easy | [c++](/c++/338_Counting-Bits.cpp) | O\(N\) | O\(N\) |
 | 290 | [Word Pattern](https://leetcode.com/problems/word-pattern/) | Hash Table, String | Easy | [c++](/c++/290_Word-Pattern.cpp) | O\(N+M\) | O\(N+M\) |
 | 706 | [Design HashMap](https://leetcode.com/problems/design-hashmap/) | Array, Hash Table, Linked List, Design, Hash Function | Easy | [c++](/c++/706_Design-HashMap.cpp) | O\(1\) | O\(N\) |
 | 705 | [Design HashSet](https://leetcode.com/problems/design-hashset/description/) | Array, Hash Table, Linked List, Design, Hash Function | Easy | [c++](/c++/705_Design-HashSet.cpp) | O\(1\) | O\(N\) |
+| 896 | [Monotonic Array](https://leetcode.com/problems/monotonic-array/description/) | Array | Easy | [c++](/c++/896_Monotonic-Array.cpp) | O\(N\) | O\(1\) |
