@@ -320,3 +320,4 @@ Bit Manipulation | Easy | [c++](/c++/338_Counting-Bits.cpp) | O\(N\) | O\(N\) |
 | 303 | [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/) | Array, Design, Prefix Sum | Easy | [c++](/c++/303_Range-Sum-Query-Immutable.cpp) | O\(N\) | O\(1\) |
 | 1189 | [Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/description/) | Hash Table, String, Counting | Easy | [c++](/c++/1189_Maximum-Number-of-Balloons.cpp) | O\(N\) | O\(1\) |
 | 290 | [Word Pattern](https://leetcode.com/problems/word-pattern/) | Hash Table, String | Easy | [c++](/c++/290_Word-Pattern.cpp) | O\(N+M\) | O\(N+M\) |
+| 706 | [Design HashMap](https://leetcode.com/problems/design-hashmap/) | Array, Hash Table, Linked List, Design, Hash Function | Easy | [c++](/c++/706_Design-HashMap.cpp) | O\(1\) | O\(N\) |
