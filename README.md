@@ -325,3 +325,5 @@ Bit Manipulation | Easy | [c++](/c++/338_Counting-Bits.cpp) | O\(N\) | O\(N\) |
 | 896 | [Monotonic Array](https://leetcode.com/problems/monotonic-array/description/) | Array | Easy | [c++](/c++/896_Monotonic-Array.cpp) | O\(N\) | O\(1\) |
 | 1512 | [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/description/) | Array, Hash Table, Math, Counting | Easy | [c++](/c++/1512_Number-of-Good-Pairs.cpp) | O\(N\) | O\(N\) |
 | 119 | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/description/) | Array, Dynamic Programming | Easy | [c++](/c++/119_Pascal's-Triangle-II.cpp) | O\(N^2\) | O\(N\) |
+| 2264 | [Largest 3-Same-Digit Number in String](https://leetcode.com/problems/largest-3-same-digit-number-in-string/description/) | String | Easy | [c++](/c++/2264
+) | O\(N\) | O\(N\) |
