@@ -327,3 +327,4 @@ Bit Manipulation | Easy | [c++](/c++/338_Counting-Bits.cpp) | O\(N\) | O\(N\) |
 | 119 | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/description/) | Array, Dynamic Programming | Easy | [c++](/c++/119_Pascal's-Triangle-II.cpp) | O\(N^2\) | O\(N\) |
 | 2264 | [Largest 3-Same-Digit Number in String](https://leetcode.com/problems/largest-3-same-digit-number-in-string/description/) | String | Easy | [c++](/c++/2264
 ) | O\(N\) | O\(N\) |
+| 1436 | [Destination City](https://leetcode.com/problems/destination-city/description/) | Array, Hash Table, String | Easy | [c++](/c++/1436_Destination-City.cpp) | O\(N\) | O\(N\) |
