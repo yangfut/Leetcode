@@ -328,3 +328,4 @@ Bit Manipulation | Easy | [c++](/c++/338_Counting-Bits.cpp) | O\(N\) | O\(N\) |
 | 2264 | [Largest 3-Same-Digit Number in String](https://leetcode.com/problems/largest-3-same-digit-number-in-string/description/) | String | Easy | [c++](/c++/2264
 ) | O\(N\) | O\(N\) |
 | 1436 | [Destination City](https://leetcode.com/problems/destination-city/description/) | Array, Hash Table, String | Easy | [c++](/c++/1436_Destination-City.cpp) | O\(N\) | O\(N\) |
+| 1913 | [Maximum Product Difference Between Two Pairs](https://leetcode.com/problems/maximum-product-difference-between-two-pairs/description/) | Array, Sorting | Easy | [c++](/c++/1913_Maximum-Product-Difference-Between-Two-Pairs.cpp) | O\(N\) | O\(1\) |
