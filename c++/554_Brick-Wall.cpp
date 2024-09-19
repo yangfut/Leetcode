@@ -20,3 +20,22 @@ public:
         return crossed_bricks == INT_MAX ? n : crossed_bricks;
     }
 };
+
+class Solution {
+public:
+    int leastBricks(vector<vector<int>>& wall) {
+        unordered_map<int,int> edges;
+        for(int i = 0; i < wall.size(); ++i){
+            int offset = 0;
+            for(int j = 0; j < wall[i].size()-1; ++j){
+                offset += wall[i][j];
+                edges[offset]++;
+            }
+        }
+
+        int maxVal = 0;
+        for(auto edge : edges) maxVal = max(maxVal, edge.second);
+
+        return wall.size() - maxVal;
+    }
+};
