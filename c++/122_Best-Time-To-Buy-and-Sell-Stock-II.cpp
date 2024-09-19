@@ -20,3 +20,18 @@ public:
         return profit;
     }
 };
+
+class Solution {
+public:
+    int maxProfit(vector<int>& prices) {
+
+        int hold = INT_MAX;
+        int profit = 0;
+
+        for(int p : prices){
+            if(p > hold) profit += (p - hold);
+            hold = p;
+        }
+        return profit;        
+    }
+};
