@@ -42,3 +42,35 @@ public:
         return result;
     }
 };
+
+class Solution {
+private:
+    static int count_digits(int x){
+        int digits = 0;
+        while(x){
+            x /= 10;
+            digits++;
+        }
+        return digits;
+    }
+    static bool sortByRank(const int &a, const int& b){
+        int a_digit = count_digits(a);
+        int b_digit = count_digits(b);
+        return a*pow(10,b_digit) + b < b*pow(10,a_digit) + a;
+    }
+public:
+    string largestNumber(vector<int>& nums) {
+        vector<int> non_zeros;
+        string zeros, output;
+        for(int num : nums){
+            if(num) non_zeros.push_back(num);
+            else zeros += '0';
+        }
+        sort(non_zeros.begin(), non_zeros.end(), sortByRank);
+
+        for(int i = non_zeros.size()-1; i >=0; --i) {
+            output += to_string(non_zeros[i]);
+        }
+        return !output.empty() ? output + zeros : "0";
+    }
+};
