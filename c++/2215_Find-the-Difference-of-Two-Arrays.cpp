@@ -35,3 +35,34 @@ public:
         return arr;
     }
 };
+
+#define INPUT_MAX 1000
+class Solution {
+public:
+    vector<vector<int>> findDifference(vector<int>& nums1, vector<int>& nums2) {
+        vector<vector<int>> output(2, vector<int>());
+        int hash[2*INPUT_MAX+1] = {0};
+        int offset = 1000;
+        
+        // bucket sort
+        for(int &ele : nums1){
+            hash[ele+offset] |= 1; //bit0
+        }
+
+        for(int &ele:nums2){
+            hash[ele+offset] |= 2; //bit1
+        }
+
+        for(int i = 0; i < (2*INPUT_MAX+1); ++i){
+            if(hash[i] == 1){
+                output[0].push_back(i-offset);
+            }
+
+            if(hash[i] == 2){
+                output[1].push_back(i-offset);
+            }
+        }
+        return output;
+
+    }
+};
