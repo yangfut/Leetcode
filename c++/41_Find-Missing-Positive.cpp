@@ -30,3 +30,27 @@ public:
         return swap_sol(nums);
     }
 };
+
+class Solution {
+public:
+    int firstMissingPositive(vector<int>& nums) {
+        int n = nums.size();
+
+        // Step 1: Place each number in its correct position, such that nums[i] = i + 1
+        for(int i = 0; i < n; ++i){
+            while(nums[i] >= 1 && nums[i] <= n && nums[nums[i] - 1] != nums[i]){
+                swap(nums[i], nums[nums[i] - 1]);
+            }
+        }
+
+        // Step 2: Find the first position where the number is not i + 1
+        for(int i = 0; i < n; ++i){
+            if(nums[i] != i + 1) {
+                return i + 1; // Return the missing positive integer
+            }
+        }
+
+        // If all positions are correctly aligned, the missing number is n + 1
+        return n + 1;
+    }
+};
