@@ -357,3 +357,4 @@ Bit Manipulation | Easy | [c++](/c++/338_Counting-Bits.cpp) | O\(N\) | O\(N\) |
 | 304 | [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/description/) | Array, Design, Matrix, Prefix Sum | Medium | [c++](/c++/304_Range-Sum-Query-2D-Immutable.cpp) | O\(1\) | O\(N*M\) |
 | 665 | [Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/description/) | Array | Medium | [c++](/c++/665_Non-decreasing-Array.cpp) | O\(N\) | O\(1\) |
 | 1822 | [Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/description/) | Array, Math | Easy | [c++](/c++/1822_Sign-of-the-Product-of-an-Array.cpp) | O\(N\) | O\(1\) |
+| 126 | [Word Ladder II](https://leetcode.com/problems/word-ladder-ii/description/) | Hash Table, String, Backtracking, Breadth-First Search | Hard | [c++](/c++/126_Word-Ladder-II.cpp) | O\(N*K\) | O\(N\) |
