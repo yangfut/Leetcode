@@ -136,3 +136,37 @@ public:
         return 0;
     }
 };
+
+class Solution {
+public:
+    int ladderLength(string beginWord, string endWord, vector<string>& wordList) {
+        unordered_set<string> wordSet(wordList.begin(), wordList.end());
+        if(!wordSet.count(endWord)) return 0;
+        queue<pair<string, int>> q;
+        q.push(make_pair(beginWord, 1));
+
+
+        // BFS search
+        while(!q.empty()){
+            string s = q.front().first;
+            int dist = q.front().second;
+            int len = s.length();
+            q.pop();
+
+            for(int i = 0; i < len; ++i){
+                char t = s[i];
+                for(char c = 'a'; c <= 'z'; ++c){
+                    s[i] = c;
+                    if(s == endWord) return dist+1;
+                    if(wordSet.count(s)){
+                        wordSet.erase(s);
+                        q.push(make_pair(s, dist+1));
+                    }
+                }
+                s[i] = t;
+            }
+        }
+
+        return 0;
+    }
+};
