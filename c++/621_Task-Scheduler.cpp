@@ -37,3 +37,42 @@ public:
         return time;
     }
 };
+
+class Solution {
+public:
+    int leastInterval(vector<char>& tasks, int n) {
+        int count[26] = {0};
+        for(const char &c : tasks){
+            ++count[c-'A'];
+        }
+        priority_queue<int> maxHeap;
+        queue<pair<int,int>> q;
+
+        for(const int &ele : count){
+            if(ele == 0) continue;
+            maxHeap.push(ele);
+        }
+        
+        int k = 0;
+        while(!maxHeap.empty() || !q.empty()){
+
+            if(maxHeap.empty()){
+                k = q.front().first+1;
+            }
+
+            if(!q.empty() && q.front().first < k){
+                maxHeap.push(q.front().second);
+                q.pop();
+            }
+
+            int task = maxHeap.top();
+
+            maxHeap.pop();
+            if(task > 1){
+                q.push(make_pair(k+n, task-1));
+            }
+            ++k;
+        }
+        return k;
+    }
+};
