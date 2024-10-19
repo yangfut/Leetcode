@@ -360,3 +360,4 @@ Bit Manipulation | Easy | [c++](/c++/338_Counting-Bits.cpp) | O\(N\) | O\(N\) |
 | 126 | [Word Ladder II](https://leetcode.com/problems/word-ladder-ii/description/) | Hash Table, String, Backtracking, Breadth-First Search | Hard | [c++](/c++/126_Word-Ladder-II.cpp) | O\(N*K\) | O\(N\) |
 | 1603 | [Design Parking System](https://leetcode.com/problems/design-parking-system/description/) | Design, Simulation, Counting | Easy | [c++](/c++/1603_Design-Parking-System.cpp) | O\(1\) | O\(1\) |
 | 2348 | [Number of Zero-Filled Subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays/description/) | Array, Math | Medium | [c++](/c++/2348_Number-of%20Zero-Filled-Subarrays.cpp) | O\(N\) | O\(1\) |
+| 933 | [Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/description/) | Design, Queue, Data Stream | Easy | [c++](/c++/933_Number-of-Recent-Calls.cpp) | O\(1\) | O\(1\) |
