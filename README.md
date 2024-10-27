@@ -362,4 +362,4 @@ Bit Manipulation | Easy | [c++](/c++/338_Counting-Bits.cpp) | O\(N\) | O\(N\) |
 | 2348 | [Number of Zero-Filled Subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays/description/) | Array, Math | Medium | [c++](/c++/2348_Number-of%20Zero-Filled-Subarrays.cpp) | O\(N\) | O\(1\) |
 | 933 | [Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/description/) | Design, Queue, Data Stream | Easy | [c++](/c++/933_Number-of-Recent-Calls.cpp) | O\(1\) | O\(1\) |
 | 362 | [Design Hit Counter](https://leetcode.com/problems/design-hit-counter/description/) | Array, Binary Search, Design, Queue, Data Stream | Medium | [c++](/c++/362_Design-Hit-Counter.cpp) | O\(N\) | O\(1\) |
-| 649 | [Design Hit Counter](https://leetcode.com/problems/dota2-senate/) | String, Greedy, Queue | Medium | [c++](/c++/649_Dota2-Senate.cpp) | O\(N\) | O\(N\) |
+| 649 | [Dota2 Senate](https://leetcode.com/problems/dota2-senate/) | String, Greedy, Queue | Medium | [c++](/c++/649_Dota2-Senate.cpp) | O\(N\) | O\(N\) |
