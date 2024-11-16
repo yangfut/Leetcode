@@ -370,3 +370,4 @@ Bit Manipulation | Easy | [c++](/c++/338_Counting-Bits.cpp) | O\(N\) | O\(N\) |
 | 815 | [Bus Routes](https://leetcode.com/problems/bus-routes/description/) | Array, Hash Table, Breadth-First Search | Hard | [c++](/c++/815_Bus-Routes.cpp) | O\(N*M\) | O\(N*M+S\) |
 | 754 | [Reach a Number](https://leetcode.com/problems/reach-a-number/description/) | Math, Binary Search | Medium | [c++](/c++/754_Reach-a-Number.cpp) | O\(N\) | O\(1\) |
 | 280 | [Wiggle Sort](https://leetcode.com/problems/wiggle-sort/description/) | Array, Greedy, Sorting | Medium | [c++](/c++/280_Wiggle-Sort.cpp) | O\(N\) | O\(1\) |
+| 271 | [Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/description/) | Array, String, Design | Medium | [c++](/c++/271_Encode-and-Decode-Strings.cpp) | O\(N*W\) | O\(N*W\) |
