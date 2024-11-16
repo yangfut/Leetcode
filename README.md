@@ -368,3 +368,4 @@ Bit Manipulation | Easy | [c++](/c++/338_Counting-Bits.cpp) | O\(N\) | O\(N\) |
 | 2483 | [Minimum Penalty for a Shop](https://leetcode.com/problems/minimum-penalty-for-a-shop/description/) | String, Prefix Sum | Medium | [c++](/c++/2483_Minimum-Penalty-for-a-Shop.cpp) | O\(N\) | O\(1\) |
 | 799 | [Champagne Tower](https://leetcode.com/problems/champagne-tower/description/) | Dynamic Programming | Medium | [c++](/c++/799_Champagne-Tower.cpp) | O\(N^2\) | O\(N^2\) |
 | 815 | [Bus Routes](https://leetcode.com/problems/bus-routes/description/) | Array, Hash Table, Breadth-First Search | Hard | [c++](/c++/815_Bus-Routes.cpp) | O\(N*M\) | O\(N*M+S\) |
+| 754 | [Reach a Number](https://leetcode.com/problems/reach-a-number/description/) | Math, Binary Search | Medium | [c++](/c++/754_Reach-a-Number.cpp) | O\(N\) | O\(1\) |
