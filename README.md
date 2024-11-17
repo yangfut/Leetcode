@@ -372,3 +372,4 @@ Bit Manipulation | Easy | [c++](/c++/338_Counting-Bits.cpp) | O\(N\) | O\(N\) |
 | 280 | [Wiggle Sort](https://leetcode.com/problems/wiggle-sort/description/) | Array, Greedy, Sorting | Medium | [c++](/c++/280_Wiggle-Sort.cpp) | O\(N\) | O\(1\) |
 | 271 | [Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/description/) | Array, String, Design | Medium | [c++](/c++/271_Encode-and-Decode-Strings.cpp) | O\(N*W\) | O\(N*W\) |
 | 229 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/description/) | Array, Hash Table, Sorting, Counting | Medium | [c++](/c++/229_Majority-Element-II.cpp) | O\(N\) | O\(1\) |
+| 2560 | [House Robber IV](https://leetcode.com/problems/house-robber-iv/description/) | Array, Binary Search | Medium | [c++](/c++/2560_House-Robber-IV.cpp) | O\(N*logW\) | O\(1\) |
