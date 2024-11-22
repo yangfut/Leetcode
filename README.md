@@ -373,3 +373,4 @@ Bit Manipulation | Easy | [c++](/c++/338_Counting-Bits.cpp) | O\(N\) | O\(N\) |
 | 271 | [Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/description/) | Array, String, Design | Medium | [c++](/c++/271_Encode-and-Decode-Strings.cpp) | O\(N*W\) | O\(N*W\) |
 | 229 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/description/) | Array, Hash Table, Sorting, Counting | Medium | [c++](/c++/229_Majority-Element-II.cpp) | O\(N\) | O\(1\) |
 | 2560 | [House Robber IV](https://leetcode.com/problems/house-robber-iv/description/) | Array, Binary Search | Medium | [c++](/c++/2560_House-Robber-IV.cpp) | O\(N*logW\) | O\(1\) |
+| 1685 | [Sum of Absolute Differences in a Sorted Array](https://leetcode.com/problems/sum-of-absolute-differences-in-a-sorted-array/description/) | Array, Math, Prefix Sum | Medium | [c++](//c++/1685_Sum-of-Absolute-Differences-in-a-Sorted-Array.cpp) | O\(N\) | O\(N\) |
