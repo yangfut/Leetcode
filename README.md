@@ -385,3 +385,4 @@ Bit Manipulation | Easy | [c++](/c++/338_Counting-Bits.cpp) | O\(N\) | O\(N\) |
 | 525 | [Contiguous Array](https://leetcode.com/problems/contiguous-array/description/) | Array, Prefix Sum, Hash Table | Medium | [c++](/c++/525_Contiguous-Array.cpp) | O\(N\) | O\(N\) |
 | 2594 | [Minimum Time to Repair Cars](https://leetcode.com/problems/minimum-time-to-repair-cars/description/) | Array, Binary Search | Medium | [c++](/c++/2594_Minimum-Time-to-Repair-Cars.cpp) | O\(NlogK\) | O\(1\) |
 | 2055 | [Plates Between Candles](https://leetcode.com/problems/plates-between-candles/description/) | Array, String, Binary Search, Prefix Sum | Medium | [c++](/c++/2055_Plates-Between-Candles.cpp) | O\(N+M\) | O\(N\) |
+| 491 | [Non-decreasing Subsequences](https://leetcode.com/problems/non-decreasing-subsequences/description/) | Array, Hash Table, Backtracking, Bit Manipulation | Medium | [c++](/c++/491_Non-decreasing-Subsequences.cpp) | O\(N*2^N\) | O\(N*2^N\) |
