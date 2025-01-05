@@ -391,3 +391,4 @@ Bit Manipulation | Easy | [c++](/c++/338_Counting-Bits.cpp) | O\(N\) | O\(N\) |
 | 680 | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/description/) | Two Pointers, String, Greedy | Easy | [c++](/c++/680_Valid-Palindrome-II.cpp\) | O\(N\) | O\(1\) |
 | 2306 | [Naming a Company](https://leetcode.com/problems/naming-a-company/description/) | Array, Hash Table, String, Bit Manipulation, Enumeration | Hard | [c++](/c++/2306_Naming-a-Company.cpp) | O\(N\) | O\(N\) |
 | 1074 | [Number of Submatrices That Sum to Target](https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/description/) | Array, Hash Table, Matrix, Prefix Sum | Hard | [c++](/c++/1074_Number-of-Submatrices-That-Sum-to-Target.cpp\) | O\(N*M^2\) | O\(N\) |
+| 299 | [Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/description/) | Hash Table, String, Counting | Medium | [c++](/c++/299_Bulls-and-Cows.cpp) | O\(N\) | O\(1\) |
