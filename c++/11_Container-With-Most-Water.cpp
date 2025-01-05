@@ -12,3 +12,25 @@ public:
         return area;
     }
 };
+
+class Solution {
+public:
+    int maxArea(vector<int>& height) {
+        int left = 0, right = height.size()-1;
+        int currArea = 0, res = 0;
+
+        while(left < right){
+          
+          currArea = min(height[left], height[right]) * (right - left);
+          res = max(res, currArea);
+
+          if(height[left] <= height[right]){
+            ++left;
+          }else{
+            --right;
+          }
+        }
+
+        return res;
+    }
+};
