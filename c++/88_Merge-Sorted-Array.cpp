@@ -30,3 +30,29 @@ public:
         backward_merge(nums1, m, nums2, n);
     }
 };
+
+class Solution {
+public:
+    void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
+
+        int lSize = m ? m : 1;
+        int rSize = n ? n : 1;
+        int left[lSize];
+        int right[rSize];
+        for(int i = 0; i < m; ++i) left[i] = nums1[i];
+        for(int i = 0; i < n; ++i) right[i] = nums2[i];
+        
+        for(int i = 0, j = 0, k = 0; i < (m+n); ++i){
+            
+            if(j == m){
+                nums1[i] = right[k++];
+            }else if(k == n){
+                nums1[i] = left[j++];
+            }else if(left[j] <= right[k]){
+                nums1[i] = left[j++];
+            }else{
+                nums1[i] = right[k++];
+            }
+        }
+    }
+};
