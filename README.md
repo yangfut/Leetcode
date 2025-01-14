@@ -26,7 +26,7 @@
 | 1160 | [Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/) | Array, Hash Table | Easy | [python](/python/1160_Find-Words-That-Can-Be-Formed-by-Characters.py), [c++](/c++/1160_Find-Words-That-Can-Be-Formed-by-Characters.cpp) | O\(N*M) | O\(1\) |
 | 1031 | [Maximum Sum of Two Non-Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-two-non-overlapping-subarrays/) | Array | Medium | [python](/python/1031_Maximum-Sum-of-Two-Non-Overlapping-Subarrays.py) | O\(N) | O\(1\) |
 | 1491 | [Average Salary Excluding the Minimum and Maximum Salary](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/) | Array, Sort | Easy | [python](/python/1491_Average-Salary-Excluding-the-Minimum-and-Maximum-Salary.py) | O\(N) | O\(1\) |
-| 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | Array, Two Pointers | Easy | [python](/python/283_Move-Zeros.py) | O\(N) | O\(1\) |
+| 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | Array, Two Pointers | Easy | [C++](/c++/283_Move-Zeros.cpp), [python](/python/283_Move-Zeros.py) | O\(N) | O\(1\) |
 | 445 | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/) | Linked List | Medium | [python](/python/445_Add-Two-Numbers-II.py) | O\(N) | O\(N\) |
 | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | Linked List | Medium | [python](/python/2_Add_Two_Numbers.py), [c++](/c++/2_Add-Two-Numbers.cpp) | O\(N) | O\(1\) |
 | 1254 | [Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/) | Depth-first Search | Medium | [python](/python/1254_Number-of-Closed-Islands.py) | O\(NM) | O\(1\) |
