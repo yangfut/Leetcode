@@ -42,7 +42,7 @@
 | 83 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | Linked List | Easy | [python](/python/83_Remove-Duplicates-from-Sorted-List.py) | O\(N) | O\(1\) |
 | 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | Stack, Tree, DFS, Binary Tree | Easy | [python](/python/94_Binary-Tree-Inorder-Traversal.py) | O\(N) | O\(N\) |
 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | Hash Table, Math, String | Easy | [C++](/c++/13_Roman-to-Integer.cpp) | O\(N) | O\(1\) |
-| 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Array, Two Pointers | Easy | [python](/python/26_Remove_Duplicates_from_Sorted_Array.py) | O\(N) | O\(1\) |
+| 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Array, Two Pointers | Easy | [python](/python/26_Remove_Duplicates_from_Sorted_Array.py), [c++](/c++/26_Remove-Duplicates-from-Sorted-Array.cpp) | O\(N) | O\(1\) |
 | 122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | Array, Dynamic Programming, Gredy | Medium | [python](/python/122_Best_Time_to_Buy_and_Sell_Stock_II.py) | O\(N) | O\(N\) |
 | 136 | [Single Number](https://leetcode.com/problems/single-number/submissions/) | Array, Bit Manipulation | Easy | [c](/c/136_Single_Number.c) | O\(N) | O\(1\) |
 | 15 | [3Sum](https://leetcode.com/problems/3sum/) | Array, Two Pointer, Sorting | Medium | [python](/python/15_3Sum.py), [c++](/c++/15_3Sum.cpp) | O\(N^2) | O\(N\) |
