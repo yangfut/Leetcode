@@ -14,3 +14,22 @@ public:
         return cnt;
     }
 };
+
+class Solution {
+public:
+    int findContentChildren(vector<int>& g, vector<int>& s) {
+        sort(g.begin(), g.end());
+        sort(s.begin(), s.end());
+
+        int gIndex = 0, sIndex = 0, gSize = g.size(), sSize = s.size(), res = 0;
+        while(sIndex < sSize && gIndex < gSize){
+
+            if(s[sIndex] >= g[gIndex]){
+                ++gIndex;
+                ++res;
+            }
+            ++sIndex;
+        }
+        return res;  
+    } 
+};
