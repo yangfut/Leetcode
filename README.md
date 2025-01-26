@@ -396,3 +396,4 @@ Bit Manipulation | Easy | [c++](/c++/338_Counting-Bits.cpp) | O\(N\) | O\(N\) |
 | 2108 | [Find First Palindromic String in the Array](https://leetcode.com/problems/find-first-palindromic-string-in-the-array/description/) | Array, Two Pointers, String | Easy | [c++](/c++/2108_Find-First-Palindromic-String-in-the-Array.cpp) | O\(N*M\) | O\(1\) |
 | 905 | [Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/) | Array, Two Pointers, Sorting | Easy | [c++](/c++/905_Sort-Array-By-Parity.cpp) | O\(N\) | O\(1\) |
 | 557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/description/) | Two Pointers, String | Easy | [c++](/c++/557_Reverse-Words-in-a-String-III.cpp) | O\(N\) | O\(1\) |
+| 844 | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/description/) | Two Pointers, String, Stack, Simulation | Easy | [c++](/c++/844_Backspace-String-Compare.cpp) | O\(N\) | O\(1\) |
