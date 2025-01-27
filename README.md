@@ -397,3 +397,4 @@ Bit Manipulation | Easy | [c++](/c++/338_Counting-Bits.cpp) | O\(N\) | O\(N\) |
 | 905 | [Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/) | Array, Two Pointers, Sorting | Easy | [c++](/c++/905_Sort-Array-By-Parity.cpp) | O\(N\) | O\(1\) |
 | 557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/description/) | Two Pointers, String | Easy | [c++](/c++/557_Reverse-Words-in-a-String-III.cpp) | O\(N\) | O\(1\) |
 | 844 | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/description/) | Two Pointers, String, Stack, Simulation | Easy | [c++](/c++/844_Backspace-String-Compare.cpp) | O\(N\) | O\(1\) |
+| 1662 | [Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/description/) | Array, String | Easy | [c++](/c++/1662_Check-If-Two-String-Arrays-are-Equivalent.cpp) | O\(N\) | O\(1\) |
