@@ -404,3 +404,4 @@ Bit Manipulation | Easy | [c++](/c++/338_Counting-Bits.cpp) | O\(N\) | O\(N\) |
 | 916 | [Word Subsets](https://leetcode.com/problems/word-subsets/description/) | Array, Hash Table, String | Medium | [c++](/c++/916_Word-Subnets.cpp) | O\(N\*W1+M\*L2\) | O\(1\) |
 | 1002 | [Find Common Characters](https://leetcode.com/problems/find-common-characters/description/) | Array, Hash Table, String | Easy | [c++](/c++/1002_Find-Common-Characters.cpp) | O\(N*W) | O\(1\) |
 | 2490 | [Circular Sentence](https://leetcode.com/problems/circular-sentence/description/) | String | Easy | [c++](/c++/2490_Circular-Sentence.cpp) | O\(N) | O\(1\) |
+| 2559 | [Count Vowel Strings in Ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges/description/) | Array, String, Prefix Sum | Medium | [c++](/c++/2559_Count-Vowel-Strings-in-Ranges.cpp) | O\(N+M\) | O\(N+M\) |
