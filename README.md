@@ -406,3 +406,4 @@ Bit Manipulation | Easy | [c++](/c++/338_Counting-Bits.cpp) | O\(N\) | O\(N\) |
 | 2490 | [Circular Sentence](https://leetcode.com/problems/circular-sentence/description/) | String | Easy | [c++](/c++/2490_Circular-Sentence.cpp) | O\(N) | O\(1\) |
 | 2559 | [Count Vowel Strings in Ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges/description/) | Array, String, Prefix Sum | Medium | [c++](/c++/2559_Count-Vowel-Strings-in-Ranges.cpp) | O\(N+M\) | O\(N+M\) |
 | 1701 | [Average Waiting Time](https://leetcode.com/problems/average-waiting-time/description/) | Array, Simulation | Medium | [c++](/c++/1701_Average-Waiting-Time.cpp) | O\(N\) | O\(1\) |
+| 2418 | [Sort the People](https://leetcode.com/problems/sort-the-people/description/) | Array, Hash Table, String, Sorting | Medium | [c++](/c++/2418_Sort-the-People.cpp) | O\(NlogN\) | O\(N\) |
