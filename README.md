@@ -1,5 +1,7 @@
 # Python/C Solutions for Leetcode
 
+**Problems Solved:** <!--PROBLEM_COUNT_START-->0<!--PROBLEM_COUNT_END-->
+
 | \# | Title | Category | Difficulty | Solution | Time | Space |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1528 | [Shuffle String](https://leetcode.com/problems/shuffle-string/) | Sort | Easy | [python](/python/1528_Shuffle-String.py), [c++](/c++/1528_Shuffle-String.cpp) | O\(N\) | O\(N\) |
