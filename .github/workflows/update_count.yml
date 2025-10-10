@@ -9,14 +9,24 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Count problems
+
+      - name: Count problems by difficulty
         run: |
-          COUNT=$(grep -E '^\| [0-9]+' README.md | wc -l)
-          echo "Detected $COUNT problems."
-          sed -i "s/<!--PROBLEM_COUNT_START-->.*<!--PROBLEM_COUNT_END-->/<!--PROBLEM_COUNT_START-->$COUNT<!--PROBLEM_COUNT_END-->/" README.md
+          TOTAL=$(grep -E '^\| [0-9]+' README.md | wc -l)
+          EASY=$(grep -E '\| Easy \|' README.md | wc -l)
+          MEDIUM=$(grep -E '\| Medium \|' README.md | wc -l)
+          HARD=$(grep -E '\| Hard \|' README.md | wc -l)
+
+          echo "Detected total=$TOTAL, easy=$EASY, medium=$MEDIUM, hard=$HARD"
+
+          sed -i "s/<!--PROBLEM_COUNT_START-->.*<!--PROBLEM_COUNT_END-->/<!--PROBLEM_COUNT_START-->$TOTAL<!--PROBLEM_COUNT_END-->/" README.md
+          sed -i "s/<!--EASY_COUNT_START-->.*<!--EASY_COUNT_END-->/<!--EASY_COUNT_START-->$EASY<!--EASY_COUNT_END-->/" README.md
+          sed -i "s/<!--MEDIUM_COUNT_START-->.*<!--MEDIUM_COUNT_END-->/<!--MEDIUM_COUNT_START-->$MEDIUM<!--MEDIUM_COUNT_END-->/" README.md
+          sed -i "s/<!--HARD_COUNT_START-->.*<!--HARD_COUNT_END-->/<!--HARD_COUNT_START-->$HARD<!--HARD_COUNT_END-->/" README.md
+
       - name: Commit changes
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git commit -am "Update problem count: $COUNT" || echo "No changes"
+          git commit -am "Update problem counts" || echo "No changes"
           git push
