@@ -1,6 +1,6 @@
 # Python/C Solutions for Leetcode
 
-**Problems Solved:** <!--PROBLEM_COUNT_START-->404<!--PROBLEM_COUNT_END-->
+**Problems Solved:** <!--PROBLEM_COUNT_START-->406<!--PROBLEM_COUNT_END-->
 **Easy:** <!--EASY_COUNT_START-->0<!--EASY_COUNT_END-->  
 **Medium:** <!--MEDIUM_COUNT_START-->0<!--MEDIUM_COUNT_END-->  
 **Hard:** <!--HARD_COUNT_START-->0<!--HARD_COUNT_END-->
