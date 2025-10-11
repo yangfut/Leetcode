@@ -412,3 +412,4 @@ Bit Manipulation | Easy | [c++](/c++/338_Counting-Bits.cpp) | O\(N\) | O\(N\) |
 | 791 | [Custom Sort String](https://leetcode.com/problems/custom-sort-string/description/) | Hash Table, String, Sorting | Medium | [c++](/c++/791_Custom-Sort-String.cpp) | O\(NlogN\) | O\(N\) |
 | 1408 | [String Matching in an Array](https://leetcode.com/problems/string-matching-in-an-array/description/) | Array, String, String Matching | Easy | [c++](/c++/1408_String-Matching-in-an-Array.cpp) | O\(N^2*W\) | O\(N\) |
 | 485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/description/) | Array | Easy | [c++](/c++/485_Max-Consecutive-Ones.cpp) | O\(N\) | O\(1\) |
+| 2364 | [Count Number of Bad Pairs](https://leetcode.com/problems/count-number-of-bad-pairs/description/) | Array, Hash Table, Math, Counting | Medium | [c++](/c++/2364_Count-Number-of-Bad-Pairs.cpp) | O\(N\) | O\(N\) |
