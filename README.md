@@ -415,3 +415,4 @@ Bit Manipulation | Easy | [c++](/c++/338_Counting-Bits.cpp) | O\(N\) | O\(N\) |
 | 2364 | [Count Number of Bad Pairs](https://leetcode.com/problems/count-number-of-bad-pairs/description/) | Array, Hash Table, Math, Counting | Medium | [c++](/c++/2364_Count-Number-of-Bad-Pairs.cpp) | O\(N\) | O\(N\) |
 | 884 | [Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences/description/) | Hash Table, String, Counting | Easy | [c++](/c++/884_Uncommon-Words-from-Two-Sentences.cpp) | O\(N\) | O\(N\) |
 | 2381 | [Shifting Letters II](https://leetcode.com/problems/shifting-letters-ii/description/) | Array, String, Prefix Sum | Medium | [c++](/c++/2381_Shifting-Letters-II.cpp) | O\(N\) | O\(N\) |
+| 2270 | [Number of Ways to Split Array](https://leetcode.com/problems/number-of-ways-to-split-array/description/) | Array, Prefix Sum | Medium | [c++](/c++/2270_Number-of-Ways-to-Split-Array.cpp) | O\(N\) | O\(N\) |
