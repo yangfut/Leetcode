@@ -1,7 +1,7 @@
 # Python/C Solutions for Leetcode
 
-**Problems Solved:** <!--PROBLEM_COUNT_START-->415<!--PROBLEM_COUNT_END-->  
-**Easy:** <!--EASY_COUNT_START-->153<!--EASY_COUNT_END--> | **Medium:** <!--MEDIUM_COUNT_START-->224<!--MEDIUM_COUNT_END--> | **Hard:** <!--HARD_COUNT_START-->38<!--HARD_COUNT_END-->
+**Problems Solved:** <!--PROBLEM_COUNT_START-->416<!--PROBLEM_COUNT_END-->  
+**Easy:** <!--EASY_COUNT_START-->153<!--EASY_COUNT_END--> | **Medium:** <!--MEDIUM_COUNT_START-->225<!--MEDIUM_COUNT_END--> | **Hard:** <!--HARD_COUNT_START-->38<!--HARD_COUNT_END-->
 
 | \# | Title | Category | Difficulty | Solution | Time | Space |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
