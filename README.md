@@ -427,4 +427,4 @@ Bit Manipulation | Easy | [c++](/c++/338_Counting-Bits.cpp) | O\(N\) | O\(N\) |
 | 422 | [Valid Word Square](https://leetcode.com/problems/valid-word-square/description/) | Array, Matrix | Easy | [c++](./c++/422_Valid-Word-Square.cpp) | O\(N*M\) | O\(1\) |
 | 249 | [Group Shifted Strings](https://leetcode.com/problems/group-shifted-strings/description/) | Array, Hash Table, String | Medium | [c++](/c++/249_Group-Shifted-Strings.cpp) | O\(N\) | O\(N\) |
 | 1800 | [Maximum Ascending Subarray Sum](https://leetcode.com/problems/maximum-ascending-subarray-sum/description/) | Array | Easy | [c++](/c++/1800_Maximum-Ascending-Subarray-Sum.cpp) | O\(N\) | O\(1\) |
-| 2053 | [Kth Distinct String in an Array](https://leetcode.com/problems/kth-distinct-string-in-an-array/description/) |Array, Hash Table, String, Counting | Easy | [c++](/c++/2053_Kth-Distinct-String-in-an-Array.cpp) | O\(N\) | O\(N\) |
+| 2053 | [Kth Distinct String in an Array](https://leetcode.com/problems/kth-distinct-string-in-an-array/description/) | Array, Hash Table, String, Counting | Easy | [c++](/c++/2053_Kth-Distinct-String-in-an-Array.cpp) | O\(N\) | O\(N\) |
