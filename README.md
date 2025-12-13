@@ -426,3 +426,4 @@ Bit Manipulation | Easy | [c++](/c++/338_Counting-Bits.cpp) | O\(N\) | O\(N\) |
 | 3105 | [Longest Strictly Increasing or Strictly Decreasing Subarray](https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray/description/) | Array | Easy | [c++](/c++/3105_Longest-Strictly-Increasing-or-Strictly-Decreasing-Subarray.cpp) | O\(N\) | O\(1\) |
 | 422 | [Valid Word Square](https://leetcode.com/problems/valid-word-square/description/) | Array, Matrix | Easy | [c++](./c++/422_Valid-Word-Square.cpp) | O\(N*M\) | O\(1\) |
 | 249 | [Group Shifted Strings](https://leetcode.com/problems/group-shifted-strings/description/) | Array, Hash Table, String | Medium | [c++](/c++/249_Group-Shifted-Strings.cpp) | O\(N\) | O\(N\) |
+| 1800 | [Maximum Ascending Subarray Sum](https://leetcode.com/problems/maximum-ascending-subarray-sum/description/) | Array | Easy | [c++](/c++/1800_Maximum-Ascending-Subarray-Sum.cpp) | O\(N\) | O\(1\) |
