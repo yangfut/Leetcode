@@ -1,7 +1,7 @@
 # Python/C Solutions for Leetcode
 
-**Problems Solved:** <!--PROBLEM_COUNT_START-->421<!--PROBLEM_COUNT_END-->  
-**Easy:** <!--EASY_COUNT_START-->157<!--EASY_COUNT_END--> | **Medium:** <!--MEDIUM_COUNT_START-->226<!--MEDIUM_COUNT_END--> | **Hard:** <!--HARD_COUNT_START-->38<!--HARD_COUNT_END-->
+**Problems Solved:** <!--PROBLEM_COUNT_START-->420<!--PROBLEM_COUNT_END-->  
+**Easy:** <!--EASY_COUNT_START-->156<!--EASY_COUNT_END--> | **Medium:** <!--MEDIUM_COUNT_START-->226<!--MEDIUM_COUNT_END--> | **Hard:** <!--HARD_COUNT_START-->38<!--HARD_COUNT_END-->
 
 | \# | Title | Category | Difficulty | Solution | Time | Space |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -427,3 +427,4 @@ Bit Manipulation | Easy | [c++](/c++/338_Counting-Bits.cpp) | O\(N\) | O\(N\) |
 | 422 | [Valid Word Square](https://leetcode.com/problems/valid-word-square/description/) | Array, Matrix | Easy | [c++](./c++/422_Valid-Word-Square.cpp) | O\(N*M\) | O\(1\) |
 | 249 | [Group Shifted Strings](https://leetcode.com/problems/group-shifted-strings/description/) | Array, Hash Table, String | Medium | [c++](/c++/249_Group-Shifted-Strings.cpp) | O\(N\) | O\(N\) |
 | 1800 | [Maximum Ascending Subarray Sum](https://leetcode.com/problems/maximum-ascending-subarray-sum/description/) | Array | Easy | [c++](/c++/1800_Maximum-Ascending-Subarray-Sum.cpp) | O\(N\) | O\(1\) |
+| 2053 | [Kth Distinct String in an Array](https://leetcode.com/problems/kth-distinct-string-in-an-array/description/) |Array, Hash Table, String, Counting | Easy | [c++](/c++/2053_Kth-Distinct-String-in-an-Array.cpp) | O\(N\) | O\(N\) |
