@@ -431,3 +431,4 @@ Bit Manipulation | Easy | [c++](/c++/338_Counting-Bits.cpp) | O\(N\) | O\(N\) |
 | 2965 | [Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values/description/) | Array, Hash Table, Math, Matrix | Easy | [c++](/c++/2965_Find-Missing-and-Repeated-Values.cpp) | O\(N^2\) | O\(N\) |
 | 1051 | [Height Checker](https://leetcode.com/problems/height-checker/description/) | Array, Sorting, Counting Sort | Easy | [c++](/c++/1051_Height-Checker.cpp) | O\(NlogN\) | O\(N\) |
 | 1429 | [First Unique Number](https://leetcode.com/problems/first-unique-number/description/) | Array, Hash Table, Design, Queue, Data Stream | Medium | [c++](/c++/1429_First-Unique-Number.cpp) | O\(1\) | O\(N\) |
+| 348 | [Design Tic-Tac-Toe](https://leetcode.com/problems/design-tic-tac-toe/description/) | Array, Hash Table, Design, Matrix, Simulation | Medium | [c++](/c++/348_Design-Tic-Tac-Toe.cpp) | O\(1\) | O\(N\) |
