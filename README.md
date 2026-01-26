@@ -434,3 +434,4 @@ Bit Manipulation | Easy | [c++](/c++/338_Counting-Bits.cpp) | O\(N\) | O\(N\) |
 | 348 | [Design Tic-Tac-Toe](https://leetcode.com/problems/design-tic-tac-toe/description/) | Array, Hash Table, Design, Matrix, Simulation | Medium | [c++](/c++/348_Design-Tic-Tac-Toe.cpp) | O\(1\) | O\(N\) |
 | 1394 | [Find Lucky Integer in an Array](https://leetcode.com/problems/find-lucky-integer-in-an-array/description/) | Array, Hash Table | Easy | [c++](/c++/1394_Find-Lucky-Integer-in-an-Array.cpp) | O\(N\) | O\(N\) |
 | 3151 | [Special Array I](https://leetcode.com/problems/special-array-i/description/) | Array | Easy | [c++](/c++/3151_Special-Array-I.cpp) | O\(N\) | O\(1\) |
+| 1752 | [Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/description/) | Array | Easy | [c++](/c++/1752_Check-if-Array-Is-Sorted-and-Rotated.cpp) | O\(N\) | O\(1\) |
