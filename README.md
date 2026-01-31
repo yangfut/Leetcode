@@ -436,3 +436,4 @@ Bit Manipulation | Easy | [c++](/c++/338_Counting-Bits.cpp) | O\(N\) | O\(N\) |
 | 3151 | [Special Array I](https://leetcode.com/problems/special-array-i/description/) | Array | Easy | [c++](/c++/3151_Special-Array-I.cpp) | O\(N\) | O\(1\) |
 | 1752 | [Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/description/) | Array | Easy | [c++](/c++/1752_Check-if-Array-Is-Sorted-and-Rotated.cpp) | O\(N\) | O\(1\) |
 | 2206 | [Divide Array Into Equal Pairs](https://leetcode.com/problems/divide-array-into-equal-pairs/description/) | Array, Hash Table, Bit Manipulation, Counting | Easy | [c++](/c++/2206_Divide-Array-Into-Equal-Pairs.cpp) | O\(NlogN\) | O\(1\) |
+| 1056 | [Confusing Number](https://leetcode.com/problems/confusing-number/description/) | Math | Easy | [c++](/c++/1056_Confusing-Number.cpp) | O\(N\) | O\(1\) |
