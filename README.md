@@ -438,3 +438,4 @@ Bit Manipulation | Easy | [c++](/c++/338_Counting-Bits.cpp) | O\(N\) | O\(N\) |
 | 2206 | [Divide Array Into Equal Pairs](https://leetcode.com/problems/divide-array-into-equal-pairs/description/) | Array, Hash Table, Bit Manipulation, Counting | Easy | [c++](/c++/2206_Divide-Array-Into-Equal-Pairs.cpp) | O\(NlogN\) | O\(1\) |
 | 1056 | [Confusing Number](https://leetcode.com/problems/confusing-number/description/) | Math | Easy | [c++](/c++/1056_Confusing-Number.cpp) | O\(N\) | O\(1\) |
 | 353 | [Design Snake Game](https://leetcode.com/problems/design-snake-game/description/) | Array, Hash Table, Design, Queue, Simulation | Medium | [c++](/c++/353_Design-Snake-Game.cpp) | O\(1\) | O\(N+F\) |
+| 281 | [Zigzag Iterator](https://leetcode.com/problems/zigzag-iterator/description/) | Array, Design, Queue, Iterator | Medium | [c++](/c++/281_Zigzag-Iterator.cpp) | O\(1\) | O\(K\) |
