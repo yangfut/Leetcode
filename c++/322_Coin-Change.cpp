@@ -3,6 +3,49 @@
 
 using namespace std;
 
+// Tabulation
+class Solution {
+public:
+    int coinChange(vector<int>& coins, int amount) {
+        vector<int> dp(amount+1, amount+1);
+        dp[0] = 0;
+        for(int i = 1; i <= amount; ++i){
+            for(int coin : coins){
+                if(i - coin < 0) continue;
+                dp[i] = min(dp[i], dp[i-coin] + 1);
+            }
+        }
+        return dp[amount] == amount+1 ? -1 : dp[amount];
+    }
+};
+
+// BFS
+class Solution {
+public:
+    int coinChange(vector<int>& coins, int amount) {
+        queue<int> que;
+        que.push(0);
+        vector<int> record(amount+1, amount+1);
+        record[0] = 0;
+
+        while(!que.empty()){
+            int queSize = que.size();
+            int currAmount = que.front();
+            que.pop();
+            for(int coin : coins){
+                if(coin > amount || currAmount + coin > amount) continue;
+                if(record[currAmount] + 1 < record[currAmount + coin]){
+                    record[currAmount + coin] = record[currAmount] + 1;
+                    if(currAmount + coin == amount) return record[amount];
+                    que.push(currAmount + coin);
+                }
+            }
+        }
+
+        return record[amount] == amount+1 ? -1 : record[amount];
+    }
+};
+
 class Solution {
 public:
     int coinChange(vector<int>& coins, int amount) {
