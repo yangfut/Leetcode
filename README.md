@@ -440,3 +440,4 @@ Bit Manipulation | Easy | [c++](/c++/338_Counting-Bits.cpp) | O\(N\) | O\(N\) |
 | 353 | [Design Snake Game](https://leetcode.com/problems/design-snake-game/description/) | Array, Hash Table, Design, Queue, Simulation | Medium | [c++](/c++/353_Design-Snake-Game.cpp) | O\(1\) | O\(N+F\) |
 | 281 | [Zigzag Iterator](https://leetcode.com/problems/zigzag-iterator/description/) | Array, Design, Queue, Iterator | Medium | [c++](/c++/281_Zigzag-Iterator.cpp) | O\(1\) | O\(K\) |
 | 1244 | [Design A Leaderboard](https://leetcode.com/problems/design-a-leaderboard/description/) | Senior, Hash Table, Design, Sorting | Medium | [c++](/c++/1244_Design-A-Leaderboard.cpp) | O\(logN\) | O\(N\) |
+| 377 | [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/) | Array, Dynamic Programming | Medium | [c++](/c++/377_Combination-Sum-IV.cpp) | O\(S*N\) | O\(S\) |
