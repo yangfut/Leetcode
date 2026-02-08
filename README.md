@@ -1,4 +1,4 @@
-# 🚀 LeetCode Journey | C++ & Python
+# LeetCode Journey | C++ & Python
 ![LeetCode Stats](https://img.shields.io/badge/LeetCode-Solutions-orange?logo=leetcode)
 ![Language](https://img.shields.io/badge/Language-C++%20|%20Python-blue)
 
