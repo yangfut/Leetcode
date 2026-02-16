@@ -1,3 +1,32 @@
+
+class Solution {
+public:
+    vector<int> findAnagrams(string s, string p) {
+        unordered_map<char, int> pFreq;
+        unordered_map<char, int> windowFreq;
+        int match = 0; // Count characters with correct frequency
+        int n = s.length(), m = p.length();
+        vector<int> ans;
+        
+        for(char& c : p) ++pFreq[c];
+        for(int i = 0; i < n; ++i){
+            // remove the left most character
+            if(i - m >= 0){
+                char left = s[i-m];
+                if(pFreq.count(left) && windowFreq[left] == pFreq[left]) --match;
+                --windowFreq[left];
+            }
+
+            // add the right most character
+            char right = s[i];
+            ++windowFreq[right];
+            if(pFreq.count(right) && windowFreq[right] == pFreq[right]) ++match;
+            if(match == pFreq.size()) ans.push_back(i-m+1);
+        }
+        return ans;
+    }
+};
+
 class Solution {
 public:
     vector<int> findAnagrams(string s, string p) {
