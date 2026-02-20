@@ -446,3 +446,5 @@ Bit Manipulation | Easy | [c++](/c++/338_Counting-Bits.cpp) | O\(N\) | O\(N\) |
 | 1055 | [Shortest Way to Form String](https://leetcode.com/problems/shortest-way-to-form-string/description/) | Two Pointers, String, Binary Search, Greedy | Medium | [c++](/c++/1055_Shortest-Way-to-Form-String.cpp) | O\(N*M\) | O\(N\) |
 | 2780 | [Minimum Index of a Valid Split](https://leetcode.com/problems/shortest-way-to-form-string/description/) | Senior, Array, Hash Table, Sorting | Medium | [c++](/c++/2780_Minimum-Index-of-a-Valid-Split.cpp) | O\(N\) | O\(1\) |
 | 1343 | [Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold](https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/description/) | Senior, Array, Sliding Window | Medium | [c++](/c++/1343_Number-of-Sub-arrays-of%20Size-K-and-Average-Greater-than-or-Equal-to-Threshold.cpp) | O\(N\) | O\(1\) |
+| 244 | [Shortest Word Distance II](https://leetcode.com/problems/shortest-word-distance-ii/description/) | Array, Hash Table
+Two Pointers, String, Design | Medium | [c++](/c++/244_Shortest-Word-Distance-II.cpp) | O\(N+M\) | O\(N\) |
