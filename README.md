@@ -448,3 +448,4 @@ Bit Manipulation | Easy | [c++](/c++/338_Counting-Bits.cpp) | O\(N\) | O\(N\) |
 | 1343 | [Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold](https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/description/) | Senior, Array, Sliding Window | Medium | [c++](/c++/1343_Number-of-Sub-arrays-of%20Size-K-and-Average-Greater-than-or-Equal-to-Threshold.cpp) | O\(N\) | O\(1\) |
 | 244 | [Shortest Word Distance II](https://leetcode.com/problems/shortest-word-distance-ii/description/) | Array, Hash Table
 Two Pointers, String, Design | Medium | [c++](/c++/244_Shortest-Word-Distance-II.cpp) | O\(N+M\) | O\(N\) |
+| 243 | [Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance/) | Array, String | Easy | [c++](/c++/243_Shortest-Word-Distance.cpp) | O\(N\) | O\(1\) |
