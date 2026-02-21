@@ -1,3 +1,22 @@
+// https://leetcode.com/problems/subarray-sum-equals-k/description/
+class Solution {
+public:
+    int subarraySum(vector<int>& nums, int k) {
+        // presum algorithm + hash map
+        unordered_map<int,int> preSumCount{{0,1}};
+        int currSum = 0, match = 0;
+        for(int num : nums){
+            currSum += num;
+            if(preSumCount.count(currSum - k)){
+                match += preSumCount[currSum - k];
+            }
+
+            ++preSumCount[currSum];
+        }
+        return match;
+    }
+};
+
 class Solution {
 public:
     int subarraySum(vector<int>& nums, int k) {
@@ -22,3 +41,4 @@ public:
         return count;
     }
 };
+
