@@ -1,5 +1,25 @@
 class Solution {
 public:
+    int longestConsecutive(vector<int>& nums) {
+        unordered_set<int> seen;
+        int maxCount = 0;
+        for(int num : nums) seen.insert(num);
+        for(int num : seen){
+            if(seen.count(num-1)) continue;
+
+            int count = 0;
+            while(seen.count(num)){
+                ++count;
+                ++num;
+            }
+            maxCount = max(count, maxCount);
+        }
+        return maxCount;
+    }
+};
+
+class Solution {
+public:
     // int hash_table_solution(vector<int>& nums){
     //     if(nums.size()==0) return 0;
 
