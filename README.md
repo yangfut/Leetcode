@@ -451,3 +451,4 @@ Two Pointers, String, Design | Medium | [c++](/c++/244_Shortest-Word-Distance-II
 | 243 | [Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance/) | Array, String | Easy | [c++](/c++/243_Shortest-Word-Distance.cpp) | O\(N\) | O\(1\) |
 | 245 | [Shortest Word Distance III](https://leetcode.com/problems/shortest-word-distance-iii/) | Array, String | Medium | [c++](/c++/245_Shortest-Word-Distance-III.cpp) | O\(N\) | O\(1\) |
 | 1570 | [Dot Product of Two Sparse Vectors](https://leetcode.com/problems/dot-product-of-two-sparse-vectors/description/) |  Array, Hash Table, Two Pointers, Design | Medium | [c++](/c++/1570_Dot-Product-of-Two-Sparse-Vectors.cpp) | O\(N\) | O\(N\) |
+| 2021 | [Brightest Position on Street](https://leetcode.com/problems/brightest-position-on-street/description/) |  Array, Sorting, Prefix Sum, Ordered Set | Medium | [c++](/c++/2021_Brightest-Position-on-Street.cpp) | O\(NlogN\) | O\(N\) |
