@@ -1,5 +1,22 @@
 class Solution {
 public:
+    int jump(vector<int>& nums) {
+        int maxDist = 0, jump = 0, dist = 0;
+        for(int i = 0; i < nums.size(); ++i){
+            if(maxDist < i && dist <= maxDist) return -1;
+            if(maxDist < i){
+                ++jump;
+                maxDist = dist;
+            }
+
+            dist = max(nums[i] + i, dist);
+        }
+        return jump;
+    }
+};
+
+class Solution {
+public:
     int backtrack(vector<int>& nums, vector<int>& memo, int idx){
         // base case
         if(idx >= nums.size()-1) return 0;
