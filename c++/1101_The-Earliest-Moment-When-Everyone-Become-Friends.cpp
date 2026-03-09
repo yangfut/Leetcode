@@ -39,3 +39,39 @@ public:
         return -1;
     }
 };
+
+class Solution {
+public:
+    int earliestAcq(vector<vector<int>>& logs, int n) {
+        // Union-find structure
+        sort(logs.begin(), logs.end());
+        vector<int> parent(n, -1);
+        vector<int> rank(n, 0);
+        int remain = n-1;
+        for(int i = 0; i < n; ++i) parent[i] = i;
+
+        for(auto& log : logs){
+            int parentA = log[1], parentB = log[2];
+            while(parentA != parent[parentA]){
+                parentA = parent[parentA];
+            }
+
+            while(parentB != parent[parentB]){
+                parentB = parent[parentB];
+            }
+            // already united
+            if(parentA == parentB) continue;
+
+            // unite two segments
+            if(rank[parentA] < rank[parentB]) swap(parentA, parentB);
+
+            parent[parentB] = parentA;
+            ++rank[parentA];
+            --remain;
+            if(remain == 0) return log[0];
+        }
+        // should not be here
+        return -1;
+        
+    }
+};
