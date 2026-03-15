@@ -461,3 +461,4 @@ Two Pointers, String, Design | Medium | [c++](/c++/244_Shortest-Word-Distance-II
 | 3850 | [Count Sequences to K](https://leetcode.com/problems/count-sequences-to-k/description/) | Array, Dynamic Programming, Depth-First Search | Hard | [c++](/c++/3850_Count-Sequences-to-K.cpp) | O\(N*M\) | O\(M\) |
 | 308 | [Range Sum Query 2D - Mutable](https://leetcode.com/problems/range-sum-query-2d-mutable/description/) | Array, Design, Binary Indexed Tree, Segment Tree, Matrix | Medium | [c++](/c++/308_Range-Sum-Query-2D-Mutable.cpp) | O\(N\) | O\(N\) |
 | 1024 | [Video Stitching](https://leetcode.com/problems/video-stitching/description/) | Senior Staff, Array, Dynamic Programming, Greedy | Medium | [c++](/c++/1024_Video-Stitching.cpp) | O\(NlogN\) | O\(1\) |
+| 394 | [Decode String](https://leetcode.com/problems/decode-string/description/) | Junior, String, Stack, Recursion | Medium | [c++](/c++/394_Decode-String.cpp) | O\(N\) | O\(N\) |
