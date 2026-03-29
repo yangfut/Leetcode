@@ -463,3 +463,4 @@ Two Pointers, String, Design | Medium | [c++](/c++/244_Shortest-Word-Distance-II
 | 1024 | [Video Stitching](https://leetcode.com/problems/video-stitching/description/) | Senior Staff, Array, Dynamic Programming, Greedy | Medium | [c++](/c++/1024_Video-Stitching.cpp) | O\(NlogN\) | O\(1\) |
 | 394 | [Decode String](https://leetcode.com/problems/decode-string/description/) | Junior, String, Stack, Recursion | Medium | [c++](/c++/394_Decode-String.cpp) | O\(N\) | O\(N\) |
 | 3887 | [Incremental Even-Weighted Cycle Queries](https://leetcode.com/problems/incremental-even-weighted-cycle-queries/description/) | Union Find | Hard | [c++](/c++/3887_Incremental-Even-Weighted-Cycle-Queries.cpp) | O\(N*V\) | O\(N\) |
+| 3885 | [Design Event Manager](https://leetcode.com/problems/design-event-manager/description/) | Design, Priority Queue, Hash Map | Medium | [c++](/c++/3885_Design-Event-Manager.cpp) | O\(NlogN\) | O\(N\) |
