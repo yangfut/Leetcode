@@ -466,3 +466,4 @@ Two Pointers, String, Design | Medium | [c++](/c++/244_Shortest-Word-Distance-II
 | 3885 | [Design Event Manager](https://leetcode.com/problems/design-event-manager/description/) | Design, Priority Queue, Hash Map | Medium | [c++](/c++/3885_Design-Event-Manager.cpp) | O\(NlogN\) | O\(N\) |
 | 3884 | [First Matching Character From Both Ends](https://leetcode.com/problems/first-matching-character-from-both-ends/description/) | Array | Easy | [c++](/c++/3884_First-Matching-Character-From-Both-Ends.cpp) | O\(N\) | O\(1\) |
 | 555 | [Split Concatenated Strings](https://leetcode.com/problems/split-concatenated-strings/description/) | Array, Greedy, String | Medium | [c++](/c++/555_Split-Concatenated-Strings.cpp) | O\(N^2*L^2\) | O\(N*L\) |
+| 151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/description/) | Two Pointers, String | Medium | [c++](/c++/151_Reverse-Words-in-a-String.cpp) | O\(N) | O\(1) |
