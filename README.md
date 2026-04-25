@@ -471,3 +471,4 @@ Two Pointers, String, Design | Medium | [c++](/c++/244_Shortest-Word-Distance-II
 | 729 | [My Calendar I](https://leetcode.com/problems/my-calendar-i/description/) | Array, Binary Search, Design, Segment Tree, Ordered Set | Medium | [c++](/c++/729_My-Calendar-I.cpp) | O\(logN) | O\(N) |
 | 731 | [My Calendar II](https://leetcode.com/problems/my-calendar-ii/description/) | Array, Binary Search, Design, Segment Tree, Prefix Sum, Ordered Set | Medium | [c++](/c++/731_My-Calendar-II.cpp) | O\(N) | O\(N) |
 | 635 | [Design Log Storage System](https://leetcode.com/problems/design-log-storage-system/description/) | Senior Staff, Hash Table, String, Design, Ordered Set | Medium | [c++](/c++/635_Design-Log-Storage-System.cpp) | O\(logN) | O\(N) |
+| 120 | [Triangle](https://leetcode.com/problems/triangle/description/) | Array, Dynamic Programming | Medium | [c++](/c++/120-Triangle.cpp) | O\(N^2) | O\(N) |
