@@ -95,3 +95,100 @@ public:
         return true;
     }
 };
+
+// DFS-based topological sort
+
+class Solution {
+public:
+    int dfs(int idx, unordered_map<int, vector<int>>& dep, vector<int>& istaken){
+        if(istaken[idx] == 0 || istaken[idx] == 1) return istaken[idx];
+
+        // Mark as visiting
+        istaken[idx] = 0;
+        if(dep.count(idx)){
+            vector<int>& next = dep[idx];
+            for(int nextIdx : next) {
+                if(dfs(nextIdx, dep, istaken) == 0) return istaken[idx];
+            }
+        }
+        
+        return istaken[idx] = 1;
+    }
+    bool canFinish(int n, vector<vector<int>>& preq) {
+        // Traverse every nodes by dfs()
+        // -1: untaken, 0: taking, 1: taken
+        vector<int> istaken(n,-1);
+        unordered_map<int, vector<int>> dep;
+        for(auto& p : preq) dep[p[0]].push_back(p[1]);
+        for(int i = 0; i < n; ++i) if(dfs(i, dep, istaken) == 0) return false;
+        return true;
+    }
+};
+
+// BFS-based topological sort aka Kahn's algorithm
+class Solution {
+public:
+    bool canFinish(int n, vector<vector<int>>& preq) {
+        vector<int> inDegree(n, 0);
+        vector<vector<int>> adj(n);
+        for(auto& p : preq){
+            // according to "take course bi first if you want to take course ai"
+            // bi is root and ai is leaf
+            adj[p[1]].push_back(p[0]);
+            ++inDegree[p[0]];
+        }
+
+        queue<int> q;
+        int count = 0;
+        for(int i = 0; i < n; ++i) if(inDegree[i] == 0) q.push(i);
+        while(!q.empty()){
+            int curr = q.front(); 
+            q.pop();
+            ++count;
+            for(int i : adj[curr]) {
+                --inDegree[i];
+                if(inDegree[i] == 0) q.push(i);
+            }
+        }
+        return count == n;
+    }
+};
+
+// Iterative DFS-based topological sort
+class Solution {
+public:
+    bool dfs(int idx, vector<int>& istaken, vector<vector<int>>& dep){
+        stack<pair<int,int>> stk;
+        stk.push({idx, 0});
+        istaken[idx] = 0;
+
+        while(!stk.empty()){
+            auto& [i, childIdx] = stk.top();
+
+            // boundary check
+            if(childIdx == dep[i].size()){
+                istaken[i] = 1;
+                stk.pop();
+                continue;
+            }
+
+
+            int nxt = dep[i][childIdx++];
+            if(istaken[nxt] == 1) continue;
+            if(istaken[nxt] == 0) return false;
+
+            istaken[nxt] = 0;
+            stk.push({nxt, 0});
+        }
+        return true;
+    }
+    bool canFinish(int n, vector<vector<int>>& preq) {
+        vector<vector<int>> dep(n);
+        vector<int> istaken(n, -1);
+        for(auto& p : preq) dep[p[0]].push_back(p[1]);
+        for(int i = 0; i < n; ++i){
+            if(istaken[i] == -1 && !dfs(i, istaken, dep)) return false;
+        }
+        return true;
+    }
+};
