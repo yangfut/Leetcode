@@ -34,3 +34,31 @@ public:
         return order;
     }
 };
+
+// BFS-based topological sort
+class Solution {
+public:
+    vector<int> findOrder(int n, vector<vector<int>>& preq) {
+        vector<vector<int>> adj(n);
+        vector<int> inDegree(n, 0);
+        vector<int> order;
+        queue<int> q;
+        for(auto& p : preq) {
+            adj[p[1]].push_back(p[0]);
+            ++inDegree[p[0]];
+        }
+
+        for(int i = 0; i < n; ++i) if(inDegree[i] == 0) q.push(i);
+
+        while(!q.empty()){
+            int currIdx = q.front(); q.pop();
+            order.push_back(currIdx);
+            for(int chdIdx : adj[currIdx]){
+                --inDegree[chdIdx];
+                if(inDegree[chdIdx] == 0) q.push(chdIdx);
+            }
+        }
+        return (order.size() == n) ? order : vector<int>();
+
+    }
+};
