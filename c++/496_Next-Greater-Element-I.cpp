@@ -50,3 +50,21 @@ public:
         return ans;
     }
 };
+
+class Solution {
+public:
+    vector<int> nextGreaterElement(vector<int>& nums1, vector<int>& nums2) {
+        int n = nums2.size(), m = nums1.size();
+        stack<int> st;
+        unordered_map<int,int> mp;
+        vector<int> output(m);
+        for(int i = n-1; i >= 0; --i){
+            int val = nums2[i];
+            while(!st.empty() && val >= st.top()) st.pop();
+            mp[val] = st.empty() ? -1 : st.top();
+            st.push(val);
+        }
+        for(int i = 0; i < m; ++i) output[i] = mp[nums1[i]];
+        return output;
+    }
+};
