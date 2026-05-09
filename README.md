@@ -2,8 +2,8 @@
 ![LeetCode Stats](https://img.shields.io/badge/LeetCode-Solutions-orange?logo=leetcode)
 ![Language](https://img.shields.io/badge/Language-C++%20|%20Python-blue)
 
-**Problems Solved:** <!--PROBLEM_COUNT_START-->466<!--PROBLEM_COUNT_END-->  
-🟢 **Easy:** <!--EASY_COUNT_START-->168<!--EASY_COUNT_END--> | 🟡 **Medium:** <!--MEDIUM_COUNT_START-->257<!--MEDIUM_COUNT_END--> | 🔴 **Hard:** <!--HARD_COUNT_START-->41<!--HARD_COUNT_END-->
+**Problems Solved:** <!--PROBLEM_COUNT_START-->465<!--PROBLEM_COUNT_END-->  
+🟢 **Easy:** <!--EASY_COUNT_START-->168<!--EASY_COUNT_END--> | 🟡 **Medium:** <!--MEDIUM_COUNT_START-->256<!--MEDIUM_COUNT_END--> | 🔴 **Hard:** <!--HARD_COUNT_START-->41<!--HARD_COUNT_END-->
 
 | \# | Title | Category | Difficulty | Solution | Time | Space |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -474,4 +474,4 @@ Two Pointers, String, Design | Medium | [c++](/c++/244_Shortest-Word-Distance-II
 | 120 | [Triangle](https://leetcode.com/problems/triangle/description/) | Array, Dynamic Programming | Medium | [c++](/c++/120-Triangle.cpp) | O\(N^2) | O\(N) |
 | 588 | [Design In-Memory File System](https://leetcode.com/problems/design-in-memory-file-system/description/) | Principal, Hash Table, String, Design, Trie, Sorting | Hard | [c++](/c++/588_Design-In-Memory-File-System.cpp) | O\(LlogK) | O\(N) |
 | 503 | [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/description/) | Senior Staff, Array, Stack, Monotonic Stack| Medium | [c++](/c++/503_Next-Greater-Element-II.cpp) | O\(N) | O\(N) |
-| 1258 | [Synonymous Sentences](https://leetcode.com/problems/synonymous-sentences/description/) | Senior Staff, Array, Hash Table, String, Backtracking, Sort, Union-Find | Medium | [c++](/c++/1258_Synonymous-Sentences.cpp) | O\(X) | O\(X) |
+| 1258 | [Synonymous Sentences](https://leetcode.com/problems/synonymous-sentences/description/) | Senior Staff, Array, Hash Table, String, Backtracking, Sort, Union-Find | Medium | [c++](/c++/1258_Synonymous-Sentences.cpp) | O(MlogM+N*S^W) | O(M+N*S^W) |
