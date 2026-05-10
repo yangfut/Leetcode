@@ -74,3 +74,41 @@ public:
  * obj->addNum(num);
  * double param_2 = obj->findMedian();
  */
+
+ class MedianFinder {
+public:
+    multiset<int> ms;
+    multiset<int>::iterator medIt = ms.end();
+    MedianFinder() {
+        
+    }
+    
+    void addNum(int num) {
+        ms.insert(num);
+        if(ms.size() == 1){
+            medIt = ms.begin();
+            return;
+        }
+
+        int medVal = *medIt;
+        if(num < medVal && ms.size() % 2 == 0){
+            // new value at left leaf && odd -> even
+            --medIt;
+        }else if(num >= medVal && ms.size() % 2 == 1){
+            // new value at right leaf && even -> odd
+            ++medIt;
+        }
+    }
+    
+    double findMedian() {
+        if(ms.size() % 2 == 1) return *medIt;
+        return (*medIt + *next(medIt)) / 2.0;
+    }
+};
+
+/**
+ * Your MedianFinder object will be instantiated and called as such:
+ * MedianFinder* obj = new MedianFinder();
+ * obj->addNum(num);
+ * double param_2 = obj->findMedian();
+ */
