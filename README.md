@@ -2,8 +2,8 @@
 ![LeetCode Stats](https://img.shields.io/badge/LeetCode-Solutions-orange?logo=leetcode)
 ![Language](https://img.shields.io/badge/Language-C++%20|%20Python-blue)
 
-**Problems Solved:** <!--PROBLEM_COUNT_START-->467<!--PROBLEM_COUNT_END-->  
-🟢 **Easy:** <!--EASY_COUNT_START-->168<!--EASY_COUNT_END--> | 🟡 **Medium:** <!--MEDIUM_COUNT_START-->257<!--MEDIUM_COUNT_END--> | 🔴 **Hard:** <!--HARD_COUNT_START-->42<!--HARD_COUNT_END-->
+**Problems Solved:** <!--PROBLEM_COUNT_START-->466<!--PROBLEM_COUNT_END-->  
+🟢 **Easy:** <!--EASY_COUNT_START-->168<!--EASY_COUNT_END--> | 🟡 **Medium:** <!--MEDIUM_COUNT_START-->257<!--MEDIUM_COUNT_END--> | 🔴 **Hard:** <!--HARD_COUNT_START-->41<!--HARD_COUNT_END-->
 
 | \# | Title | Category | Difficulty | Solution | Time | Space |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -476,3 +476,4 @@ Two Pointers, String, Design | Medium | [c++](/c++/244_Shortest-Word-Distance-II
 | 503 | [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/description/) | Senior Staff, Array, Stack, Monotonic Stack| Medium | [c++](/c++/503_Next-Greater-Element-II.cpp) | O\(N) | O\(N) |
 | 1258 | [Synonymous Sentences](https://leetcode.com/problems/synonymous-sentences/description/) | Senior Staff, Array, Hash Table, String, Backtracking, Sort, Union-Find | Medium | [c++](/c++/1258_Synonymous-Sentences.cpp) | O(MlogM+N*S^W) | O(M+N*S^W) |
 | 480 | [Sliding Window Median](https://leetcode.com/problems/sliding-window-median/description/) | Principal, Array, Hash Table, Sliding Window, Heap (Priority Queue) | Hard | [c++](/c++/480_Sliding-Window-Median.cpp) | O(NlogN) | O(N) |
+| 161 | [One Edit Distance](https://leetcode.com/problems/one-edit-distance/description/) | Two Pointers, String | Medium | [c++](/c++/161_One-Edit-Distance.cpp) | O(N) | O(1) |
