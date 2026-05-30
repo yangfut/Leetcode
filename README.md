@@ -479,3 +479,4 @@ Two Pointers, String, Design | Medium | [c++](/c++/244_Shortest-Word-Distance-II
 | 161 | [One Edit Distance](https://leetcode.com/problems/one-edit-distance/description/) | Two Pointers, String | Medium | [c++](/c++/161_One-Edit-Distance.cpp) | O(N) | O(1) |
 | 1198 | [Find Smallest Common Element in All Rows](https://leetcode.com/problems/find-smallest-common-element-in-all-rows/description/) | Senior, Array, Hash Table, Binary Search, Matrix, Counting | Medium | [c++](/c++/1198_Find-Smallest-Common-Element-in-All-Rows.cpp) | O(NM) | O(N) |
 | 723 | [Candy Crush](https://leetcode.com/problems/candy-crush/description/) | Senior Staff, Array, Two Pointers, Matrix, Simulation | Medium | [c++](/c++/723_Candy-Crush.cpp) | O(N^2M^2) | O(NM) |
+| 1146 | [Snapshot Array](https://leetcode.com/problems/snapshot-array/description/) | Senior Staff, Array, Hash Table, Binary Search, Design | Medium | [c++](/c++/1146_Snapshot-Array.cpp) | O(logN) | O(NM) |
