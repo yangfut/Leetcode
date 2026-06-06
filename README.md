@@ -481,3 +481,4 @@ Two Pointers, String, Design | Medium | [c++](/c++/244_Shortest-Word-Distance-II
 | 723 | [Candy Crush](https://leetcode.com/problems/candy-crush/description/) | Senior Staff, Array, Two Pointers, Matrix, Simulation | Medium | [c++](/c++/723_Candy-Crush.cpp) | O(N^2M^2) | O(NM) |
 | 1146 | [Snapshot Array](https://leetcode.com/problems/snapshot-array/description/) | Senior Staff, Array, Hash Table, Binary Search, Design | Medium | [c++](/c++/1146_Snapshot-Array.cpp) | O(logN) | O(NM) |
 | 582 | [Kill Process](https://leetcode.com/problems/kill-process/description/) | Senior Staff, Array, Hash Table, Tree, Depth-First Search, Breadth-First Search | Medium | [c++](/c++/582_Kill-Process.cpp) | O(N) | O(N) |
+| 1564 | [Put Boxes Into the Warehouse I](https://leetcode.com/problems/put-boxes-into-the-warehouse-i/description/) | Array, Greedy, Sorting | Medium | [c++](/c++/1564_Put-Boxes-Into-the-Warehouse-I.cpp) | O(NlogN) | O(1) |
