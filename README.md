@@ -488,3 +488,4 @@ Two Pointers, String, Design | Medium | [c++](/c++/244_Shortest-Word-Distance-II
 | 3434 | [Maximum Frequency After Subarray Operation](https://leetcode.com/problems/binary-number-with-alternating-bits/description/) | Staff, Array, Hash Table, Dynamic Programming, Greedy, Enumeration, Prefix Sum | Medium | [c++](/c++/3434_Maximum-Frequency-After-Subarray-Operation.cpp) | O(N^2) | O(N) |
 | 670 | [Maximum Swap](https://leetcode.com/problems/maximum-swap/description/) | Principal, Math, Greedy | Medium | [c++](/c++/670_Maximum-Swap.cpp) | O(N) | O(N) |
 | 31 | [Next Permutation](https://leetcode.com/problems/next-permutation/description/) | Array, Two Pointers | Medium | [c++](/c++/31_Next-Permutation.cpp) | O(NlogN) | O(1) |
+| 256 | [Paint House](https://leetcode.com/problems/paint-house/description/) | Array, Dynamic Programming | Medium | [c++](/c++/256_Paint-House.cpp) | O(N) | O(1) |
