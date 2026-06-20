@@ -490,3 +490,4 @@ Two Pointers, String, Design | Medium | [c++](/c++/244_Shortest-Word-Distance-II
 | 31 | [Next Permutation](https://leetcode.com/problems/next-permutation/description/) | Array, Two Pointers | Medium | [c++](/c++/31_Next-Permutation.cpp) | O(NlogN) | O(1) |
 | 256 | [Paint House](https://leetcode.com/problems/paint-house/description/) | Array, Dynamic Programming | Medium | [c++](/c++/256_Paint-House.cpp) | O(N) | O(1) |
 | 276 | [Paint Fence](https://leetcode.com/problems/paint-fence/description/) | Dynamic Programming | Medium | [c++](/c++/276_Paint-Fence.cpp) | O(N) | O(N) |
+| 651 | [4 Keys Keyboard](https://leetcode.com/problems/4-keys-keyboard/description/) | Dynamic Programming | Medium | [c++](/c++/651_4-Keys-Keyboard.cpp) | O(N^2) | O(N) |
