@@ -489,3 +489,4 @@ Two Pointers, String, Design | Medium | [c++](/c++/244_Shortest-Word-Distance-II
 | 670 | [Maximum Swap](https://leetcode.com/problems/maximum-swap/description/) | Principal, Math, Greedy | Medium | [c++](/c++/670_Maximum-Swap.cpp) | O(N) | O(N) |
 | 31 | [Next Permutation](https://leetcode.com/problems/next-permutation/description/) | Array, Two Pointers | Medium | [c++](/c++/31_Next-Permutation.cpp) | O(NlogN) | O(1) |
 | 256 | [Paint House](https://leetcode.com/problems/paint-house/description/) | Array, Dynamic Programming | Medium | [c++](/c++/256_Paint-House.cpp) | O(N) | O(1) |
+| 276 | [Paint Fence](https://leetcode.com/problems/paint-fence/description/) | Dynamic Programming | Medium | [c++](/c++/276_Paint-Fence.cpp) | O(N) | O(N) |
