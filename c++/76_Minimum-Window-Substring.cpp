@@ -39,3 +39,39 @@ public:
 
     }
 };
+
+class Solution {
+public:
+    string minWindow(string s, string t) {
+        // ASCII
+        vector<int> freq(128, 0);
+        for(char&c : t) ++freq[c];
+
+        int k = 0, n = s.length();
+        for(int val : freq) if(val > 0) k += 1;
+
+        int lhs = 0, rhs = -1, wlhs = -1, wrhs = -1;
+        while(lhs < n && rhs < n){
+            if(k > 0){
+                // expand the window
+                char incoming = s[++rhs];
+                --freq[incoming];
+                if(freq[incoming] == 0) --k;
+            }else{
+                // shrink the window
+                char removing = s[lhs++];
+                ++freq[removing];
+                if(freq[removing] > 0) ++k;
+            }
+
+            if (k == 0){
+                if(wrhs == -1 || (rhs - lhs) < (wrhs - wlhs)){
+                    wlhs = lhs;
+                    wrhs = rhs;
+                }
+            }
+        }
+        if(wlhs == -1 || wrhs == -1) return "";
+        return s.substr(wlhs, wrhs - wlhs + 1);
+    }
+};
