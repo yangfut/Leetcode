@@ -33,3 +33,41 @@ public:
         return maxArea;
     }
 };
+
+class Solution {
+public:
+    int largestRectangleArea(vector<int>& heights) {
+        int n = heights.size();
+        // next less element
+        vector<int> nle(n, n);
+        stack<int> st;
+        for(int i = n-1; i >= 0; --i){
+            int curr = heights[i];
+            while(!st.empty() && curr <= heights[st.top()]) st.pop();
+            if(!st.empty()){
+                nle[i] = st.top();
+            }
+            st.push(i);
+        }
+        st = {};
+
+        // previous less element
+        vector<int> ple(n, -1);
+        for(int i = 0; i < n; ++i){
+            int curr = heights[i];
+            while(!st.empty() && curr <= heights[st.top()]) st.pop();
+            if(!st.empty()){
+                ple[i] = st.top();
+            }
+            st.push(i);
+        }
+
+        // find area
+        int area = 0;
+        for(int i = 0; i < n; ++i){
+            int h = heights[i];
+            area = max(area, (nle[i] - ple[i] - 1) * h);
+        }
+        return area;
+    }
+};
