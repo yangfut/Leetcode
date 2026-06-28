@@ -42,3 +42,43 @@ public:
 
     }
 };
+
+// Hash Map solution
+class Solution {
+public:
+    int deleteAndEarn(vector<int>& nums) {
+        map<int,int> points;
+        for(int val : nums) points[val] += val;
+
+        for(auto it = points.begin(); it != points.end(); ++it){
+            if(it == points.begin()) continue; //Skip the first elements
+            int val = it->first;
+            auto p = prev(it);
+            int pp_val = (p == points.begin()) ? 0 : prev(p) -> second;
+
+            if(p->first == val-1){
+                it->second = max(p->second, pp_val + it->second);
+            }else{
+                it->second = p->second + it->second;
+            }
+        }
+        return points.rbegin()->second;
+    }
+};
+
+// Vector Solution
+// array size: 10,001 integers = ~40KB  ← trivially small
+class Solution {
+public:
+    int deleteAndEarn(vector<int>& nums) {
+        int maxVal = INT_MIN;
+        for(int val : nums) maxVal = max(val, maxVal);
+        vector<int> dp(maxVal+1, 0);
+        for(int val : nums) dp[val] += val;
+        for(int i = 1; i < maxVal+1; ++i){
+            int pprev = (i>1) ? dp[i-2] : 0;
+            dp[i] = max(dp[i-1], pprev + dp[i]);
+        }
+        return dp.back();
+    }
+};
