@@ -19,3 +19,22 @@ public:
         return ans;
     }
 };
+
+class Solution {
+public:
+    vector<int> dailyTemperatures(vector<int>& temperatures) {
+        // next greater elements
+        stack<int> st;
+        int n = temperatures.size();
+        vector<int> nge(n, 0);
+        for(int i = n-1; i >=0; --i){
+            int curr = temperatures[i];
+            while(!st.empty() && curr >= temperatures[st.top()]) st.pop();
+            if(!st.empty()){
+                nge[i] = st.top() - i;
+            }
+            st.push(i);
+        }
+        return nge;
+    }
+};
