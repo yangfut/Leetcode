@@ -32,3 +32,34 @@ public:
         return index;
     }
 };
+
+class Solution {
+public:
+    vector<int> getDist(vector<int>& edges, int node){
+        int _node = node, n = edges.size();
+        vector<int> dist(n,-1);
+        int d = -1;
+        while(_node != -1 && dist[_node] == -1){
+            ++d;
+            dist[_node] = d;
+            _node = edges[_node];
+        }
+        return dist;
+    }
+    int closestMeetingNode(vector<int>& edges, int node1, int node2) {
+        // minimum of max(dist1[x], dist2[x])
+        vector<int> dist1 = getDist(edges, node1);
+        vector<int> dist2 = getDist(edges, node2);
+
+        int minDist = INT_MAX, index = -1;
+        for(int i = 0; i < edges.size(); ++i){
+            if(dist1[i] == -1 || dist2[i] == -1) continue;
+            int currDist = max(dist1[i],dist2[i]);
+            if(currDist < minDist){
+                index = i;
+                minDist = currDist;
+            }
+        }
+        return index;
+    }
+};
