@@ -492,3 +492,4 @@ Two Pointers, String, Design | Medium | [c++](/c++/244_Shortest-Word-Distance-II
 | 276 | [Paint Fence](https://leetcode.com/problems/paint-fence/description/) | Dynamic Programming | Medium | [c++](/c++/276_Paint-Fence.cpp) | O(N) | O(N) |
 | 651 | [4 Keys Keyboard](https://leetcode.com/problems/4-keys-keyboard/description/) | Dynamic Programming | Medium | [c++](/c++/651_4-Keys-Keyboard.cpp) | O(N^2) | O(N) |
 | 727 | [Minimum Window Subsequence](https://leetcode.com/problems/minimum-window-subsequence/description/) | Principal, String, Dynamic Programming, Sliding Window | Hard | [c++](/c++/727_Minimum-Window-Subsequence.cpp) | O(N*M) | O(N) |
+| 1162 | [As Far from Land as Possible](https://leetcode.com/problems/as-far-from-land-as-possible/description/) | Staff, Array, Dynamic Programming, Breadth-First Search, Matrix | Medium | [c++](/c++/1162_As-Far-from-Land-as-Possible.cpp) | O(N*N) | O(N*N) |
