@@ -45,3 +45,21 @@ public:
         return memo_sol(text1, text2);
     }
 };
+
+class Solution {
+public:
+    int longestCommonSubsequence(string text1, string text2) {
+        int n = text1.length(), m = text2.length();
+        vector<vector<int>> dp(n+1, vector<int>(m+1, 0));
+        for(int i = 0; i < n; ++i){
+            for(int j = 0; j < m; ++j){
+                int t = dp[i][j+1];
+                int l = dp[i+1][j];
+                int tl = dp[i][j];
+                if(text1[i] == text2[j]) ++tl;
+                dp[i+1][j+1] = max(t, max(l, tl));
+            }
+        }
+        return dp[n][m];
+    }
+};
