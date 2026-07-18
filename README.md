@@ -496,3 +496,4 @@ Two Pointers, String, Design | Medium | [c++](/c++/244_Shortest-Word-Distance-II
 | 2359 | [Find Closest Node to Given Two Nodes](https://leetcode.com/problems/find-closest-node-to-given-two-nodes/description/) | Staff, Depth-First Search, Graph Theory | Medium | [c++](/c++/2359_Find-Closest-Node-to-Given-Two-Nodes.cpp) | O(N) | O(N) |
 | 1105 | [Filling Bookcase Shelves](https://leetcode.com/problems/filling-bookcase-shelves/description/) | Senior Staff, Array, Dynamic Programming | Medium | [c++](/c++/1105_Filling-Bookcase-Shelves.cpp) | O(N^2) | O(N) |
 | 279 | [Perfect Squares](https://leetcode.com/problems/perfect-squares/description/) | Math, Dynamic Programming, Breadth-First Search | Medium | [c++](/c++/279_Perfect-Squares.cpp) | O(N*3/2) | O(N) |
+| 286 | [Walls and Gates](https://leetcode.com/problems/walls-and-gates/description/) | Array, Breadth-First Search, Matrix | Medium | [c++](/c++/286_Walls-and-Gates.cpp) | O(N*M) | O(N*M) |
