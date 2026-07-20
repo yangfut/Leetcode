@@ -500,3 +500,4 @@ Two Pointers, String, Design | Medium | [c++](/c++/244_Shortest-Word-Distance-II
 | 1642 | [Furthest Building You Can Reach](https://leetcode.com/problems/furthest-building-you-can-reach/description/) | Staff, Array, Greedy, Heap (Priority Queue) | Medium | [c++](/c++/1642_Furthest-Building-You-Can-Reach.cpp) | O(NlogN) | O(N) |
 | 2706 | [Buy Two Chocolates](https://leetcode.com/problems/buy-two-chocolates/description/) | Array, Greedy, Sorting | Easy | [c++](/c++/2706_Buy-Two-Chocolates.cpp) | O(NlogN) | O(1) |
 | 860 | [Lemonade Change](https://leetcode.com/problems/lemonade-change/description/) | Array, Greedy | Easy | [c++](/c++/860_Lemonade-Change.cpp) | O(N) | O(1) |
+| 2037 | [Minimum Number of Moves to Seat Everyone](https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/description/) | Mid Level, Array, Greedy, Sorting, Counting Sort | Easy | [c++](/c++/2037_Minimum-Number-of-Moves-to-Seat-Everyone.cpp) | O(NlogN) | O(1) |
