@@ -46,3 +46,24 @@ public:
         return -1;
     }
 };
+
+class Solution {
+public:
+    int minOperations(vector<int>& nums) {
+        int ops = 0, flips = 0, n = nums.size();
+        for(int i = 0; i < n; ++i){
+            if(i >= 3) flips -= nums[i-3];
+
+            int curr = nums[i] + flips;
+            if(curr % 2 == 0){
+                ++flips;
+                nums[i] = 1;
+            }else{
+                nums[i] = 0;
+            }
+            ops += nums[i];
+        }
+        if(nums[n-2] == 1 || nums[n-1] == 1) return -1;
+        return ops;
+    }
+};
