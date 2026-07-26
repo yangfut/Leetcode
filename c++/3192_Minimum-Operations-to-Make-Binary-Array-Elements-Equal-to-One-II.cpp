@@ -36,6 +36,7 @@ public:
     }
 };
 
+// Remove the concept of window
 class Solution {
 public:
     int minOperations(vector<int>& nums) {
