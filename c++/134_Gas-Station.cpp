@@ -45,3 +45,28 @@ public:
 
     }
 };
+
+class Solution {
+public:
+    int canCompleteCircuit(vector<int>& gas, vector<int>& cost) {
+        int st = 0, ed = 0, n = gas.size(), curr = 0;
+        // true: go right; false: go left
+        bool dir = true; 
+        do{
+            if(dir) curr += (gas[ed] - cost[ed]);
+            else curr += (gas[st] - cost[st]);
+
+            // next direction
+            if(curr < 0) {
+                --st;
+                if(st < 0) st = n-1;
+                dir = false;
+            } else {
+                ++ed;
+                if(ed == n) ed = 0;
+                dir = true;
+            } 
+        }while(st != ed);
+        return (curr >= 0) ? st : -1;
+    }
+};
