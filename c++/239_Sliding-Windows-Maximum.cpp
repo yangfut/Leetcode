@@ -123,3 +123,46 @@ public:
         return output;
     }
 };
+
+class Solution {
+public:
+    vector<int> maxSlidingWindow(vector<int>& nums, int k) {
+        int n = nums.size();
+        priority_queue<pair<int,int>> maxHeap;
+        vector<int> res;
+        for(int i = 0; i < n; ++i){
+            maxHeap.push({nums[i], i});
+            
+            if(i >= k){
+                // Lazy detection
+                while(!maxHeap.empty() && maxHeap.top().second <= i-k) {
+                    maxHeap.pop();
+                }
+            }
+            if(i >= k-1){
+                res.push_back(maxHeap.top().first);
+            }
+        }
+        return res;
+
+    }
+};
+
+class Solution {
+public:
+    vector<int> maxSlidingWindow(vector<int>& nums, int k) {
+        // maximum value will be stored orderly in deq
+        deque<int> deq;
+        int n = nums.size();
+        vector<int> res(n-k+1,0);
+        for(int i = 0; i < n; ++i){
+            // evict expired value
+            while(!deq.empty() && deq.front() <= i-k) deq.pop_front();
+            // maintain monotonic decreasing order
+            while(!deq.empty() && nums[i] > nums[deq.back()]) deq.pop_back();
+            deq.push_back(i);
+            if(i >= k-1) res[i-k+1] = nums[deq.front()];
+        }
+        return res;
+    }
+};
