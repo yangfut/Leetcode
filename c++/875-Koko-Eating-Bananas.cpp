@@ -30,3 +30,30 @@ public:
         return bs_solution(piles, h);
     }
 };
+
+class Solution {
+public:
+    bool is_valid(int k, vector<int>& piles, int h){
+        for(int p : piles){
+            // Find the ceil of (p / k)
+            h -= (p + k -1) / k;
+            if(h < 0) return false;
+        }
+        return true;
+    }
+    int minEatingSpeed(vector<int>& piles, int h) {
+        int lhs = 1;
+        int rhs = 1;
+        for(int p : piles) rhs = max(rhs, p);
+
+        while(lhs < rhs){
+            int m = lhs + (rhs-lhs)/2;
+            if(is_valid(m, piles, h)){
+                rhs = m;
+            }else{
+                lhs = m+1;
+            }
+        }
+        return lhs;
+    }
+};
