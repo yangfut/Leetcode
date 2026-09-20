@@ -27,3 +27,21 @@ public:
         return maxDiameter;
     }
 };
+class Solution {
+public:
+    int dfs(TreeNode* curr, int& maxDist){
+
+        if(curr == nullptr) return 0;
+
+        int ld = dfs(curr->left, maxDist);
+        int rd = dfs(curr->right, maxDist);
+        
+        maxDist = max(maxDist, ld+rd);
+        return max(ld,rd) + 1;
+    }
+    int diameterOfBinaryTree(TreeNode* root) {
+        int maxDist = 0;
+        dfs(root, maxDist);
+        return maxDist;
+    }
+};
