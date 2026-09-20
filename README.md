@@ -535,3 +535,4 @@ Two Pointers, String, Design | Medium | [c++](/c++/244_Shortest-Word-Distance-II
 | 907 | [Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/description/) | Senior Staff, Array, Dynamic Programming, Stack
 Monotonic Stack | Medium | [c++](/c++/907_Sum-of-Subarray-Minimums.cpp) | O(N^2) | O(N^2) |
 | 318 | [Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/description/) | Array, String, Bit Manipulation | Medium | [c++](/c++/318_Maximum-Product-of-Word-Lengths.cpp) | O(N^2) | O(1) |
+| 1239 | [Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/description/) | Staff, Array, String, Backtracking, Bit Manipulation | Medium | [c++](/c++/1239_Maximum-Length-of-a-Concatenated-String-with-Unique-Characters.cpp) | O(2^N) | O(1) |
