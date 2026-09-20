@@ -27,3 +27,20 @@ public:
         return result > maxv ? result : maxv;
     }
 };
+
+class Solution {
+public:
+    int dfs(TreeNode* curr, int& ms){
+        if(curr == nullptr) return 0;
+        int ll = max(dfs(curr->left, ms), 0);
+        int rr = max(dfs(curr->right, ms), 0);
+        int local = ll + rr + curr->val;
+        ms = max(local, ms);
+        return max(ll,rr) + curr->val;
+    }
+    int maxPathSum(TreeNode* root) {
+        int ms = -1001;
+        dfs(root, ms);
+        return ms;
+    }
+};
