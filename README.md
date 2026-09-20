@@ -532,3 +532,5 @@ Two Pointers, String, Design | Medium | [c++](/c++/244_Shortest-Word-Distance-II
 | 802 | [Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/description/) | Principal, Depth-First Search, Breadth-First Search, Graph Theory, Topological Sort | Medium | [c++](/c++/802_Find-Eventual-Safe-States.cpp) | O(N^2) | O(N^2) |
 | 1462 | [Course Schedule IV](https://leetcode.com/problems/course-schedule-iv/description/) | Staff, Depth-First Search, Breadth-First Search, Graph Theory, Topological Sort | Medium | [c++](/c++/1462_Course-Schedule-IV.cpp) | O(N^3) | O(N^2) |
 | 444 | [Sequence Reconstruction](https://leetcode.com/problems/sequence-reconstruction/description/) | Junior, Array, Graph Theory, Topological Sort, Directed Acyclic Graph | Medium | [c++](/c++/444_Sequence-Reconstruction.cpp) | O(N^2) | O(N^2) |
+| 907 | [Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/description/) | Senior Staff, Array, Dynamic Programming, Stack
+Monotonic Stack | Medium | [c++](/c++/907_Sum-of-Subarray-Minimums.cpp) | O(N^2) | O(N^2) |
