@@ -534,3 +534,4 @@ Two Pointers, String, Design | Medium | [c++](/c++/244_Shortest-Word-Distance-II
 | 444 | [Sequence Reconstruction](https://leetcode.com/problems/sequence-reconstruction/description/) | Junior, Array, Graph Theory, Topological Sort, Directed Acyclic Graph | Medium | [c++](/c++/444_Sequence-Reconstruction.cpp) | O(N^2) | O(N^2) |
 | 907 | [Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/description/) | Senior Staff, Array, Dynamic Programming, Stack
 Monotonic Stack | Medium | [c++](/c++/907_Sum-of-Subarray-Minimums.cpp) | O(N^2) | O(N^2) |
+| 318 | [Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/description/) | Array, String, Bit Manipulation | Medium | [c++](/c++/318_Maximum-Product-of-Word-Lengths.cpp) | O(N^2) | O(1) |
