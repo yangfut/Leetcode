@@ -2,8 +2,8 @@
 ![LeetCode Stats](https://img.shields.io/badge/LeetCode-Solutions-orange?logo=leetcode)
 ![Language](https://img.shields.io/badge/Language-C++%20|%20Python-blue)
 
-**Problems Solved:** <!--PROBLEM_COUNT_START-->529<!--PROBLEM_COUNT_END-->  
-🟢 **Easy:** <!--EASY_COUNT_START-->176<!--EASY_COUNT_END--> | 🟡 **Medium:** <!--MEDIUM_COUNT_START-->305<!--MEDIUM_COUNT_END--> | 🔴 **Hard:** <!--HARD_COUNT_START-->48<!--HARD_COUNT_END-->
+**Problems Solved:** <!--PROBLEM_COUNT_START-->530<!--PROBLEM_COUNT_END-->  
+🟢 **Easy:** <!--EASY_COUNT_START-->176<!--EASY_COUNT_END--> | 🟡 **Medium:** <!--MEDIUM_COUNT_START-->305<!--MEDIUM_COUNT_END--> | 🔴 **Hard:** <!--HARD_COUNT_START-->49<!--HARD_COUNT_END-->
 
 | \# | Title | Category | Difficulty | Solution | Time | Space |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
