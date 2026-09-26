@@ -67,3 +67,21 @@ public:
         return greedy_sol(nums);
     }
 };
+
+class Solution {
+public:
+    int jump(vector<int>& nums) {
+        int currPath = 0, maxPath = 0;
+        int stepCount = 0;
+        int n = nums.size();
+        for(int i = 0; i < n; ++i){
+            if(currPath < i) {
+                ++stepCount;
+                currPath = maxPath;
+            }
+            if(maxPath < i) return -1;
+            maxPath = max(maxPath, nums[i]+i);
+        }
+        return stepCount;
+    }
+};
