@@ -1,3 +1,32 @@
+/*
+BF:
+1. Enumerate every top-left and bottom-right pair and check that all cells are 1.
+for r1, c1:
+    for r2, c2:
+        if all cells inside (r1,r2) and (c1,c2) are 1:
+            cnt++
+
+TC: O((MN)^3)
+
+2. Use height array to accumulcate the consecutive cells in 1
+for r:
+    for c:
+        if cell is 1: h[c]++
+
+Q: How can we identify all the cells in this range is 1?
+A: Achor the bottom-left cell and calculate left-edge, right-edge at least this tall
+
+1 1
+1 1
+each such range holds h[c] rectangles
+
+left-edge: 0-(-1) = 1
+right-edge: 2-0 = 2
+height = 2
+count = 2 * 2 = 4
+
+Actual rectangle including the achor cell: 2*1, 1*2, 1*1, 2*2
+*/
 class Solution {
 public:
     int numSubmat(vector<vector<int>>& mat) {
