@@ -82,3 +82,24 @@ public:
         return maxSide * maxSide;
     }
 };
+
+class Solution {
+public:
+    int maximalSquare(vector<vector<char>>& matrix) {
+        // to form a square: top-left, left, and top must be 1
+        int m = matrix.size(), n = matrix[0].size();
+        vector<vector<int>> dp(m+1, vector<int>(n+1,0));
+        int maxSeq = 0;
+        for(int r = 0; r < m; ++r){
+            for(int c = 0; c < n; ++c){
+                if(matrix[r][c] == '0'){
+                    dp[r+1][c+1] = 0;
+                }else{
+                    dp[r+1][c+1] = min({dp[r][c+1], dp[r+1][c], dp[r][c]}) + 1;
+                }
+                maxSeq = max(dp[r+1][c+1], maxSeq);
+            }
+        }
+        return maxSeq * maxSeq;
+    }
+};
