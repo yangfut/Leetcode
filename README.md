@@ -555,3 +555,4 @@ Monotonic Stack | Medium | [c++](/c++/907_Sum-of-Subarray-Minimums.cpp) | O(N^2)
 | 4106 | [Find Mismatched Segments Between Two Strings](https://leetcode.com/problems/find-mismatched-segments-between-two-strings/description/) | Array, String | Medium | [c++](/c++/4106_Find-Mismatched-Segments-Between-Two-Strings.cpp) | O(N) | O(N) |
 | 4107 | [Count Valid Suffix Sorts I](https://leetcode.com/problems/count-valid-suffix-sorts-i/) | Array | Medium | [c++](/c++/4107_Count-Valid-Suffix-Sorts-I.cpp) | O(N) | O(N) |
 | 1139 | [Largest 1-Bordered Square](https://leetcode.com/problems/largest-1-bordered-square/description/) | Principal, Array, Dynamic Programming, Matrix | Medium | [c++](/c++/1139_Largest-1-Bordered-Square.cpp) | O(NM) | O(NM) |
+| 764 | [Largest Plus Sign](https://leetcode.com/problems/largest-plus-sign/description/) | Principal, Array, Dynamic Programming | Medium | [c++](/c++/764_Largest-Plus-Sign.cpp) | O(NM) | O(NM) |
